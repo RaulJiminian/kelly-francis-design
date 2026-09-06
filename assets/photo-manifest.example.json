@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "photos": [
+    {
+      "id": "garden-01-after-01",
+      "projectId": "garden-01",
+      "role": "after",
+      "source": null,
+      "alt": null,
+      "caption": null,
+      "approved": false,
+      "credit": null,
+      "focalPoint": { "x": 0.5, "y": 0.5 },
+      "crops": {}
+    },
+    {
+      "id": "garden-01-before-01",
+      "projectId": "garden-01",
+      "role": "before",
+      "source": null,
+      "alt": null,
+      "caption": null,
+      "approved": false,
+      "credit": null,
+      "focalPoint": { "x": 0.5, "y": 0.5 },
+      "crops": {}
+    }
+  ]
+}

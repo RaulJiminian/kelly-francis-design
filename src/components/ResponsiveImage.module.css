@@ -1,0 +1,12 @@
+.picture {
+  aspect-ratio: var(--photo-ratio);
+  background: var(--color-surface);
+  display: block;
+  overflow: hidden;
+}
+
+.picture img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}

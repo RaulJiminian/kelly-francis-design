@@ -1,0 +1,80 @@
+.contact {
+  background: var(--color-forest);
+  color: var(--color-paper);
+  scroll-margin-top: 6rem;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: var(--content-width);
+  padding: var(--section-space) var(--gutter);
+}
+
+.eyebrow {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.layout {
+  align-items: end;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.layout h2 {
+  color: var(--color-paper);
+  grid-column: 1 / span 8;
+  margin-bottom: 0;
+  max-width: 13ch;
+}
+
+.details {
+  grid-column: 9 / span 4;
+}
+
+.details > p {
+  max-width: 35rem;
+}
+
+.action {
+  align-items: center;
+  border: 1px solid var(--color-paper);
+  display: inline-flex;
+  justify-content: space-between;
+  min-height: 3rem;
+  min-width: 12rem;
+  padding: 0.65rem 1.25rem;
+  text-decoration: none;
+}
+
+.email {
+  display: block;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.unavailable {
+  border-top: 1px solid color-mix(in srgb, var(--color-paper) 35%, transparent);
+  font-size: 0.875rem;
+  margin: 2rem 0 0;
+  padding-top: 1rem;
+}
+
+.contact a:focus-visible {
+  outline-color: var(--color-paper);
+}
+
+@media (max-width: 767px) {
+  .layout {
+    display: block;
+  }
+
+  .layout h2 {
+    margin-bottom: 2rem;
+  }
+}

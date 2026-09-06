@@ -1,0 +1,45 @@
+.footer {
+  background: var(--color-forest);
+  color: var(--color-paper);
+  padding: 2rem 0;
+}
+
+.inner {
+  align-items: center;
+  border-top: 1px solid color-mix(in srgb, var(--color-paper) 24%, transparent);
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--content-width);
+  padding: 2rem var(--gutter) 0;
+}
+
+.inner img {
+  height: auto;
+  width: 13rem;
+}
+
+.inner p,
+.inner a {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.inner > a:last-child {
+  min-height: 2.75rem;
+  padding: 0.65rem 0;
+  text-underline-offset: 0.3rem;
+}
+
+.footer a:focus-visible {
+  outline-color: var(--color-paper);
+}
+
+@media (max-width: 639px) {
+  .inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+}

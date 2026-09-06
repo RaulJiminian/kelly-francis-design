@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "photos": [
+    {
+      "id": "garden-01-after-01",
+      "projectId": "garden-01",
+      "role": "after",
+      "source": null,
+      "alt": null,
+      "caption": null,
+      "approved": false,
+      "credit": null,
+      "focalPoint": { "x": 0.5, "y": 0.5 },
+      "crops": {}
+    },
+    {
+      "id": "garden-01-before-01",
+      "projectId": "garden-01",
+      "role": "before",
+      "source": null,
+      "alt": null,
+      "caption": null,
+      "approved": false,
+      "credit": null,
+      "focalPoint": { "x": 0.5, "y": 0.5 },
+      "crops": {}
+    },
+    {
+      "id": "garden-01-detail-01",
+      "projectId": "garden-01",
+      "role": "detail",
+      "source": null,
+      "alt": null,
+      "caption": null,
+      "approved": false,
+      "credit": null,
+      "focalPoint": { "x": 0.5, "y": 0.5 },
+      "crops": {}
+    },
+    {
+      "id": "garden-02-after-01",
+      "projectId": "garden-02",
+      "role": "after",
+      "source": null,
+      "alt": null,
+      "caption": null,
+      "approved": false,
+      "credit": null,
+      "focalPoint": { "x": 0.5, "y": 0.5 },
+      "crops": {}
+    },
+    {
+      "id": "garden-02-before-01",
+      "projectId": "garden-02",
+      "role": "before",
+      "source": null,
+      "alt": null,
+      "caption": null,
+      "approved": false,
+      "credit": null,
+      "focalPoint": { "x": 0.5, "y": 0.5 },
+      "crops": {}
+    },
+    {
+      "id": "garden-02-detail-01",
+      "projectId": "garden-02",
+      "role": "detail",
+      "source": null,
+      "alt": null,
+      "caption": null,
+      "approved": false,
+      "credit": null,
+      "focalPoint": { "x": 0.5, "y": 0.5 },
+      "crops": {}
+    },
+    {
+      "id": "garden-03-after-01",
+      "projectId": "garden-03",
+      "role": "after",
+      "source": null,
+      "alt": null,
+      "caption": null,
+      "approved": false,
+      "credit": null,
+      "focalPoint": { "x": 0.5, "y": 0.5 },
+      "crops": {}
+    },
+    {
+      "id": "garden-03-before-01",
+      "projectId": "garden-03",
+      "role": "before",
+      "source": null,
+      "alt": null,
+      "caption": null,
+      "approved": false,
+      "credit": null,
+      "focalPoint": { "x": 0.5, "y": 0.5 },
+      "crops": {}
+    },
+    {
+      "id": "garden-03-detail-01",
+      "projectId": "garden-03",
+      "role": "detail",
+      "source": null,
+      "alt": null,
+      "caption": null,
+      "approved": false,
+      "credit": null,
+      "focalPoint": { "x": 0.5, "y": 0.5 },
+      "crops": {}
+    }
+  ]
+}

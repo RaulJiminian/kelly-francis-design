@@ -1,0 +1,41 @@
+.comparison {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 3rem;
+}
+
+.comparison figure {
+  margin-bottom: 0;
+  min-width: 0;
+  position: relative;
+}
+
+.comparison figcaption {
+  color: var(--color-muted);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  max-width: 58ch;
+}
+
+.photoLabel {
+  background: var(--color-paper);
+  border: 1px solid var(--color-line);
+  font-size: 0.75rem;
+  font-weight: 600;
+  left: 1rem;
+  letter-spacing: 0.12em;
+  padding: 0.5rem 0.75rem;
+  position: absolute;
+  text-transform: uppercase;
+  top: 1rem;
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .comparison {
+    gap: 2.5rem;
+    grid-template-columns: 1fr;
+  }
+}

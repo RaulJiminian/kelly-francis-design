@@ -1,0 +1,130 @@
+.siteHeader {
+  background: color-mix(in srgb, var(--color-paper) 96%, transparent);
+  border-bottom: 1px solid var(--color-line);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.headerRow {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--content-width);
+  min-height: 5.5rem;
+  padding: 0 var(--gutter);
+}
+
+.brand {
+  flex: 0 1 16rem;
+}
+
+.brand img {
+  height: auto;
+  width: 100%;
+}
+
+.desktopNav {
+  align-items: center;
+  display: flex;
+  gap: clamp(1.75rem, 3vw, 3.5rem);
+}
+
+.desktopNav a {
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.75rem 0;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.4rem;
+  transition: color 180ms ease, text-decoration-color 180ms ease;
+}
+
+.desktopNav a:hover {
+  color: var(--color-forest);
+  text-decoration-color: currentColor;
+}
+
+.menuButton,
+.mobileNav {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .headerRow {
+    min-height: 4.5rem;
+  }
+
+  .brand {
+    flex-basis: 11.5rem;
+    max-width: calc(100% - 6.5rem);
+  }
+
+  .desktopNav {
+    display: none;
+  }
+
+  .menuButton {
+    align-items: center;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    font-size: 0.875rem;
+    font-weight: 600;
+    gap: 0.75rem;
+    justify-content: center;
+    min-height: 2.75rem;
+    min-width: 5.5rem;
+    padding: 0;
+  }
+
+  .menuGlyph {
+    display: grid;
+    gap: 0.3rem;
+    width: 1rem;
+  }
+
+  .menuGlyph span {
+    background: currentColor;
+    display: block;
+    height: 1px;
+    transition: transform 180ms ease;
+    width: 100%;
+  }
+
+  .menuButton[aria-expanded='true'] .menuGlyph span:first-child {
+    transform: translateY(3px) rotate(45deg);
+  }
+
+  .menuButton[aria-expanded='true'] .menuGlyph span:last-child {
+    transform: translateY(-2px) rotate(-45deg);
+  }
+
+  .mobileNav {
+    border-top: 1px solid var(--color-line);
+    display: block;
+    padding: 0 var(--gutter) 1.25rem;
+  }
+
+  .mobileNav a {
+    align-items: baseline;
+    border-bottom: 1px solid var(--color-line);
+    display: flex;
+    font-family: var(--font-display);
+    font-size: 2rem;
+    gap: 1rem;
+    justify-content: space-between;
+    min-height: 4rem;
+    padding: 0.75rem 0;
+    text-decoration: none;
+  }
+
+  .mobileNav a span {
+    color: var(--color-muted);
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    order: 2;
+  }
+}

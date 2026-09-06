@@ -1,0 +1,26 @@
+.main {
+  margin: 0 auto;
+  max-width: var(--content-width);
+  min-height: 65vh;
+  padding: clamp(5rem, 10vw, 10rem) var(--gutter);
+}
+
+.main h1 {
+  margin-bottom: 2rem;
+  max-width: 12ch;
+}
+
+.main > p:not(:first-child) {
+  color: var(--color-muted);
+  max-width: 45ch;
+}
+
+.main a {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  min-height: 2.75rem;
+  padding: 0.5rem 0;
+  text-underline-offset: 0.35rem;
+}
