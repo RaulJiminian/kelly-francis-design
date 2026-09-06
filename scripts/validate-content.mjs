@@ -3,7 +3,8 @@ import { projects } from '../src/data/projects.js'
 import { site } from '../src/data/site.js'
 
 const root = process.cwd()
-const mode = process.env.CONTENT_MODE === 'publish' ? 'publish' : site.contentMode
+const requestedMode = process.env.VITE_CONTENT_MODE ?? process.env.CONTENT_MODE
+const mode = requestedMode === 'publish' ? 'publish' : site.contentMode
 const sourceManifest = JSON.parse(await readFile(`${root}/assets/photo-manifest.json`, 'utf8'))
 const generatedManifest = JSON.parse(await readFile(`${root}/src/generated/image-manifest.json`, 'utf8'))
 const photoIds = new Set(sourceManifest.photos.map((photo) => photo.id))
@@ -22,7 +23,9 @@ for (const project of projects) {
   projectSlugs.add(project.slug)
   requireValue(photoIds.has(project.coverImageId), `Unknown cover image for ${project.id}`)
   for (const pair of project.comparisonPairs) {
-    requireValue(photoIds.has(pair.beforeImageId), `Unknown before image in ${pair.id}`)
+    for (const beforeImageId of pair.beforeImageIds ?? [pair.beforeImageId]) {
+      requireValue(photoIds.has(beforeImageId), `Unknown before image in ${pair.id}`)
+    }
     requireValue(photoIds.has(pair.afterImageId), `Unknown after image in ${pair.id}`)
   }
 }

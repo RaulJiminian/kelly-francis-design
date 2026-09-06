@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import imageManifest from '../generated/image-manifest.json'
 import PhotoPlaceholder from './PhotoPlaceholder.jsx'
 import styles from './ResponsiveImage.module.css'
@@ -21,6 +21,10 @@ export default function ResponsiveImage({
   const record = imageManifest.images[imageId]
   const imageFamily = record?.families?.[family] ?? record?.families?.natural
 
+  useEffect(() => {
+    setFailed(false)
+  }, [family, imageId])
+
   if (!record || !imageFamily || failed) {
     return (
       <PhotoPlaceholder
@@ -37,7 +41,13 @@ export default function ResponsiveImage({
   const fallback = jpeg.at(-1)
 
   return (
-    <picture className={`${styles.picture} ${className}`} style={{ '--photo-ratio': aspectRatio }}>
+    <picture
+      className={`${styles.picture} ${className}`}
+      style={{
+        '--photo-ratio': aspectRatio,
+        '--photo-position': `${record.focalPoint.x * 100}% ${record.focalPoint.y * 100}%`,
+      }}
+    >
       <source type="image/avif" srcSet={toSrcSet(imageFamily.variants.avif)} sizes={sizes} />
       <source type="image/webp" srcSet={toSrcSet(imageFamily.variants.webp)} sizes={sizes} />
       <img

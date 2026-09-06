@@ -7,7 +7,7 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "npm run images:prepare && npm run content:check && vite",
     "build": "npm run images:prepare && npm run content:check && vite build",
     "preview": "vite preview",
     "lint": "eslint .",

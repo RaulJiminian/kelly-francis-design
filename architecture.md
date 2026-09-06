@@ -6,7 +6,7 @@ Use React, React DOM, Vite, and JavaScript/JSX with CSS Modules. Use React Route
 
 Use local data, regular React state, and small reusable components. No backend, database, authentication, CMS, payment integration, or global state library is required. Build-time photo processing uses Node and Sharp as development tooling. No image-processing code goes into the browser bundle.
 
-These are proposed implementation paths, not files already supplied by this package:
+The preview implements these paths:
 
 | Path | Responsibility |
 | --- | --- |

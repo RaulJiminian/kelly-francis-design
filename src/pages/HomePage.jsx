@@ -26,7 +26,7 @@ export default function HomePage() {
         </div>
         <div className={styles.heroSupport}>
           <p>{site.hero.description}</p>
-          <a href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+          <Link to="/#work">Explore selected work <span aria-hidden="true">↓</span></Link>
         </div>
       </section>
 

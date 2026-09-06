@@ -67,7 +67,7 @@ export default function ProjectPage() {
           <div className={styles.comparisonHeading}>
             <p className="section-index">02 <span /> Transformation</p>
             <h2 id="comparison-heading">Before &amp; after</h2>
-            <p>Two clearly labeled views will tell the story without implying that the camera positions are identical.</p>
+            <p>Choose among the supplied starting views below. Camera positions may differ, so each photograph remains separately labeled.</p>
           </div>
           {project.comparisonPairs.map((pair) => <BeforeAfter key={pair.id} pair={pair} />)}
         </section>
@@ -87,7 +87,7 @@ export default function ProjectPage() {
               placeholderLabel="Project detail photograph"
               placeholderStatus="To be selected"
             />
-            <figcaption>{project.detailCaption}</figcaption>
+            <figcaption>{project.galleryCaptions?.[imageId]}</figcaption>
           </figure>
         ))}
       </section>

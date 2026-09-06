@@ -1,5 +1,1756 @@
 {
   "schemaVersion": 1,
   "generatedAt": null,
-  "images": {}
+  "images": {
+    "garden-01-after-01": {
+      "id": "garden-01-after-01",
+      "role": "after",
+      "alt": "Green lawn crossed by curved brick paths leading to a raised dining terrace beneath mature trees.",
+      "caption": "Curved paths connect the open lawn with a shaded dining terrace and layered planting.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.48,
+        "y": 0.5
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.3333333333333333,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-01-after-01-natural-480-1896bac02b87.avif",
+                "width": 480,
+                "height": 360,
+                "bytes": 26740
+              },
+              {
+                "url": "/assets/images/garden-01-after-01-natural-640-c774114e4f55.avif",
+                "width": 640,
+                "height": 480,
+                "bytes": 51441
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-01-after-01-natural-480-2f1d05259493.webp",
+                "width": 480,
+                "height": 360,
+                "bytes": 53110
+              },
+              {
+                "url": "/assets/images/garden-01-after-01-natural-640-73b6bd905422.webp",
+                "width": 640,
+                "height": 480,
+                "bytes": 92814
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-01-after-01-natural-480-4cab43a0ec33.jpg",
+                "width": 480,
+                "height": 360,
+                "bytes": 49182
+              },
+              {
+                "url": "/assets/images/garden-01-after-01-natural-640-6f872b55f47b.jpg",
+                "width": 640,
+                "height": 480,
+                "bytes": 84950
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-01-before-01": {
+      "id": "garden-01-before-01",
+      "role": "before",
+      "alt": "Wide backyard view with dry grass, a mature tree, an existing brick path, and a raised wooden deck.",
+      "caption": "The original backyard had a broad dry lawn, mature canopy, and loosely connected circulation.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.48
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.3333333333333333,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-01-before-01-natural-480-3946e3385b69.avif",
+                "width": 480,
+                "height": 360,
+                "bytes": 26588
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-768-53466a796896.avif",
+                "width": 768,
+                "height": 576,
+                "bytes": 76343
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-960-6bcf1e8bb81f.avif",
+                "width": 960,
+                "height": 720,
+                "bytes": 122392
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-1280-99542356630c.avif",
+                "width": 1280,
+                "height": 960,
+                "bytes": 215908
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-1536-8a443d70d1c9.avif",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 329360
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-01-before-01-natural-480-1ab352bdeac1.webp",
+                "width": 480,
+                "height": 360,
+                "bytes": 53430
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-768-23b5e47441ca.webp",
+                "width": 768,
+                "height": 576,
+                "bytes": 149830
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-960-ab35895fb460.webp",
+                "width": 960,
+                "height": 720,
+                "bytes": 237804
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-1280-68f97a9067b4.webp",
+                "width": 1280,
+                "height": 960,
+                "bytes": 418576
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-1536-b10d4f24c72a.webp",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 609268
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-01-before-01-natural-480-e6297947362c.jpg",
+                "width": 480,
+                "height": 360,
+                "bytes": 47890
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-768-72fd8575ac34.jpg",
+                "width": 768,
+                "height": 576,
+                "bytes": 133233
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-960-5fe30e7ab436.jpg",
+                "width": 960,
+                "height": 720,
+                "bytes": 212748
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-1280-89bf3c13b238.jpg",
+                "width": 1280,
+                "height": 960,
+                "bytes": 379683
+              },
+              {
+                "url": "/assets/images/garden-01-before-01-natural-1536-c053a1622c68.jpg",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 569119
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-01-before-02": {
+      "id": "garden-01-before-02",
+      "role": "before",
+      "alt": "Narrow bare-earth side yard beside a dark blue house, with utility boxes and a mature fig tree.",
+      "caption": "A compact side-yard area before planting and circulation were resolved.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 0.75,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-01-before-02-natural-480-0cd523375da3.avif",
+                "width": 480,
+                "height": 640,
+                "bytes": 32935
+              },
+              {
+                "url": "/assets/images/garden-01-before-02-natural-768-4a07eab0b7bb.avif",
+                "width": 768,
+                "height": 1024,
+                "bytes": 71966
+              },
+              {
+                "url": "/assets/images/garden-01-before-02-natural-864-9f956c77d474.avif",
+                "width": 864,
+                "height": 1152,
+                "bytes": 95505
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-01-before-02-natural-480-6ce5b7817ca3.webp",
+                "width": 480,
+                "height": 640,
+                "bytes": 63900
+              },
+              {
+                "url": "/assets/images/garden-01-before-02-natural-768-05a8222c8286.webp",
+                "width": 768,
+                "height": 1024,
+                "bytes": 137638
+              },
+              {
+                "url": "/assets/images/garden-01-before-02-natural-864-ed7adffeaed1.webp",
+                "width": 864,
+                "height": 1152,
+                "bytes": 167618
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-01-before-02-natural-480-d313b6f78870.jpg",
+                "width": 480,
+                "height": 640,
+                "bytes": 68714
+              },
+              {
+                "url": "/assets/images/garden-01-before-02-natural-768-cae58ce2e2ef.jpg",
+                "width": 768,
+                "height": 1024,
+                "bytes": 157369
+              },
+              {
+                "url": "/assets/images/garden-01-before-02-natural-864-3f15ba1157fe.jpg",
+                "width": 864,
+                "height": 1152,
+                "bytes": 184920
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-01-before-03": {
+      "id": "garden-01-before-03",
+      "role": "before",
+      "alt": "View toward a raised dining terrace framed by low white walls, an arbor, and a large mature tree.",
+      "caption": "A third supplied starting view toward the dining terrace; its project stage needs client confirmation.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.48
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.3333333333333333,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-01-before-03-natural-480-e3240b4de95b.avif",
+                "width": 480,
+                "height": 360,
+                "bytes": 24307
+              },
+              {
+                "url": "/assets/images/garden-01-before-03-natural-640-1ba4d74d593c.avif",
+                "width": 640,
+                "height": 480,
+                "bytes": 46104
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-01-before-03-natural-480-79fef5ad8b20.webp",
+                "width": 480,
+                "height": 360,
+                "bytes": 47786
+              },
+              {
+                "url": "/assets/images/garden-01-before-03-natural-640-861a07339a97.webp",
+                "width": 640,
+                "height": 480,
+                "bytes": 81252
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-01-before-03-natural-480-81632f19d9bd.jpg",
+                "width": 480,
+                "height": 360,
+                "bytes": 46362
+              },
+              {
+                "url": "/assets/images/garden-01-before-03-natural-640-a176694462fc.jpg",
+                "width": 640,
+                "height": 480,
+                "bytes": 78543
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-01-detail-01": {
+      "id": "garden-01-detail-01",
+      "role": "detail",
+      "alt": "Curved planting bed beside a green lawn leading toward a dark pergola and dining deck.",
+      "caption": "A curved border softens the lawn edge and draws the eye toward the covered deck.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.45,
+        "y": 0.48
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 0.8,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-480-7b75382e3962.avif",
+                "width": 480,
+                "height": 600,
+                "bytes": 44402
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-768-6d6e796a38b5.avif",
+                "width": 768,
+                "height": 960,
+                "bytes": 121551
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-960-634633b9684f.avif",
+                "width": 960,
+                "height": 1200,
+                "bytes": 170764
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-1280-268b2fc52631.avif",
+                "width": 1280,
+                "height": 1600,
+                "bytes": 250155
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-1440-954da3294333.avif",
+                "width": 1440,
+                "height": 1800,
+                "bytes": 301614
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-480-0400df1e19e1.webp",
+                "width": 480,
+                "height": 600,
+                "bytes": 89506
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-768-8cbc548fe140.webp",
+                "width": 768,
+                "height": 960,
+                "bytes": 241656
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-960-68f80a144ab8.webp",
+                "width": 960,
+                "height": 1200,
+                "bytes": 361284
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-1280-f14249733fbb.webp",
+                "width": 1280,
+                "height": 1600,
+                "bytes": 546006
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-1440-158e553fb685.webp",
+                "width": 1440,
+                "height": 1800,
+                "bytes": 620088
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-480-a6d10cfb2b4d.jpg",
+                "width": 480,
+                "height": 600,
+                "bytes": 83777
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-768-0ca45cc7f077.jpg",
+                "width": 768,
+                "height": 960,
+                "bytes": 227558
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-960-250c6cda49b6.jpg",
+                "width": 960,
+                "height": 1200,
+                "bytes": 341093
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-1280-5413845aa2e2.jpg",
+                "width": 1280,
+                "height": 1600,
+                "bytes": 535630
+              },
+              {
+                "url": "/assets/images/garden-01-detail-01-natural-1440-effb47f6e03f.jpg",
+                "width": 1440,
+                "height": 1800,
+                "bytes": 614925
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-01-detail-02": {
+      "id": "garden-01-detail-02",
+      "role": "detail",
+      "alt": "Lawn and gravel garden beside a raised deck, with metal planters and young trees along the boundary.",
+      "caption": "Gravel, raised metal planters, and a restrained planting palette shape the garden's quieter edge.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.52,
+        "y": 0.52
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.3333333333333333,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-01-detail-02-natural-480-d600aa8b2064.avif",
+                "width": 480,
+                "height": 360,
+                "bytes": 23421
+              },
+              {
+                "url": "/assets/images/garden-01-detail-02-natural-640-1db4123e34c2.avif",
+                "width": 640,
+                "height": 480,
+                "bytes": 44017
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-01-detail-02-natural-480-069481fc9835.webp",
+                "width": 480,
+                "height": 360,
+                "bytes": 48598
+              },
+              {
+                "url": "/assets/images/garden-01-detail-02-natural-640-3c865e7f737b.webp",
+                "width": 640,
+                "height": 480,
+                "bytes": 85548
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-01-detail-02-natural-480-b4a7c91392de.jpg",
+                "width": 480,
+                "height": 360,
+                "bytes": 46975
+              },
+              {
+                "url": "/assets/images/garden-01-detail-02-natural-640-191b7308d794.jpg",
+                "width": 640,
+                "height": 480,
+                "bytes": 83510
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-02-after-01": {
+      "id": "garden-02-after-01",
+      "role": "after",
+      "alt": "Brick-paved courtyard with a large striped shade canopy, outdoor counter, planting, and black-and-white walls.",
+      "caption": "A warm paved court, overhead shade, and a working outdoor counter define the finished gathering space.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.52,
+        "y": 0.46
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.3333333333333333,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-02-after-01-natural-480-3fc6d6d62d6c.avif",
+                "width": 480,
+                "height": 360,
+                "bytes": 19644
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-768-25e4c3b7b713.avif",
+                "width": 768,
+                "height": 576,
+                "bytes": 49081
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-960-0c22d5436d95.avif",
+                "width": 960,
+                "height": 720,
+                "bytes": 76518
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-1280-83178aa43201.avif",
+                "width": 1280,
+                "height": 960,
+                "bytes": 131007
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-1536-9820b0018ac8.avif",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 205413
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-02-after-01-natural-480-fd9d3d9db2c6.webp",
+                "width": 480,
+                "height": 360,
+                "bytes": 38764
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-768-b33971614306.webp",
+                "width": 768,
+                "height": 576,
+                "bytes": 99850
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-960-ecd6f5e43aec.webp",
+                "width": 960,
+                "height": 720,
+                "bytes": 148780
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-1280-6019a4b56e64.webp",
+                "width": 1280,
+                "height": 960,
+                "bytes": 250852
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-1536-c858ed128052.webp",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 355458
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-02-after-01-natural-480-0ec773adad57.jpg",
+                "width": 480,
+                "height": 360,
+                "bytes": 39632
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-768-98a463787786.jpg",
+                "width": 768,
+                "height": 576,
+                "bytes": 99247
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-960-891f4f553320.jpg",
+                "width": 960,
+                "height": 720,
+                "bytes": 152539
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-1280-515c3195a0db.jpg",
+                "width": 1280,
+                "height": 960,
+                "bytes": 262434
+              },
+              {
+                "url": "/assets/images/garden-02-after-01-natural-1536-ccfeddfcf4a0.jpg",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 352989
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-02-before-01": {
+      "id": "garden-02-before-01",
+      "role": "before",
+      "alt": "Large weathered concrete courtyard with scattered tables and chairs between black and white exterior walls.",
+      "caption": "The original court offered generous space but little visual structure or shelter.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.52
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.3333333333333333,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-02-before-01-natural-480-fcca954dd404.avif",
+                "width": 480,
+                "height": 360,
+                "bytes": 16998
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-768-0df6c46d0dd3.avif",
+                "width": 768,
+                "height": 576,
+                "bytes": 43376
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-960-a2a07e866bd5.avif",
+                "width": 960,
+                "height": 720,
+                "bytes": 67880
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-1280-535e3013ae0f.avif",
+                "width": 1280,
+                "height": 960,
+                "bytes": 118763
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-1536-78e46fd3ab3f.avif",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 188220
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-02-before-01-natural-480-39acaa3a29a1.webp",
+                "width": 480,
+                "height": 360,
+                "bytes": 32998
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-768-c4ab69a26fa7.webp",
+                "width": 768,
+                "height": 576,
+                "bytes": 84514
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-960-c45eeb711b52.webp",
+                "width": 960,
+                "height": 720,
+                "bytes": 131092
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-1280-4289213108cf.webp",
+                "width": 1280,
+                "height": 960,
+                "bytes": 230962
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-1536-d44f6ffb034a.webp",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 335820
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-02-before-01-natural-480-6962d8bd4baf.jpg",
+                "width": 480,
+                "height": 360,
+                "bytes": 34368
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-768-300a856c0fe3.jpg",
+                "width": 768,
+                "height": 576,
+                "bytes": 87402
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-960-aa0802cc16d3.jpg",
+                "width": 960,
+                "height": 720,
+                "bytes": 135498
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-1280-e64a10d0a52b.jpg",
+                "width": 1280,
+                "height": 960,
+                "bytes": 237244
+              },
+              {
+                "url": "/assets/images/garden-02-before-01-natural-1536-67056caf7fef.jpg",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 327916
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-02-before-02": {
+      "id": "garden-02-before-02",
+      "role": "before",
+      "alt": "Opposite view of a weathered concrete patio with loose seating, bins, potted plants, and a planted slope beyond.",
+      "caption": "The reverse angle shows the open edge and mix of storage, seating, and planting before the update.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.3333333333333333,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-02-before-02-natural-480-373240d8163c.avif",
+                "width": 480,
+                "height": 360,
+                "bytes": 16376
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-768-012421431d6d.avif",
+                "width": 768,
+                "height": 576,
+                "bytes": 41094
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-960-ffb7c26ed5b8.avif",
+                "width": 960,
+                "height": 720,
+                "bytes": 62242
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-1280-23d000794e77.avif",
+                "width": 1280,
+                "height": 960,
+                "bytes": 108417
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-1536-acfb17a133d8.avif",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 167863
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-02-before-02-natural-480-05a3a602c71f.webp",
+                "width": 480,
+                "height": 360,
+                "bytes": 29776
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-768-27e908431b3f.webp",
+                "width": 768,
+                "height": 576,
+                "bytes": 76326
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-960-93bbc711f812.webp",
+                "width": 960,
+                "height": 720,
+                "bytes": 115760
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-1280-5f4d4b4e3298.webp",
+                "width": 1280,
+                "height": 960,
+                "bytes": 201306
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-1536-916ab79dfce4.webp",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 285544
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-02-before-02-natural-480-c6fbb23a2f7b.jpg",
+                "width": 480,
+                "height": 360,
+                "bytes": 31920
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-768-87d34d4510ad.jpg",
+                "width": 768,
+                "height": 576,
+                "bytes": 79679
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-960-e7031bdd13bc.jpg",
+                "width": 960,
+                "height": 720,
+                "bytes": 122824
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-1280-826666abd0a7.jpg",
+                "width": 1280,
+                "height": 960,
+                "bytes": 212951
+              },
+              {
+                "url": "/assets/images/garden-02-before-02-natural-1536-8578201d3051.jpg",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 288857
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-02-detail-01": {
+      "id": "garden-02-detail-01",
+      "role": "detail",
+      "alt": "Sunny brick patio with dining table, relaxed lounge chairs, potted plants, and striped shade cloth overhead.",
+      "caption": "Brick underfoot and filtered shade give the courtyard a warmer, more settled character.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.48
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.7777777777777777,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-480-44fdefd06c4b.avif",
+                "width": 480,
+                "height": 270,
+                "bytes": 12654
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-768-065d89a4bcb9.avif",
+                "width": 768,
+                "height": 432,
+                "bytes": 30278
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-960-ee508d03aefc.avif",
+                "width": 960,
+                "height": 540,
+                "bytes": 46931
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-1280-a3e3de284b3e.avif",
+                "width": 1280,
+                "height": 720,
+                "bytes": 80056
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-1600-f0409e726a43.avif",
+                "width": 1600,
+                "height": 900,
+                "bytes": 120239
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-1920-2fecd6161a4f.avif",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 160552
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-2016-4b659048f436.avif",
+                "width": 2016,
+                "height": 1134,
+                "bytes": 193373
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-480-a83389b17d6d.webp",
+                "width": 480,
+                "height": 270,
+                "bytes": 25124
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-768-1f6f6de3e59a.webp",
+                "width": 768,
+                "height": 432,
+                "bytes": 61706
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-960-dab3d0510dde.webp",
+                "width": 960,
+                "height": 540,
+                "bytes": 95850
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-1280-fc3151191bcb.webp",
+                "width": 1280,
+                "height": 720,
+                "bytes": 161912
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-1600-008e96c14670.webp",
+                "width": 1600,
+                "height": 900,
+                "bytes": 236392
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-1920-370b19552fbb.webp",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 312430
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-2016-373e7c003996.webp",
+                "width": 2016,
+                "height": 1134,
+                "bytes": 350168
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-480-9d9f1b935977.jpg",
+                "width": 480,
+                "height": 270,
+                "bytes": 28620
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-768-74f3cbb83041.jpg",
+                "width": 768,
+                "height": 432,
+                "bytes": 69139
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-960-81e197a2e70c.jpg",
+                "width": 960,
+                "height": 540,
+                "bytes": 106342
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-1280-7f7e62d072d1.jpg",
+                "width": 1280,
+                "height": 720,
+                "bytes": 181899
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-1600-0707479b6fe8.jpg",
+                "width": 1600,
+                "height": 900,
+                "bytes": 273729
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-1920-064938fa38b0.jpg",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 370595
+              },
+              {
+                "url": "/assets/images/garden-02-detail-01-natural-2016-d72849eee242.jpg",
+                "width": 2016,
+                "height": 1134,
+                "bytes": 408232
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-03-after-01": {
+      "id": "garden-03-after-01",
+      "role": "after",
+      "alt": "Irregular stone terrace with dining and lounge areas beneath a fabric shade sail, surrounded by hedges and planting.",
+      "caption": "A broad stone terrace settles into the garden with shade, seating, and planting at its edges.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.57,
+        "y": 0.5
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.778181818181818,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-03-after-01-natural-480-2704f2e22db5.avif",
+                "width": 480,
+                "height": 270,
+                "bytes": 20540
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-768-58fc4246b4a1.avif",
+                "width": 768,
+                "height": 432,
+                "bytes": 52438
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-960-559f0f6f631f.avif",
+                "width": 960,
+                "height": 540,
+                "bytes": 81821
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1280-4c96ae9e9e85.avif",
+                "width": 1280,
+                "height": 720,
+                "bytes": 141117
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1600-e8b83b48aa33.avif",
+                "width": 1600,
+                "height": 900,
+                "bytes": 210216
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1920-59bb4883a6d8.avif",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 283235
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1956-e4e781741071.avif",
+                "width": 1956,
+                "height": 1100,
+                "bytes": 323654
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-03-after-01-natural-480-134e86ea7052.webp",
+                "width": 480,
+                "height": 270,
+                "bytes": 38930
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-768-0e53c8900e29.webp",
+                "width": 768,
+                "height": 432,
+                "bytes": 100042
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-960-f28c5c284532.webp",
+                "width": 960,
+                "height": 540,
+                "bytes": 155898
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1280-a004814e1c3f.webp",
+                "width": 1280,
+                "height": 720,
+                "bytes": 269512
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1600-c2477dffc5c7.webp",
+                "width": 1600,
+                "height": 900,
+                "bytes": 404068
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1920-b5e5357406f5.webp",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 545618
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1956-fb9730143656.webp",
+                "width": 1956,
+                "height": 1100,
+                "bytes": 573934
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-03-after-01-natural-480-8153b6fda1e3.jpg",
+                "width": 480,
+                "height": 270,
+                "bytes": 37716
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-768-063075c328c9.jpg",
+                "width": 768,
+                "height": 432,
+                "bytes": 95347
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-960-bb508b53c39d.jpg",
+                "width": 960,
+                "height": 540,
+                "bytes": 148440
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1280-f915f3d5b7c6.jpg",
+                "width": 1280,
+                "height": 720,
+                "bytes": 259015
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1600-21717802e688.jpg",
+                "width": 1600,
+                "height": 900,
+                "bytes": 392915
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1920-e7ef9a5e3d6c.jpg",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 541157
+              },
+              {
+                "url": "/assets/images/garden-03-after-01-natural-1956-089069a9d0c5.jpg",
+                "width": 1956,
+                "height": 1100,
+                "bytes": 535528
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-03-before-01": {
+      "id": "garden-03-before-01",
+      "role": "before",
+      "alt": "Backyard with patchy lawn, a small red deck, loose lounge furniture, and a tall hedge along one side.",
+      "caption": "The original yard combined a small deck with an open, uneven lawn and disconnected seating.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.52,
+        "y": 0.5
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.3333333333333333,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-03-before-01-natural-480-51bc4cc0a9f6.avif",
+                "width": 480,
+                "height": 360,
+                "bytes": 32124
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-768-061046e719cb.avif",
+                "width": 768,
+                "height": 576,
+                "bytes": 84722
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-960-08bab3c5bac9.avif",
+                "width": 960,
+                "height": 720,
+                "bytes": 131239
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-1280-56895e1d2554.avif",
+                "width": 1280,
+                "height": 960,
+                "bytes": 218389
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-1536-bc371a141e4b.avif",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 322269
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-03-before-01-natural-480-2956bfe1c88b.webp",
+                "width": 480,
+                "height": 360,
+                "bytes": 60278
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-768-7a9ecd4c8143.webp",
+                "width": 768,
+                "height": 576,
+                "bytes": 155412
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-960-289fc774eefd.webp",
+                "width": 960,
+                "height": 720,
+                "bytes": 233694
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-1280-3abfe736b990.webp",
+                "width": 1280,
+                "height": 960,
+                "bytes": 399220
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-1536-ff40f958b944.webp",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 561188
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-03-before-01-natural-480-6963588a35cb.jpg",
+                "width": 480,
+                "height": 360,
+                "bytes": 57002
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-768-5185cda3a2da.jpg",
+                "width": 768,
+                "height": 576,
+                "bytes": 146662
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-960-0fb69067aacd.jpg",
+                "width": 960,
+                "height": 720,
+                "bytes": 225683
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-1280-9baa42125c86.jpg",
+                "width": 1280,
+                "height": 960,
+                "bytes": 385691
+              },
+              {
+                "url": "/assets/images/garden-03-before-01-natural-1536-4e451449f67e.jpg",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 540330
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-03-before-02": {
+      "id": "garden-03-before-02",
+      "role": "before",
+      "alt": "Wider view of the patchy backyard lawn, small raised deck, detached structure, and tall palms beyond.",
+      "caption": "A wider starting view reveals the yard's separate levels and scattered outdoor functions.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.3333333333333333,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-03-before-02-natural-480-45d488bcbe11.avif",
+                "width": 480,
+                "height": 360,
+                "bytes": 21813
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-768-10a465d0538c.avif",
+                "width": 768,
+                "height": 576,
+                "bytes": 55330
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-960-262d2f342ebe.avif",
+                "width": 960,
+                "height": 720,
+                "bytes": 84499
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-1280-4b64376b375a.avif",
+                "width": 1280,
+                "height": 960,
+                "bytes": 143256
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-1536-2cd9ab82f924.avif",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 222760
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-03-before-02-natural-480-7f57333b0b3b.webp",
+                "width": 480,
+                "height": 360,
+                "bytes": 42270
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-768-7ef9848c3a39.webp",
+                "width": 768,
+                "height": 576,
+                "bytes": 107414
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-960-b1b81b75fa62.webp",
+                "width": 960,
+                "height": 720,
+                "bytes": 159600
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-1280-b9141dc79157.webp",
+                "width": 1280,
+                "height": 960,
+                "bytes": 268900
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-1536-e3443e94cf29.webp",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 384690
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-03-before-02-natural-480-b10f60fdd3e7.jpg",
+                "width": 480,
+                "height": 360,
+                "bytes": 44034
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-768-816fefc62371.jpg",
+                "width": 768,
+                "height": 576,
+                "bytes": 108436
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-960-9c67377b817b.jpg",
+                "width": 960,
+                "height": 720,
+                "bytes": 164627
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-1280-cd3d006e25e7.jpg",
+                "width": 1280,
+                "height": 960,
+                "bytes": 279656
+              },
+              {
+                "url": "/assets/images/garden-03-before-02-natural-1536-aabb8f7b9037.jpg",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 388993
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-03-before-03": {
+      "id": "garden-03-before-03",
+      "role": "before",
+      "alt": "Terraced backyard under construction with concrete retaining walls, brick steps, and temporary furnishings.",
+      "caption": "An additional supplied view records a hardscape construction stage; its sequence needs client confirmation.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.52,
+        "y": 0.5
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.3333333333333333,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-03-before-03-natural-480-a690fd8b0c59.avif",
+                "width": 480,
+                "height": 360,
+                "bytes": 21849
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-768-74b9d498e0c0.avif",
+                "width": 768,
+                "height": 576,
+                "bytes": 53991
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-960-e0fa40431c93.avif",
+                "width": 960,
+                "height": 720,
+                "bytes": 83334
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-1280-935f4740b6fa.avif",
+                "width": 1280,
+                "height": 960,
+                "bytes": 140740
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-1536-2f2d268973b5.avif",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 213930
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-03-before-03-natural-480-f686d609ac41.webp",
+                "width": 480,
+                "height": 360,
+                "bytes": 41854
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-768-661dbc877664.webp",
+                "width": 768,
+                "height": 576,
+                "bytes": 107238
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-960-059f15937632.webp",
+                "width": 960,
+                "height": 720,
+                "bytes": 156784
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-1280-cc813d977f92.webp",
+                "width": 1280,
+                "height": 960,
+                "bytes": 262802
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-1536-1eb38502d216.webp",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 367590
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-03-before-03-natural-480-dab30264836b.jpg",
+                "width": 480,
+                "height": 360,
+                "bytes": 42715
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-768-b99f61f25652.jpg",
+                "width": 768,
+                "height": 576,
+                "bytes": 106018
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-960-dcdd085e2cba.jpg",
+                "width": 960,
+                "height": 720,
+                "bytes": 161831
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-1280-393f9aadfb4a.jpg",
+                "width": 1280,
+                "height": 960,
+                "bytes": 273865
+              },
+              {
+                "url": "/assets/images/garden-03-before-03-natural-1536-af69af30b06c.jpg",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 366515
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-03-detail-01": {
+      "id": "garden-03-detail-01",
+      "role": "detail",
+      "alt": "Built-in wooden seating set into rounded river-stone retaining walls around a planted upper lawn.",
+      "caption": "Rounded stone walls and integrated timber seating make the change in level feel useful and intentional.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.52
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.3333333333333333,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-480-a7e220c2b028.avif",
+                "width": 480,
+                "height": 360,
+                "bytes": 23404
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-768-82376fb32060.avif",
+                "width": 768,
+                "height": 576,
+                "bytes": 61069
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-960-1383d1a235a7.avif",
+                "width": 960,
+                "height": 720,
+                "bytes": 94642
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-1280-e4915c09dc20.avif",
+                "width": 1280,
+                "height": 960,
+                "bytes": 160198
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-1536-08ea73be5c1e.avif",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 241651
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-480-b24bc7cfd25b.webp",
+                "width": 480,
+                "height": 360,
+                "bytes": 46930
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-768-00a14b415ffa.webp",
+                "width": 768,
+                "height": 576,
+                "bytes": 124614
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-960-71374aa9c95a.webp",
+                "width": 960,
+                "height": 720,
+                "bytes": 182704
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-1280-dc308b4fa8d9.webp",
+                "width": 1280,
+                "height": 960,
+                "bytes": 306594
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-1536-b1d8b90fa667.webp",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 425992
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-480-c3c9487ff64d.jpg",
+                "width": 480,
+                "height": 360,
+                "bytes": 46069
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-768-edc744017cfa.jpg",
+                "width": 768,
+                "height": 576,
+                "bytes": 116120
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-960-f28f5a4a34db.jpg",
+                "width": 960,
+                "height": 720,
+                "bytes": 178668
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-1280-990dbc15fd5d.jpg",
+                "width": 1280,
+                "height": 960,
+                "bytes": 305151
+              },
+              {
+                "url": "/assets/images/garden-03-detail-01-natural-1536-ca1a9335fcdd.jpg",
+                "width": 1536,
+                "height": 1152,
+                "bytes": 411610
+              }
+            ]
+          }
+        }
+      }
+    },
+    "garden-03-detail-02": {
+      "id": "garden-03-detail-02",
+      "role": "detail",
+      "alt": "Elevated view across a shaded stone dining terrace bordered by silvery plants, succulents, and small trees.",
+      "caption": "Layered planting frames the terrace while leaving generous room for dining and circulation.",
+      "credit": null,
+      "background": "#eae5da",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "families": {
+        "natural": {
+          "aspectRatio": 1.7777777777777777,
+          "variants": {
+            "avif": [
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-480-ea2aa3f45bb4.avif",
+                "width": 480,
+                "height": 270,
+                "bytes": 20692
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-768-933b0dabe8f4.avif",
+                "width": 768,
+                "height": 432,
+                "bytes": 55214
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-960-0cd3d06a5bf2.avif",
+                "width": 960,
+                "height": 540,
+                "bytes": 87605
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-1280-a08b3312fa8b.avif",
+                "width": 1280,
+                "height": 720,
+                "bytes": 153275
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-1600-99e136c5ea3a.avif",
+                "width": 1600,
+                "height": 900,
+                "bytes": 235813
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-1920-7300a9a7bf73.avif",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 325155
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-2016-3f79352c93df.avif",
+                "width": 2016,
+                "height": 1134,
+                "bytes": 390850
+              }
+            ],
+            "webp": [
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-480-b61a81583533.webp",
+                "width": 480,
+                "height": 270,
+                "bytes": 38910
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-768-e3e9eafeb18d.webp",
+                "width": 768,
+                "height": 432,
+                "bytes": 100348
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-960-9b45f54d5ad8.webp",
+                "width": 960,
+                "height": 540,
+                "bytes": 157880
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-1280-e50e45630bd6.webp",
+                "width": 1280,
+                "height": 720,
+                "bytes": 274844
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-1600-325ee2b5e27e.webp",
+                "width": 1600,
+                "height": 900,
+                "bytes": 421300
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-1920-ff6168633fb8.webp",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 593306
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-2016-4ae39ac2623e.webp",
+                "width": 2016,
+                "height": 1134,
+                "bytes": 669908
+              }
+            ],
+            "jpeg": [
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-480-65ea6b0026b1.jpg",
+                "width": 480,
+                "height": 270,
+                "bytes": 38387
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-768-215b33d6ecdb.jpg",
+                "width": 768,
+                "height": 432,
+                "bytes": 98583
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-960-381509abb922.jpg",
+                "width": 960,
+                "height": 540,
+                "bytes": 154731
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-1280-f6232081e873.jpg",
+                "width": 1280,
+                "height": 720,
+                "bytes": 269103
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-1600-f8f4fdf145a8.jpg",
+                "width": 1600,
+                "height": 900,
+                "bytes": 414755
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-1920-bb613cc4d3a6.jpg",
+                "width": 1920,
+                "height": 1080,
+                "bytes": 580177
+              },
+              {
+                "url": "/assets/images/garden-03-detail-02-natural-2016-9e01fa1ba63d.jpg",
+                "width": 2016,
+                "height": 1134,
+                "bytes": 641102
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
 }

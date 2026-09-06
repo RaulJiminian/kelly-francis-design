@@ -19,6 +19,68 @@
   max-width: 58ch;
 }
 
+.thumbnailPanel {
+  align-items: end;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.thumbnailPanel > p {
+  color: var(--color-muted);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  justify-content: flex-end;
+}
+
+.thumbnailButton {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--color-forest);
+  cursor: pointer;
+  display: grid;
+  flex: 0 0 auto;
+  gap: 0.35rem;
+  min-height: 2.75rem;
+  padding: 0.25rem;
+  transition: border-color 160ms ease;
+  width: 4.5rem;
+}
+
+.thumbnailButton:not([aria-pressed='true']) .thumbnailImage {
+  opacity: 0.64;
+}
+
+.thumbnailButton:hover,
+.thumbnailButton[aria-pressed='true'] {
+  border-color: var(--color-forest);
+}
+
+.thumbnailButton:hover .thumbnailImage,
+.thumbnailButton[aria-pressed='true'] .thumbnailImage {
+  opacity: 1;
+}
+
+.thumbnailButton > span {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+
+.thumbnailImage {
+  aspect-ratio: 1 / 1 !important;
+  transition: opacity 160ms ease;
+}
+
 .photoLabel {
   background: var(--color-paper);
   border: 1px solid var(--color-line);
@@ -37,5 +99,21 @@
   .comparison {
     gap: 2.5rem;
     grid-template-columns: 1fr;
+  }
+
+  .thumbnailPanel {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .thumbnails {
+    justify-content: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .thumbnailButton,
+  .thumbnailImage {
+    transition: none;
   }
 }

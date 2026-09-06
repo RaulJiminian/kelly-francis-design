@@ -2,13 +2,15 @@ import { createHash } from 'node:crypto'
 import { mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import sharp from 'sharp'
+import { projects } from '../src/data/projects.js'
 
 const root = process.cwd()
 const sourceRoot = path.join(root, 'assets')
 const inputPath = path.join(sourceRoot, 'photo-manifest.json')
 const outputRoot = path.join(root, 'public', 'assets', 'images')
 const manifestPath = path.join(root, 'src', 'generated', 'image-manifest.json')
-const mode = process.env.CONTENT_MODE === 'publish' ? 'publish' : 'preview'
+const requestedMode = process.env.VITE_CONTENT_MODE ?? process.env.CONTENT_MODE
+const mode = requestedMode === 'publish' ? 'publish' : 'preview'
 const widths = [480, 768, 960, 1280, 1600, 1920, 2560]
 const formats = [
   { name: 'avif', options: { quality: 50 } },
@@ -20,6 +22,18 @@ const sourceManifest = JSON.parse(await readFile(inputPath, 'utf8'))
 const ids = new Set()
 const output = { schemaVersion: 1, generatedAt: null, images: {} }
 const expectedFiles = new Set(['.gitkeep'])
+const publishedImageIds = new Set(
+  projects
+    .filter((project) => project.status === 'published')
+    .flatMap((project) => [
+      project.coverImageId,
+      ...project.galleryImageIds,
+      ...project.comparisonPairs.flatMap((pair) => [
+        ...(pair.beforeImageIds ?? [pair.beforeImageId]),
+        pair.afterImageId,
+      ]),
+    ]),
+)
 
 function assert(condition, message) {
   if (!condition) throw new Error(message)
@@ -75,7 +89,15 @@ async function buildFamily(photo, sourceBytes, metadata, familyName, crop) {
         pipeline = pipeline.resize({ width, withoutEnlargement: true })
       }
 
-      await pipeline[format.name](format.options).toFile(outputPath)
+      let existingFile
+      try {
+        const existingStats = await stat(outputPath)
+        existingFile = existingStats.isFile() && existingStats.size > 0
+      } catch {
+        existingFile = false
+      }
+
+      if (!existingFile) await pipeline[format.name](format.options).toFile(outputPath)
       const result = await sharp(outputPath).metadata()
       const fileStats = await stat(outputPath)
       expectedFiles.add(fileName)
@@ -103,6 +125,7 @@ for (const photo of sourceManifest.photos) {
   assert(photo.focalPoint?.x >= 0 && photo.focalPoint?.x <= 1, `Invalid focal point for ${photo.id}`)
   assert(photo.focalPoint?.y >= 0 && photo.focalPoint?.y <= 1, `Invalid focal point for ${photo.id}`)
 
+  if (mode === 'publish' && !publishedImageIds.has(photo.id)) continue
   if (!photo.source) continue
   if (mode === 'publish') {
     assert(photo.approved, `Published photo is not approved: ${photo.id}`)

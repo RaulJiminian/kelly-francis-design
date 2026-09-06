@@ -1,24 +1,31 @@
 # Kelly Francis Design
 
-Website design and implementation handoff • September 6, 2026
+Working website preview • September 6, 2026
 
 A photography-led landscaping portfolio for Kelly Francis, designed to feel like a beautifully edited garden journal. Large finished-project photographs, warm ivory, expressive serif typography, and forest green establish the visual identity. Visitors can open a featured after photograph, explore a transformation, learn about Kelly, and make contact.
 
-**This package contains specifications and optional brand assets. No website has been built, dependencies installed, or hosting configured.**
+**A complete React preview is implemented.** It uses the user-curated photographs in `assets/starter/`; `assets/raw/` remains unreferenced. Every project title and narrative is still visibly marked as draft, and the starter images remain preview-only until Kelly confirms their accuracy, privacy, rights, and captions.
 
 ## Start here
 
-1. Extract this entire folder into the project directory. Keep the filenames and relative paths intact.
-2. Read [AGENTS.md](AGENTS.md). It routes a coding agent to every required specification.
-3. Add Kelly's original photos beneath `assets/photos/<project-slug>/originals/`. Follow [assets/README.md](assets/README.md).
-4. Fill in the known information in [content.md](content.md). Missing content does not prevent an initial design preview.
-5. When ready to build, give the agent the prompt below. [CLAUDE.md](CLAUDE.md) provides the same entry point for Claude Code.
+1. Use Node 22.12 or newer and run `npm install`.
+2. Run `npm run dev`, then open the local URL Vite prints.
+3. Run `npm run build` for a production preview. The build validates content and prepares responsive photo derivatives first.
+4. Run `npm run test:smoke` for the bounded mobile/desktop browser checks.
+5. Follow [MAINTENANCE.md](MAINTENANCE.md) when approved copy, contact details, or replacement photos arrive.
 
-## Suggested build prompt
+## Available commands
 
-> Read AGENTS.md and every document in its required reading list. Implement Kelly Francis Design according to planning.md, using React, JavaScript, JSX, and Vite. Do not use TypeScript or Next.js. Follow design.md closely, including its mobile layouts. Use supplied assets, preserve originals, and build the photo pipeline in images.md. Keep missing information visibly marked in the preview. Complete the implementation and verification phases that are possible with the available content, update planning.md with evidence, and report any remaining launch blockers. Do not deploy unless I request it.
+```sh
+npm run dev
+npm run lint
+npm test
+npm run build
+npm run test:smoke
+npm run review:capture
+```
 
-This is a prompt to use later. Merely opening this handoff is not an instruction to build.
+`review:capture` writes the review set to `artifacts/review/`.
 
 ## Package map
 
@@ -35,12 +42,13 @@ This is a prompt to use later. Merely opening this handoff is not an instruction
 | [references.md](references.md) | Reviewed inspiration, technical sources, and how each informed the brief |
 | [assets/README.md](assets/README.md) | Where to place client photos and how to label them |
 | [assets/brand/README.md](assets/brand/README.md) | Optional logo concept, variants, sizing, provenance |
+| [MAINTENANCE.md](MAINTENANCE.md) | How to update projects, images, focal points, copy, and contact details |
 
 ## Brand concept
 
 The supplied vector concept combines an arched garden entrance and a winding path with a serif wordmark. It is a starting point for Kelly's review, not a claim of an approved existing identity. View [brand-board.png](assets/brand/brand-board.png) for the palette and logo presentation. The SVG logo artwork has outlined lettering, so it does not depend on an installed font.
 
-No stock or AI-generated landscaping photographs are included. Real project photography is the main ingredient needed to realize this design. Missing image slots must remain recognizable as placeholders in a preview.
+No stock or AI-generated landscaping photographs are used. The social image is original abstract brand artwork, not a representation of Kelly's work. Website project imagery comes only from `assets/starter/` and is processed into metadata-free responsive derivatives at build time.
 
 ## What Kelly will need to supply
 
@@ -49,4 +57,4 @@ No stock or AI-generated landscaping photographs are included. Real project phot
 - A verified inquiry email, optional phone/social links, and a preferred contact workflow.
 - Project titles, short descriptions, and an approved featured project.
 
-The initial implementation may proceed with placeholders. Publishing the client site requires replacing or omitting unfinished content and verifying the contact destination.
+The current implementation is suitable for local review. Publishing requires Kelly to approve or replace each starter photograph, confirm every project story, approve the identity and About copy, and provide a verified contact destination.

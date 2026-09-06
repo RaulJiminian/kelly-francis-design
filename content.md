@@ -2,7 +2,7 @@
 
 ## Known facts
 
-The client is Kelly Francis. The site is called Kelly Francis Design. Her work involves landscaping. No verified location, service list, biography, project history, credentials, business contact, or original project photos have been supplied.
+The client is Kelly Francis. The site is called Kelly Francis Design. Her work involves landscaping. A user-curated preview photo set is available in `assets/starter/`, but its project sequence, captions, rights, and privacy approval still need client confirmation. No verified location, service list, biography, project history, credentials, or business contact has been supplied.
 
 Everything below beyond those facts is **suggested copy or a schema**, ready for revision. Do not present draft project descriptions as completed client work. Use warm, concise language and avoid em dashes.
 
@@ -91,10 +91,11 @@ Each entry in `src/data/projects.js` follows this shape:
 | `transformation` | string or null | Confirmed design changes |
 | `coverImageId` | string or null | Must resolve to an approved after image for publication |
 | `galleryImageIds` | string array | Ordered photograph ids |
+| `galleryCaptions` | object keyed by image id | Draft or approved caption for each closer-look image |
 | `comparisonPairs` | object array | See comparison rules below |
 | `seoDescription` | string or null | Accurate route description |
 
-A comparison record contains `id`, `beforeImageId`, `afterImageId`, `caption`, and `aligned` (default false). Both images must belong to this same project and represent an honest comparison. A missing before image does not invalidate an otherwise complete project: omit its comparison section in publish mode. In preview, the pending slot can remain labeled.
+A comparison record contains `id`, `beforeImageIds`, `afterImageId`, `caption`, and `aligned` (default false). `beforeImageIds` is an ordered array; its first item is displayed initially and additional items appear as accessible thumbnail buttons. Caption `before` values follow the same order. Every image must belong to this same project and represent an honest comparison or clearly identified construction stage. A missing before image does not invalidate an otherwise complete project: omit its comparison section in publish mode.
 
 ## Photo data and alt text
 

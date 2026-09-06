@@ -16,9 +16,18 @@ describe('preview content contracts', () => {
     expect(new Set(projects.map((project) => project.slug)).size).toBe(projects.length)
   })
 
-  test('the first pass uses placeholders, not client residence photos', async () => {
+  test('the photo manifest uses only the user-selected starter set', async () => {
     const sourceManifest = JSON.parse(await readFile('assets/photo-manifest.json', 'utf8'))
-    expect(sourceManifest.photos.length).toBeGreaterThan(0)
-    expect(sourceManifest.photos.every((photo) => photo.source === null)).toBe(true)
+    expect(sourceManifest.photos).toHaveLength(16)
+    expect(sourceManifest.photos.every((photo) => photo.source?.startsWith('assets/starter/'))).toBe(true)
+    expect(sourceManifest.photos.every((photo) => !photo.source?.includes('/raw/'))).toBe(true)
+  })
+
+  test('every project has a main image, detail image, and multiple before views', () => {
+    for (const project of projects) {
+      expect(project.coverImageId).toMatch(/after/)
+      expect(project.galleryImageIds.length).toBeGreaterThan(0)
+      expect(project.comparisonPairs[0].beforeImageIds.length).toBeGreaterThan(1)
+    }
   })
 })

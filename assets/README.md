@@ -1,6 +1,11 @@
 # Asset handoff
 
-This folder contains the proposed brand artwork and a sample photo inventory. No client landscaping photographs have been supplied.
+This folder contains the proposed brand artwork and two client-photo working sets:
+
+- `raw/` is the unselected source set and is not referenced by the app or build manifest.
+- `starter/` is the user-curated preview set currently mapped to the three draft projects.
+
+The starter photographs are not marked approved. Before publication, Kelly must confirm their project grouping, sequence, captions, rights, and that each frame is safe to show without identifying a residence.
 
 ## Add photos
 
@@ -9,6 +14,8 @@ This folder contains the proposed brand artwork and a sample photo inventory. No
 3. Copy [photo-manifest.example.json](photo-manifest.example.json) to `assets/photo-manifest.json` and fill in the source paths, project ids, stages, and approval information.
 4. Include the strongest finished view, a before view if available, and a few details. Keep any required photographer credit with the inventory.
 5. The implementation agent will generate smaller web copies according to [images.md](../images.md). Do not manually overwrite the originals with compressed versions.
+
+For replacement photography, prefer the `assets/photos/<project-slug>/originals/` structure above. Do not point new records at `raw/` as a shortcut; first curate and privacy-review a working copy.
 
 For About, use `assets/photos/about/originals/` for a portrait or approved garden detail. No portrait is required to begin the preview.
 
