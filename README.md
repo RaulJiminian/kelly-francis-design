@@ -14,6 +14,10 @@ A photography-led portfolio for Snowbird Landscape, designed to feel like a beau
 4. Run `npm run test:smoke` for the bounded mobile/desktop browser checks.
 5. Follow [MAINTENANCE.md](MAINTENANCE.md) when approved copy, contact details, or replacement photos arrive.
 
+## Netlify preview
+
+The repository includes `netlify.toml`; Netlify should use the repository root, `npm run build`, and the generated `dist/` publish directory. The normal build intentionally creates responsive derivatives from the tracked authoring photos. Generated files remain out of Git, and the optimized clean-image pass is designed to complete without depending on a warm Netlify cache. Direct visits to `/collage` and `/work/:slug` use the configured SPA fallback.
+
 ## Available commands
 
 ```sh

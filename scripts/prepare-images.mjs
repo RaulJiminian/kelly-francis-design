@@ -7,21 +7,28 @@ import { projects } from '../src/data/projects.js'
 const root = process.cwd()
 const sourceRoot = path.join(root, 'assets')
 const inputPath = path.join(sourceRoot, 'photo-manifest.json')
-const outputRoot = path.join(root, 'public', 'assets', 'images')
-const manifestPath = path.join(root, 'src', 'generated', 'image-manifest.json')
+const outputRoot = path.resolve(root, process.env.IMAGE_OUTPUT_DIR ?? path.join('public', 'assets', 'images'))
+const manifestPath = path.resolve(root, process.env.IMAGE_MANIFEST_PATH ?? path.join('src', 'generated', 'image-manifest.json'))
 const requestedMode = process.env.VITE_CONTENT_MODE ?? process.env.CONTENT_MODE
 const mode = requestedMode === 'publish' ? 'publish' : 'preview'
-const widths = [480, 768, 960, 1280, 1600, 1920, 2560]
+const coverWidths = [480, 768, 960, 1280, 1600, 1920]
+const supportingWidths = [480, 768, 960, 1280, 1600]
+const requestedConcurrency = Number.parseInt(process.env.IMAGE_CONCURRENCY ?? '2', 10)
+const imageConcurrency = Number.isFinite(requestedConcurrency)
+  ? Math.max(1, Math.min(requestedConcurrency, 4))
+  : 2
 const formats = [
-  { name: 'avif', options: { quality: 50 } },
-  { name: 'webp', options: { quality: 78 } },
-  { name: 'jpeg', options: { quality: 82, mozjpeg: true } },
+  { name: 'avif', options: { quality: 50, effort: 1 } },
+  { name: 'webp', options: { quality: 78, effort: 2 } },
+  { name: 'jpeg', options: { quality: 82, progressive: true } },
 ]
 
 const sourceManifest = JSON.parse(await readFile(inputPath, 'utf8'))
 const ids = new Set()
 const output = { schemaVersion: 1, generatedAt: null, images: {} }
 const expectedFiles = new Set(['.gitkeep'])
+const coverImageIds = new Set(projects.map((project) => project.coverImageId))
+const buildStats = { generated: 0, reused: 0 }
 const publishedImageIds = new Set(
   projects
     .filter((project) => project.status === 'published')
@@ -55,12 +62,14 @@ function parseAspectRatio(value) {
   return Number(value)
 }
 
-async function buildFamily(photo, sourceBytes, metadata, familyName, crop) {
+async function buildFamily(photo, sourceBytes, metadata, familyName, crop, candidateWidths) {
   const ratio = crop ? parseAspectRatio(crop.aspectRatio) : metadata.width / metadata.height
   assert(Number.isFinite(ratio) && ratio > 0, `Invalid crop ratio for ${photo.id}/${familyName}`)
   const focalPoint = crop?.focalPoint ?? photo.focalPoint ?? { x: 0.5, y: 0.5 }
   const maxWidth = crop ? Math.min(metadata.width, Math.floor(metadata.height * ratio)) : metadata.width
-  const familyWidths = [...new Set(widths.filter((width) => width <= maxWidth).concat(maxWidth))].sort((a, b) => a - b)
+  const outputMaxWidth = Math.min(maxWidth, candidateWidths.at(-1))
+  const familyWidths = [...new Set(candidateWidths.filter((width) => width <= outputMaxWidth).concat(outputMaxWidth))]
+    .sort((a, b) => a - b)
   const variants = {}
 
   for (const format of formats) {
@@ -97,7 +106,12 @@ async function buildFamily(photo, sourceBytes, metadata, familyName, crop) {
         existingFile = false
       }
 
-      if (!existingFile) await pipeline[format.name](format.options).toFile(outputPath)
+      if (existingFile) {
+        buildStats.reused += 1
+      } else {
+        await pipeline[format.name](format.options).toFile(outputPath)
+        buildStats.generated += 1
+      }
       const result = await sharp(outputPath).metadata()
       const fileStats = await stat(outputPath)
       expectedFiles.add(fileName)
@@ -118,6 +132,8 @@ assert(Array.isArray(sourceManifest.photos), 'Photo manifest must include a phot
 await mkdir(outputRoot, { recursive: true })
 await mkdir(path.dirname(manifestPath), { recursive: true })
 
+const selectedPhotos = []
+
 for (const photo of sourceManifest.photos) {
   assert(photo.id && !ids.has(photo.id), `Missing or duplicate photo id: ${photo.id}`)
   ids.add(photo.id)
@@ -132,19 +148,24 @@ for (const photo of sourceManifest.photos) {
     assert(typeof photo.alt === 'string' && photo.alt.trim(), `Published photo needs alt text: ${photo.id}`)
   }
 
+  selectedPhotos.push(photo)
+}
+
+async function preparePhoto(photo) {
   const sourcePath = normalizedSource(photo.source)
   const sourceBytes = await readFile(sourcePath)
   const metadata = await sharp(sourceBytes).metadata()
   assert(metadata.width && metadata.height, `Unreadable dimensions for ${photo.id}`)
+  const candidateWidths = coverImageIds.has(photo.id) ? coverWidths : supportingWidths
   const families = {
-    natural: await buildFamily(photo, sourceBytes, metadata, 'natural', null),
+    natural: await buildFamily(photo, sourceBytes, metadata, 'natural', null, candidateWidths),
   }
 
   for (const [familyName, crop] of Object.entries(photo.crops ?? {})) {
-    families[familyName] = await buildFamily(photo, sourceBytes, metadata, familyName, crop)
+    families[familyName] = await buildFamily(photo, sourceBytes, metadata, familyName, crop, candidateWidths)
   }
 
-  output.images[photo.id] = {
+  return {
     id: photo.id,
     role: photo.role,
     alt: photo.alt ?? '',
@@ -156,9 +177,21 @@ for (const photo of sourceManifest.photos) {
   }
 }
 
+const startedAt = Date.now()
+for (let offset = 0; offset < selectedPhotos.length; offset += imageConcurrency) {
+  const batch = selectedPhotos.slice(offset, offset + imageConcurrency)
+  console.log(`[images] Preparing ${offset + 1}-${offset + batch.length} of ${selectedPhotos.length}...`)
+  const prepared = await Promise.all(batch.map(preparePhoto))
+  for (const image of prepared) output.images[image.id] = image
+}
+
 for (const entry of await readdir(outputRoot)) {
   if (!expectedFiles.has(entry)) await rm(path.join(outputRoot, entry))
 }
 
 await writeFile(manifestPath, `${JSON.stringify(output, null, 2)}\n`)
-console.log(`Prepared ${Object.keys(output.images).length} photos (${sourceManifest.photos.length - Object.keys(output.images).length} placeholders) in ${mode} mode.`)
+const elapsedSeconds = ((Date.now() - startedAt) / 1000).toFixed(1)
+console.log(
+  `Prepared ${Object.keys(output.images).length} photos (${sourceManifest.photos.length - Object.keys(output.images).length} placeholders), `
+  + `${buildStats.generated} generated and ${buildStats.reused} reused, in ${elapsedSeconds}s (${mode} mode).`,
+)

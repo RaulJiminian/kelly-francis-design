@@ -44,11 +44,13 @@ The React preview now uses Snowbird Landscape's established logo, six projects, 
 - `npm run images:prepare`: passed; produced 35 generated image records from 35 selected sources.
 - `npm run content:check`: passed in preview mode with six draft records.
 - `npm run lint`: passed.
-- `npm test`: four data-contract tests passed.
-- `npm run build`: passed; JavaScript 95.88KB gzip and CSS 4.65KB gzip, both below project budgets.
+- `npm test`: five data-contract tests passed, including generated-image width ceilings and format coverage.
+- `npm run build`: passed; JavaScript 93.99KB gzip and CSS 4.64KB gzip, both below project budgets.
 - Browser smoke suite: 20 checks passed with 4 intentional device-specific skips after correcting the one 320px grid-specificity regression found by the preceding run. Coverage includes the requested desktop collage-hover behavior.
 - Final review captures cover home, collage, a complete Canyon Retreat story, the mobile menu, before-image selector, and Shady Planters missing-before state at 390px and/or 1440px.
 - `VITE_CONTENT_MODE=publish npm run content:check`: correctly rejects publication until project/About/brand approval, a verified email, and canonical domain are supplied.
+- Netlify clean-image benchmark: generated 447 responsive derivatives from an empty destination in 23.0 seconds locally (70MB total), without committing build outputs or relying on a warm cache.
+- `netlify.toml`: pins Node 22.19.0, publishes `dist/`, supplies the SPA fallback, and applies immutable caching to content-hashed image derivatives.
 
 ## Launch gates
 
@@ -57,7 +59,7 @@ The React preview now uses Snowbird Landscape's established logo, six projects, 
 - [ ] Client confirms whether a Shady Planters before photograph exists.
 - [ ] Client confirms the preferred inquiry workflow and supplies a verified email if email should be offered.
 - [ ] Add the real domain to canonical, Open Graph, robots, and sitemap output.
-- [ ] Add per-route initial HTML/prerendering and selected-host direct-route handling.
+- [ ] Add per-route initial HTML/prerendering; Netlify direct-route fallback is configured for the current SPA preview.
 - [ ] Complete Safari/iOS Safari, Firefox, real-phone, screen-reader, 400% zoom, throttled-network, and Lighthouse checks.
 - [ ] User requests deployment.
 
@@ -72,3 +74,4 @@ The React preview now uses Snowbird Landscape's established logo, six projects, 
 | 2026-09-07 | Use all six prior-site projects and their after photography | Client explicitly authorized reuse of the old site content and imagery |
 | 2026-09-07 | Use `updatedBefore` for five matched projects and a blank Shady Planters placeholder | Reflects the actual supplied asset set without fabricating a missing comparison |
 | 2026-09-07 | Add a dedicated collage route | Provides the requested photography-first project index while retaining accessible touch labels |
+| 2026-09-07 | Keep image generation in the clean deployment build and optimize it for Netlify | Preserves the authoring/derivative boundary, avoids committing 70MB of generated files, and makes first or cache-cleared deploys reliable |

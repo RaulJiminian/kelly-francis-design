@@ -91,7 +91,7 @@ Client-side head updates help browser navigation but are insufficient to promise
 
 Serve a route-specific share image derived from approved photography. Create sitemap and robots output from the real domain and published records. Keep draft previews `noindex`; do not treat `noindex` as access control for private content.
 
-Once a host is chosen, serve generated route HTML before any SPA fallback. Ensure direct `/work/:slug` visits and refreshes work, unknown URLs produce an appropriate not-found response where supported, and assets never rewrite to HTML. Configure long immutable caching for content-hashed files and revalidation for HTML. Hosting configuration can be prepared without deploying.
+Netlify is the current preview host. `netlify.toml` pins the verified Node runtime, runs the normal production build, publishes `dist/`, applies the SPA fallback needed for direct `/work/:slug` and `/collage` visits, and gives content-hashed generated images a long immutable cache lifetime. The fallback supports client-side routes but still returns the shell for unknown URLs; route-specific HTML and true host-level not-found responses remain part of the publish gate.
 
 ## Proposed scripts and evidence
 

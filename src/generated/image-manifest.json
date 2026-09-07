@@ -19,116 +19,116 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-480-fdf2f37bc59b.avif",
+                "url": "/assets/images/canyon-retreat-after-01-natural-480-43192573ec31.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 28593
+                "bytes": 27028
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-768-b755c59e1a15.avif",
+                "url": "/assets/images/canyon-retreat-after-01-natural-768-77e53de84054.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 61956
+                "bytes": 60377
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-960-5d8728716acb.avif",
+                "url": "/assets/images/canyon-retreat-after-01-natural-960-cdbb2550ce3f.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 87036
+                "bytes": 86864
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-1280-1ed5ba75b71b.avif",
+                "url": "/assets/images/canyon-retreat-after-01-natural-1280-0a60b4950a7a.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 130170
+                "bytes": 134204
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-1600-8a347bbfdfaf.avif",
+                "url": "/assets/images/canyon-retreat-after-01-natural-1600-c11c9a4871bc.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 176020
+                "bytes": 186061
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-1667-0649ec63dd2e.avif",
+                "url": "/assets/images/canyon-retreat-after-01-natural-1667-3340d509b605.avif",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 194412
+                "bytes": 200939
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-480-3e8325e28b3f.webp",
+                "url": "/assets/images/canyon-retreat-after-01-natural-480-93934c597f37.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 57436
+                "bytes": 58558
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-768-c6a93a2b705e.webp",
+                "url": "/assets/images/canyon-retreat-after-01-natural-768-9464ed08cced.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 126072
+                "bytes": 129628
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-960-e9d0bf9ae7fb.webp",
+                "url": "/assets/images/canyon-retreat-after-01-natural-960-b57e5693781a.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 171880
+                "bytes": 177312
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-1280-262f655d752a.webp",
+                "url": "/assets/images/canyon-retreat-after-01-natural-1280-e3931b2fabe8.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 252908
+                "bytes": 262846
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-1600-69ff20ec17c9.webp",
+                "url": "/assets/images/canyon-retreat-after-01-natural-1600-8c8510c1e724.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 333806
+                "bytes": 347264
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-1667-6eb879130aaa.webp",
+                "url": "/assets/images/canyon-retreat-after-01-natural-1667-f95972fc0cae.webp",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 351418
+                "bytes": 365020
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-480-92ddfe219207.jpg",
+                "url": "/assets/images/canyon-retreat-after-01-natural-480-952fd2432768.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 53791
+                "bytes": 59696
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-768-ac0ddddff5dd.jpg",
+                "url": "/assets/images/canyon-retreat-after-01-natural-768-43e58aa78554.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 124263
+                "bytes": 137280
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-960-8a68d24fa19b.jpg",
+                "url": "/assets/images/canyon-retreat-after-01-natural-960-74f4fe1628a5.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 179735
+                "bytes": 198985
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-1280-c22445457d39.jpg",
+                "url": "/assets/images/canyon-retreat-after-01-natural-1280-30d94d47d2c0.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 282957
+                "bytes": 315042
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-1600-8b9b2fdbcae7.jpg",
+                "url": "/assets/images/canyon-retreat-after-01-natural-1600-6cb0803a971e.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 395901
+                "bytes": 444974
               },
               {
-                "url": "/assets/images/canyon-retreat-after-01-natural-1667-c2a58face97b.jpg",
+                "url": "/assets/images/canyon-retreat-after-01-natural-1667-ec3bbe7eab76.jpg",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 438526
+                "bytes": 500874
               }
             ]
           }
@@ -152,116 +152,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-480-142474b82fea.avif",
+                "url": "/assets/images/canyon-retreat-after-02-natural-480-0d1b68a986b5.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 14019
+                "bytes": 14645
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-768-d6d14125691c.avif",
+                "url": "/assets/images/canyon-retreat-after-02-natural-768-b83dcf2b74c1.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 27042
+                "bytes": 29269
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-960-1d0220b10ee4.avif",
+                "url": "/assets/images/canyon-retreat-after-02-natural-960-6480c84adfab.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 36416
+                "bytes": 40470
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-1280-6217806e15c4.avif",
+                "url": "/assets/images/canyon-retreat-after-02-natural-1280-d04d62fbb1da.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 53508
+                "bytes": 60718
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-1600-ff64bb9c054e.avif",
+                "url": "/assets/images/canyon-retreat-after-02-natural-1600-f069b426ee64.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 71042
-              },
-              {
-                "url": "/assets/images/canyon-retreat-after-02-natural-1667-b7b1da825b6b.avif",
-                "width": 1667,
-                "height": 1250,
-                "bytes": 78590
+                "bytes": 82366
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-480-4fefab47f433.webp",
+                "url": "/assets/images/canyon-retreat-after-02-natural-480-0c8366370dbd.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 23726
+                "bytes": 24554
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-768-67e590b2dde0.webp",
+                "url": "/assets/images/canyon-retreat-after-02-natural-768-0185f41efda9.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 42030
+                "bytes": 43848
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-960-59263a46cc6a.webp",
+                "url": "/assets/images/canyon-retreat-after-02-natural-960-d0d58750de7f.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 55672
+                "bytes": 58206
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-1280-939ce8f8a08d.webp",
+                "url": "/assets/images/canyon-retreat-after-02-natural-1280-b84bc6b21a44.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 78934
+                "bytes": 82720
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-1600-3b526fe92fec.webp",
+                "url": "/assets/images/canyon-retreat-after-02-natural-1600-e35eff3c5500.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 102614
-              },
-              {
-                "url": "/assets/images/canyon-retreat-after-02-natural-1667-61c2f41b7e09.webp",
-                "width": 1667,
-                "height": 1250,
-                "bytes": 110548
+                "bytes": 107898
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-480-36fd911cafeb.jpg",
+                "url": "/assets/images/canyon-retreat-after-02-natural-480-f301c80882df.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 31710
+                "bytes": 36272
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-768-ce3e094d6aab.jpg",
+                "url": "/assets/images/canyon-retreat-after-02-natural-768-75b19964f744.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 64083
+                "bytes": 74166
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-960-7cc87b74f823.jpg",
+                "url": "/assets/images/canyon-retreat-after-02-natural-960-5dc44f9ccdff.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 88432
+                "bytes": 103139
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-1280-6cac9c63f1ab.jpg",
+                "url": "/assets/images/canyon-retreat-after-02-natural-1280-e6d3c5cd16f8.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 132830
+                "bytes": 156952
               },
               {
-                "url": "/assets/images/canyon-retreat-after-02-natural-1600-a9580278c980.jpg",
+                "url": "/assets/images/canyon-retreat-after-02-natural-1600-76e3f2395ae4.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 180603
-              },
-              {
-                "url": "/assets/images/canyon-retreat-after-02-natural-1667-cf6ab1de40c3.jpg",
-                "width": 1667,
-                "height": 1250,
-                "bytes": 201341
+                "bytes": 217302
               }
             ]
           }
@@ -285,116 +267,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-480-c4d94ee124a1.avif",
+                "url": "/assets/images/canyon-retreat-after-03-natural-480-3f617db9e554.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 19200
+                "bytes": 19368
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-768-724b2bfd9715.avif",
+                "url": "/assets/images/canyon-retreat-after-03-natural-768-aed7e23c2b6d.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 41320
+                "bytes": 42239
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-960-206c21779799.avif",
+                "url": "/assets/images/canyon-retreat-after-03-natural-960-d3d9d21d3082.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 57772
+                "bytes": 60415
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-1280-6976ea885da6.avif",
+                "url": "/assets/images/canyon-retreat-after-03-natural-1280-1e6e869eda7c.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 86635
+                "bytes": 92446
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-1600-4f6745aa26e3.avif",
+                "url": "/assets/images/canyon-retreat-after-03-natural-1600-36cebf3b8ab2.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 117799
-              },
-              {
-                "url": "/assets/images/canyon-retreat-after-03-natural-1667-b6b0cd6088a0.avif",
-                "width": 1667,
-                "height": 1250,
-                "bytes": 129685
+                "bytes": 128472
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-480-9004dc8da907.webp",
+                "url": "/assets/images/canyon-retreat-after-03-natural-480-d0155e7807be.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 37688
+                "bytes": 38452
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-768-caf20c42795b.webp",
+                "url": "/assets/images/canyon-retreat-after-03-natural-768-3defd2e45546.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 77708
+                "bytes": 79598
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-960-391001de64b7.webp",
+                "url": "/assets/images/canyon-retreat-after-03-natural-960-3d6cc1f92d2b.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 106324
+                "bytes": 109136
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-1280-7e1f13c0be4b.webp",
+                "url": "/assets/images/canyon-retreat-after-03-natural-1280-760f6b01381d.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 156236
+                "bytes": 161178
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-1600-b94608690918.webp",
+                "url": "/assets/images/canyon-retreat-after-03-natural-1600-7a40e8d20dbd.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 204996
-              },
-              {
-                "url": "/assets/images/canyon-retreat-after-03-natural-1667-0aedf99672a4.webp",
-                "width": 1667,
-                "height": 1250,
-                "bytes": 222966
+                "bytes": 212798
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-480-7933d8e2b5c3.jpg",
+                "url": "/assets/images/canyon-retreat-after-03-natural-480-4a016ef22f3b.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 41020
+                "bytes": 46767
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-768-561c0c43c234.jpg",
+                "url": "/assets/images/canyon-retreat-after-03-natural-768-13bd39bb0f1e.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 91605
+                "bytes": 104561
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-960-eec327370185.jpg",
+                "url": "/assets/images/canyon-retreat-after-03-natural-960-85a2ec40c823.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 131518
+                "bytes": 150904
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-1280-ec1d49002cc9.jpg",
+                "url": "/assets/images/canyon-retreat-after-03-natural-1280-c92f3a8eb725.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 205428
+                "bytes": 235969
               },
               {
-                "url": "/assets/images/canyon-retreat-after-03-natural-1600-1a055be66351.jpg",
+                "url": "/assets/images/canyon-retreat-after-03-natural-1600-785e0ad9d388.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 285946
-              },
-              {
-                "url": "/assets/images/canyon-retreat-after-03-natural-1667-b0c3d5840657.jpg",
-                "width": 1667,
-                "height": 1250,
-                "bytes": 318779
+                "bytes": 330353
               }
             ]
           }
@@ -418,152 +382,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-480-19b7bc37656f.avif",
+                "url": "/assets/images/canyon-retreat-before-01-natural-480-2caf7f9cb664.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 24799
+                "bytes": 23722
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-768-b4e7e7757f20.avif",
+                "url": "/assets/images/canyon-retreat-before-01-natural-768-eb0e95ac4afd.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 63806
+                "bytes": 60886
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-960-d4994d3d3ebe.avif",
+                "url": "/assets/images/canyon-retreat-before-01-natural-960-a0906e3ea103.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 98804
+                "bytes": 94280
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-1280-0eeadd4ba210.avif",
+                "url": "/assets/images/canyon-retreat-before-01-natural-1280-a053eb56447b.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 173992
+                "bytes": 166945
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-1600-767f65868ab4.avif",
+                "url": "/assets/images/canyon-retreat-before-01-natural-1600-342d0139c01c.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 257047
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-01-natural-1920-4d10f4ff3aad.avif",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 347173
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-01-natural-2560-81f537ce50f0.avif",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 534298
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-01-natural-3264-89d1a767fce0.avif",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 756848
+                "bytes": 250220
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-480-7e5d2752fb81.webp",
+                "url": "/assets/images/canyon-retreat-before-01-natural-480-a16a1ed1bd51.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 48626
+                "bytes": 49536
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-768-97399497b254.webp",
+                "url": "/assets/images/canyon-retreat-before-01-natural-768-1b2c8ad8e95a.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 124788
+                "bytes": 126580
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-960-1148a960cb2d.webp",
+                "url": "/assets/images/canyon-retreat-before-01-natural-960-381b938c7035.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 191896
+                "bytes": 194998
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-1280-010af336f395.webp",
+                "url": "/assets/images/canyon-retreat-before-01-natural-1280-706a326b4d2c.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 340446
+                "bytes": 346220
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-1600-8eaaab47e5e8.webp",
+                "url": "/assets/images/canyon-retreat-before-01-natural-1600-378498fcdedd.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 499692
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-01-natural-1920-7f17bc5cf556.webp",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 674354
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-01-natural-2560-331d130c1cac.webp",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1068044
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-01-natural-3264-ec0e71a2ce30.webp",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 1601930
+                "bytes": 510232
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-480-759a73470bd4.jpg",
+                "url": "/assets/images/canyon-retreat-before-01-natural-480-5f25bf9593bb.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 46175
+                "bytes": 53795
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-768-a0e41cdf5753.jpg",
+                "url": "/assets/images/canyon-retreat-before-01-natural-768-b27aea3d205e.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 118531
+                "bytes": 138890
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-960-3e99358bab39.jpg",
+                "url": "/assets/images/canyon-retreat-before-01-natural-960-911b93a9cfcd.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 182633
+                "bytes": 213750
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-1280-a787f9a8797d.jpg",
+                "url": "/assets/images/canyon-retreat-before-01-natural-1280-2bdd219bae79.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 324309
+                "bytes": 379577
               },
               {
-                "url": "/assets/images/canyon-retreat-before-01-natural-1600-a9eb72aebfad.jpg",
+                "url": "/assets/images/canyon-retreat-before-01-natural-1600-5b9f45451e10.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 490653
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-01-natural-1920-3bda2d405b17.jpg",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 677323
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-01-natural-2560-4bdd8caaeb03.jpg",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1097499
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-01-natural-3264-acaf35c21b63.jpg",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 1599470
+                "bytes": 572290
               }
             ]
           }
@@ -587,152 +497,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-480-05edeb317ebd.avif",
+                "url": "/assets/images/canyon-retreat-before-02-natural-480-13bdf35609b7.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 24772
+                "bytes": 23175
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-768-bf4540ad16a2.avif",
+                "url": "/assets/images/canyon-retreat-before-02-natural-768-6ff4068bb5f2.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 62165
+                "bytes": 57976
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-960-ae415a5ae4dd.avif",
+                "url": "/assets/images/canyon-retreat-before-02-natural-960-3704cfaabb17.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 92885
+                "bytes": 88338
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-1280-eeda89877cb1.avif",
+                "url": "/assets/images/canyon-retreat-before-02-natural-1280-3f665ed5576e.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 162269
+                "bytes": 154595
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-1600-7d6d7322c1ea.avif",
+                "url": "/assets/images/canyon-retreat-before-02-natural-1600-d8c53ab7b16c.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 238043
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-02-natural-1920-36be52519100.avif",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 321116
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-02-natural-2560-09b0e456c723.avif",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 498315
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-02-natural-3264-9fa028857253.avif",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 715813
+                "bytes": 229711
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-480-9ed511b3f6fd.webp",
+                "url": "/assets/images/canyon-retreat-before-02-natural-480-eff29dd930bb.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 44630
+                "bytes": 45690
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-768-521a8dfd14cc.webp",
+                "url": "/assets/images/canyon-retreat-before-02-natural-768-3f257419c1cf.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 111122
+                "bytes": 113568
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-960-41bac6fbefeb.webp",
+                "url": "/assets/images/canyon-retreat-before-02-natural-960-5c8a51dfea63.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 168338
+                "bytes": 172152
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-1280-5111c345eecb.webp",
+                "url": "/assets/images/canyon-retreat-before-02-natural-1280-dbbb33c7e0aa.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 289612
+                "bytes": 296252
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-1600-ee1687a269dc.webp",
+                "url": "/assets/images/canyon-retreat-before-02-natural-1600-6f5ab67a0991.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 428938
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-02-natural-1920-57537594751e.webp",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 582736
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-02-natural-2560-6dac44b1a3ee.webp",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 910112
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-02-natural-3264-625d8935fa3f.webp",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 1352544
+                "bytes": 438962
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-480-4bb523302e39.jpg",
+                "url": "/assets/images/canyon-retreat-before-02-natural-480-b234a863fb18.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 44103
+                "bytes": 52066
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-768-ff87909228d3.jpg",
+                "url": "/assets/images/canyon-retreat-before-02-natural-768-eb1f420db30b.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 109259
+                "bytes": 130495
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-960-22c75c51f30c.jpg",
+                "url": "/assets/images/canyon-retreat-before-02-natural-960-616d206cfb7f.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 166670
+                "bytes": 199034
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-1280-c68a9bb17260.jpg",
+                "url": "/assets/images/canyon-retreat-before-02-natural-1280-436fac67b8c2.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 290594
+                "bytes": 348992
               },
               {
-                "url": "/assets/images/canyon-retreat-before-02-natural-1600-358beffbb750.jpg",
+                "url": "/assets/images/canyon-retreat-before-02-natural-1600-2b936420beec.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 437226
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-02-natural-1920-e767259509e5.jpg",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 602505
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-02-natural-2560-168fa102e72c.jpg",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 976202
-              },
-              {
-                "url": "/assets/images/canyon-retreat-before-02-natural-3264-cc851e6dd786.jpg",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 1423453
+                "bytes": 524115
               }
             ]
           }
@@ -756,116 +612,116 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-480-0101b65b88c7.avif",
+                "url": "/assets/images/nautical-inspired-after-01-natural-480-939794079b8f.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 21087
+                "bytes": 20766
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-768-65c032b568e0.avif",
+                "url": "/assets/images/nautical-inspired-after-01-natural-768-b936927c0950.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 43428
+                "bytes": 44360
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-960-a362297e2b6f.avif",
+                "url": "/assets/images/nautical-inspired-after-01-natural-960-a0d6680ad905.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 61048
+                "bytes": 63547
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-1280-323d7ac56fe2.avif",
+                "url": "/assets/images/nautical-inspired-after-01-natural-1280-841f9466b000.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 92394
+                "bytes": 98650
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-1600-c132e57e6c80.avif",
+                "url": "/assets/images/nautical-inspired-after-01-natural-1600-77b864f56821.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 125153
+                "bytes": 136362
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-1667-4782ee6ba715.avif",
+                "url": "/assets/images/nautical-inspired-after-01-natural-1667-96267146c980.avif",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 137674
+                "bytes": 148655
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-480-f7acd4bd743a.webp",
+                "url": "/assets/images/nautical-inspired-after-01-natural-480-d3e755b3ad7e.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 38914
+                "bytes": 40070
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-768-4a8934b28681.webp",
+                "url": "/assets/images/nautical-inspired-after-01-natural-768-f09258b987f9.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 80006
+                "bytes": 82592
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-960-700db003b861.webp",
+                "url": "/assets/images/nautical-inspired-after-01-natural-960-ade6370b4b94.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 111534
+                "bytes": 115522
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-1280-72786d5e95c1.webp",
+                "url": "/assets/images/nautical-inspired-after-01-natural-1280-37cb8541c393.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 164440
+                "bytes": 170102
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-1600-d6535eafcd12.webp",
+                "url": "/assets/images/nautical-inspired-after-01-natural-1600-6b167a0cff40.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 222372
+                "bytes": 230988
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-1667-8f3cccb775ee.webp",
+                "url": "/assets/images/nautical-inspired-after-01-natural-1667-3fb1710ca34d.webp",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 241906
+                "bytes": 251394
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-480-6198340c5a64.jpg",
+                "url": "/assets/images/nautical-inspired-after-01-natural-480-52e60aa085da.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 43212
+                "bytes": 48507
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-768-9d90f079f661.jpg",
+                "url": "/assets/images/nautical-inspired-after-01-natural-768-ac7eec0d016c.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 93713
+                "bytes": 106440
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-960-915a8a20112a.jpg",
+                "url": "/assets/images/nautical-inspired-after-01-natural-960-053453dd886b.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 134398
+                "bytes": 153054
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-1280-7915e74311dd.jpg",
+                "url": "/assets/images/nautical-inspired-after-01-natural-1280-7fe57d7022ef.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 210813
+                "bytes": 240785
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-1600-61a19a0f5717.jpg",
+                "url": "/assets/images/nautical-inspired-after-01-natural-1600-f4d40e17310e.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 294916
+                "bytes": 338929
               },
               {
-                "url": "/assets/images/nautical-inspired-after-01-natural-1667-e864e6400f7d.jpg",
+                "url": "/assets/images/nautical-inspired-after-01-natural-1667-9ea6de524a57.jpg",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 325888
+                "bytes": 382390
               }
             ]
           }
@@ -889,62 +745,62 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/nautical-inspired-after-02-natural-480-9f41b004b799.avif",
+                "url": "/assets/images/nautical-inspired-after-02-natural-480-474384fb54cb.avif",
                 "width": 480,
                 "height": 720,
-                "bytes": 61158
+                "bytes": 57192
               },
               {
-                "url": "/assets/images/nautical-inspired-after-02-natural-768-43956e41af48.avif",
+                "url": "/assets/images/nautical-inspired-after-02-natural-768-7c0f3a1cb98d.avif",
                 "width": 768,
                 "height": 1152,
-                "bytes": 121130
+                "bytes": 120409
               },
               {
-                "url": "/assets/images/nautical-inspired-after-02-natural-833-599b5e63832b.avif",
+                "url": "/assets/images/nautical-inspired-after-02-natural-833-85127500ddd5.avif",
                 "width": 833,
                 "height": 1250,
-                "bytes": 139818
+                "bytes": 139573
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/nautical-inspired-after-02-natural-480-3377b27b6b88.webp",
+                "url": "/assets/images/nautical-inspired-after-02-natural-480-c2e0845ae607.webp",
                 "width": 480,
                 "height": 720,
-                "bytes": 116028
+                "bytes": 117788
               },
               {
-                "url": "/assets/images/nautical-inspired-after-02-natural-768-84c3e7c91c91.webp",
+                "url": "/assets/images/nautical-inspired-after-02-natural-768-5db0b23b9cb9.webp",
                 "width": 768,
                 "height": 1152,
-                "bytes": 240108
+                "bytes": 245912
               },
               {
-                "url": "/assets/images/nautical-inspired-after-02-natural-833-84cc6b1739b5.webp",
+                "url": "/assets/images/nautical-inspired-after-02-natural-833-c41364d44358.webp",
                 "width": 833,
                 "height": 1250,
-                "bytes": 273318
+                "bytes": 279650
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/nautical-inspired-after-02-natural-480-452753c51ece.jpg",
+                "url": "/assets/images/nautical-inspired-after-02-natural-480-115bf8f0a488.jpg",
                 "width": 480,
                 "height": 720,
-                "bytes": 114160
+                "bytes": 128802
               },
               {
-                "url": "/assets/images/nautical-inspired-after-02-natural-768-4db0457e0095.jpg",
+                "url": "/assets/images/nautical-inspired-after-02-natural-768-d7238e1a8173.jpg",
                 "width": 768,
                 "height": 1152,
-                "bytes": 253164
+                "bytes": 282230
               },
               {
-                "url": "/assets/images/nautical-inspired-after-02-natural-833-a406f676de65.jpg",
+                "url": "/assets/images/nautical-inspired-after-02-natural-833-e4d90b3d0163.jpg",
                 "width": 833,
                 "height": 1250,
-                "bytes": 301024
+                "bytes": 342660
               }
             ]
           }
@@ -968,62 +824,62 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/nautical-inspired-after-03-natural-480-53a3af7e26ed.avif",
+                "url": "/assets/images/nautical-inspired-after-03-natural-480-a99e87de8035.avif",
                 "width": 480,
                 "height": 303,
-                "bytes": 14524
+                "bytes": 14363
               },
               {
-                "url": "/assets/images/nautical-inspired-after-03-natural-768-846c92e57dcf.avif",
+                "url": "/assets/images/nautical-inspired-after-03-natural-768-64caa3801470.avif",
                 "width": 768,
                 "height": 484,
-                "bytes": 31699
+                "bytes": 32278
               },
               {
-                "url": "/assets/images/nautical-inspired-after-03-natural-833-399dbad07594.avif",
+                "url": "/assets/images/nautical-inspired-after-03-natural-833-187e658a3a02.avif",
                 "width": 833,
                 "height": 525,
-                "bytes": 38608
+                "bytes": 38597
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/nautical-inspired-after-03-natural-480-2816905c6c88.webp",
+                "url": "/assets/images/nautical-inspired-after-03-natural-480-e7c2c9700660.webp",
                 "width": 480,
                 "height": 303,
-                "bytes": 25980
+                "bytes": 26578
               },
               {
-                "url": "/assets/images/nautical-inspired-after-03-natural-768-52550484b8ac.webp",
+                "url": "/assets/images/nautical-inspired-after-03-natural-768-ea7fd0e90b5e.webp",
                 "width": 768,
                 "height": 484,
-                "bytes": 57848
+                "bytes": 59552
               },
               {
-                "url": "/assets/images/nautical-inspired-after-03-natural-833-894eab00379e.webp",
+                "url": "/assets/images/nautical-inspired-after-03-natural-833-4c9d3121ab2e.webp",
                 "width": 833,
                 "height": 525,
-                "bytes": 69138
+                "bytes": 71208
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/nautical-inspired-after-03-natural-480-012499c9a1e0.jpg",
+                "url": "/assets/images/nautical-inspired-after-03-natural-480-d84c3a810dc3.jpg",
                 "width": 480,
                 "height": 303,
-                "bytes": 30023
+                "bytes": 35028
               },
               {
-                "url": "/assets/images/nautical-inspired-after-03-natural-768-af3b99850edf.jpg",
+                "url": "/assets/images/nautical-inspired-after-03-natural-768-d9501cfd47c9.jpg",
                 "width": 768,
                 "height": 484,
-                "bytes": 68927
+                "bytes": 81125
               },
               {
-                "url": "/assets/images/nautical-inspired-after-03-natural-833-2f938efc0f6a.jpg",
+                "url": "/assets/images/nautical-inspired-after-03-natural-833-cd30dd1ad133.jpg",
                 "width": 833,
                 "height": 525,
-                "bytes": 84649
+                "bytes": 100553
               }
             ]
           }
@@ -1047,62 +903,62 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/nautical-inspired-after-04-natural-480-8b0e2b002757.avif",
+                "url": "/assets/images/nautical-inspired-after-04-natural-480-6a3840e1d557.avif",
                 "width": 480,
                 "height": 402,
-                "bytes": 35589
+                "bytes": 33621
               },
               {
-                "url": "/assets/images/nautical-inspired-after-04-natural-768-e569ac9c20b8.avif",
+                "url": "/assets/images/nautical-inspired-after-04-natural-768-f650b9711ac5.avif",
                 "width": 768,
                 "height": 643,
-                "bytes": 74997
+                "bytes": 74193
               },
               {
-                "url": "/assets/images/nautical-inspired-after-04-natural-833-a026b2b27f49.avif",
+                "url": "/assets/images/nautical-inspired-after-04-natural-833-4d61b162aded.avif",
                 "width": 833,
                 "height": 697,
-                "bytes": 87486
+                "bytes": 86122
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/nautical-inspired-after-04-natural-480-cd1e69595a87.webp",
+                "url": "/assets/images/nautical-inspired-after-04-natural-480-5bae31692885.webp",
                 "width": 480,
                 "height": 402,
-                "bytes": 70700
+                "bytes": 71810
               },
               {
-                "url": "/assets/images/nautical-inspired-after-04-natural-768-5acd997c20e5.webp",
+                "url": "/assets/images/nautical-inspired-after-04-natural-768-9020bcf37866.webp",
                 "width": 768,
                 "height": 643,
-                "bytes": 153640
+                "bytes": 156834
               },
               {
-                "url": "/assets/images/nautical-inspired-after-04-natural-833-ba242cd0ca42.webp",
+                "url": "/assets/images/nautical-inspired-after-04-natural-833-0affa7e63175.webp",
                 "width": 833,
                 "height": 697,
-                "bytes": 176984
+                "bytes": 180774
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/nautical-inspired-after-04-natural-480-695490610265.jpg",
+                "url": "/assets/images/nautical-inspired-after-04-natural-480-04e522a7df46.jpg",
                 "width": 480,
                 "height": 402,
-                "bytes": 66069
+                "bytes": 73033
               },
               {
-                "url": "/assets/images/nautical-inspired-after-04-natural-768-d21e2401229f.jpg",
+                "url": "/assets/images/nautical-inspired-after-04-natural-768-c0f04f097b9d.jpg",
                 "width": 768,
                 "height": 643,
-                "bytes": 150629
+                "bytes": 166217
               },
               {
-                "url": "/assets/images/nautical-inspired-after-04-natural-833-393235d7e6b8.jpg",
+                "url": "/assets/images/nautical-inspired-after-04-natural-833-845672f1b43e.jpg",
                 "width": 833,
                 "height": 697,
-                "bytes": 180304
+                "bytes": 204168
               }
             ]
           }
@@ -1126,62 +982,62 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/nautical-inspired-after-05-natural-480-6105210b59db.avif",
+                "url": "/assets/images/nautical-inspired-after-05-natural-480-4d67763a7594.avif",
                 "width": 480,
                 "height": 821,
-                "bytes": 52299
+                "bytes": 51374
               },
               {
-                "url": "/assets/images/nautical-inspired-after-05-natural-768-864732a5e6c9.avif",
+                "url": "/assets/images/nautical-inspired-after-05-natural-768-09d4060931a4.avif",
                 "width": 768,
                 "height": 1314,
-                "bytes": 105033
+                "bytes": 107700
               },
               {
-                "url": "/assets/images/nautical-inspired-after-05-natural-833-64c4122d7656.avif",
+                "url": "/assets/images/nautical-inspired-after-05-natural-833-761ef06613bf.avif",
                 "width": 833,
                 "height": 1425,
-                "bytes": 123540
+                "bytes": 125834
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/nautical-inspired-after-05-natural-480-860b2cbb21bb.webp",
+                "url": "/assets/images/nautical-inspired-after-05-natural-480-7212f4fa0af5.webp",
                 "width": 480,
                 "height": 821,
-                "bytes": 99442
+                "bytes": 101232
               },
               {
-                "url": "/assets/images/nautical-inspired-after-05-natural-768-daa885e4c378.webp",
+                "url": "/assets/images/nautical-inspired-after-05-natural-768-9f640af75059.webp",
                 "width": 768,
                 "height": 1314,
-                "bytes": 205658
+                "bytes": 210674
               },
               {
-                "url": "/assets/images/nautical-inspired-after-05-natural-833-02631304b899.webp",
+                "url": "/assets/images/nautical-inspired-after-05-natural-833-f5cd105f1b55.webp",
                 "width": 833,
                 "height": 1425,
-                "bytes": 239096
+                "bytes": 244798
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/nautical-inspired-after-05-natural-480-e9fe4a692b2d.jpg",
+                "url": "/assets/images/nautical-inspired-after-05-natural-480-403871b1cb06.jpg",
                 "width": 480,
                 "height": 821,
-                "bytes": 109916
+                "bytes": 121877
               },
               {
-                "url": "/assets/images/nautical-inspired-after-05-natural-768-55099bd6b732.jpg",
+                "url": "/assets/images/nautical-inspired-after-05-natural-768-442e61fccfcb.jpg",
                 "width": 768,
                 "height": 1314,
-                "bytes": 237279
+                "bytes": 263377
               },
               {
-                "url": "/assets/images/nautical-inspired-after-05-natural-833-794d61e7aa6b.jpg",
+                "url": "/assets/images/nautical-inspired-after-05-natural-833-7ad97a0f4e58.jpg",
                 "width": 833,
                 "height": 1425,
-                "bytes": 280570
+                "bytes": 320335
               }
             ]
           }
@@ -1205,152 +1061,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-480-391d8bfcb4a6.avif",
+                "url": "/assets/images/nautical-inspired-before-01-natural-480-5dc0b06b03a0.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 23117
+                "bytes": 21619
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-768-a39b478bd4da.avif",
+                "url": "/assets/images/nautical-inspired-before-01-natural-768-c56afb63d011.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 55804
+                "bytes": 52622
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-960-037227d97bfb.avif",
+                "url": "/assets/images/nautical-inspired-before-01-natural-960-53a7976aaf9a.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 88797
+                "bytes": 84180
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-1280-fc2057729efb.avif",
+                "url": "/assets/images/nautical-inspired-before-01-natural-1280-779e97aed606.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 151951
+                "bytes": 144234
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-1600-9ef905e9454d.avif",
+                "url": "/assets/images/nautical-inspired-before-01-natural-1600-d2791b3f623f.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 239807
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-01-natural-1920-6eaf3f7e90b4.avif",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 332954
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-01-natural-2560-82853def0b97.avif",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 534774
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-01-natural-4032-21eb457e8e41.avif",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 1118105
+                "bytes": 228869
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-480-d271ffdb9f04.webp",
+                "url": "/assets/images/nautical-inspired-before-01-natural-480-bd934bf4af3d.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 43178
+                "bytes": 44184
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-768-8fe042678bfe.webp",
+                "url": "/assets/images/nautical-inspired-before-01-natural-768-f1df11fd2a58.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 104288
+                "bytes": 106930
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-960-1e8d815668ab.webp",
+                "url": "/assets/images/nautical-inspired-before-01-natural-960-dc8bc2ccbdf2.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 163858
+                "bytes": 167886
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-1280-76925ccd006a.webp",
+                "url": "/assets/images/nautical-inspired-before-01-natural-1280-5cc7631ed01c.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 277876
+                "bytes": 284712
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-1600-478cd5fb7e51.webp",
+                "url": "/assets/images/nautical-inspired-before-01-natural-1600-ad8ce05326c6.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 430348
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-01-natural-1920-69bba3639b12.webp",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 594966
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-01-natural-2560-ed72cd0ad66c.webp",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 961344
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-01-natural-4032-fdbae4340ea2.webp",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 2055074
+                "bytes": 441184
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-480-f7a7f63fae3d.jpg",
+                "url": "/assets/images/nautical-inspired-before-01-natural-480-afc0e4237a75.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 42238
+                "bytes": 50005
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-768-0055581d1289.jpg",
+                "url": "/assets/images/nautical-inspired-before-01-natural-768-3f6eeb8856e1.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 103278
+                "bytes": 122032
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-960-35bde3b7bd55.jpg",
+                "url": "/assets/images/nautical-inspired-before-01-natural-960-acfc606d0a88.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 162524
+                "bytes": 193620
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-1280-1699c93bb759.jpg",
+                "url": "/assets/images/nautical-inspired-before-01-natural-1280-e4b2f8f847b8.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 280694
+                "bytes": 333910
               },
               {
-                "url": "/assets/images/nautical-inspired-before-01-natural-1600-859138da07cc.jpg",
+                "url": "/assets/images/nautical-inspired-before-01-natural-1600-d6e66585b269.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 438311
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-01-natural-1920-93ceace5d440.jpg",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 614966
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-01-natural-2560-fc7a748b3f7d.jpg",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1024073
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-01-natural-4032-4ec2eb910e9e.jpg",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 2226464
+                "bytes": 523927
               }
             ]
           }
@@ -1374,152 +1176,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-480-cde9ad8cb8df.avif",
+                "url": "/assets/images/nautical-inspired-before-02-natural-480-0858d2def769.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 28402
+                "bytes": 27149
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-768-2f2fca264b03.avif",
+                "url": "/assets/images/nautical-inspired-before-02-natural-768-75de7f99db8c.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 70743
+                "bytes": 68550
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-960-4a0203c12211.avif",
+                "url": "/assets/images/nautical-inspired-before-02-natural-960-432cbd01daad.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 118267
+                "bytes": 112093
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-1280-733b43559245.avif",
+                "url": "/assets/images/nautical-inspired-before-02-natural-1280-e30456724e0c.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 207600
+                "bytes": 197374
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-1600-650c688349b4.avif",
+                "url": "/assets/images/nautical-inspired-before-02-natural-1600-50d8ff25c4e2.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 333251
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-02-natural-1920-600612a79d3b.avif",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 469781
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-02-natural-2560-1de46ea394de.avif",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 764466
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-02-natural-4032-882f1189a10c.avif",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 1579836
+                "bytes": 317988
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-480-0fd928c6db8f.webp",
+                "url": "/assets/images/nautical-inspired-before-02-natural-480-537783adb012.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 56924
+                "bytes": 57726
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-768-7128f026c6e3.webp",
+                "url": "/assets/images/nautical-inspired-before-02-natural-768-1510a1c30644.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 141250
+                "bytes": 143098
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-960-667e2aa770ff.webp",
+                "url": "/assets/images/nautical-inspired-before-02-natural-960-690cdf952289.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 232008
+                "bytes": 234628
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-1280-13c62d0ad82f.webp",
+                "url": "/assets/images/nautical-inspired-before-02-natural-1280-dfd59596c35a.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 396556
+                "bytes": 401056
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-1600-40c1bcbfaf29.webp",
+                "url": "/assets/images/nautical-inspired-before-02-natural-1600-f76b84ef9389.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 627918
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-02-natural-1920-c8b801d13420.webp",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 885952
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-02-natural-2560-cb16a8fd313f.webp",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1487346
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-02-natural-4032-5ccd23c29aa7.webp",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 3291150
+                "bytes": 634452
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-480-d3fece3aa4c0.jpg",
+                "url": "/assets/images/nautical-inspired-before-02-natural-480-b03e3865c82c.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 53006
+                "bytes": 61134
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-768-d9b81a80dbd7.jpg",
+                "url": "/assets/images/nautical-inspired-before-02-natural-768-754527a0cdfe.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 133799
+                "bytes": 154624
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-960-2925c2006969.jpg",
+                "url": "/assets/images/nautical-inspired-before-02-natural-960-13cf6ffec97f.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 215114
+                "bytes": 249195
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-1280-40d02f0f3321.jpg",
+                "url": "/assets/images/nautical-inspired-before-02-natural-1280-4d2d08f03e9d.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 379125
+                "bytes": 438251
               },
               {
-                "url": "/assets/images/nautical-inspired-before-02-natural-1600-074900fef5a3.jpg",
+                "url": "/assets/images/nautical-inspired-before-02-natural-1600-4dc1f7bc1a81.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 600087
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-02-natural-1920-568cbc2ca57c.jpg",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 849515
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-02-natural-2560-2e06b1963ad0.jpg",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1438528
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-02-natural-4032-3027dbf62a8c.jpg",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 3169816
+                "bytes": 697216
               }
             ]
           }
@@ -1543,152 +1291,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-480-a7426cac127a.avif",
+                "url": "/assets/images/nautical-inspired-before-03-natural-480-ef64c3479ddd.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 22058
+                "bytes": 21648
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-768-6c333854dc09.avif",
+                "url": "/assets/images/nautical-inspired-before-03-natural-768-e27dea6e4585.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 53003
+                "bytes": 52461
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-960-57e2d158df7d.avif",
+                "url": "/assets/images/nautical-inspired-before-03-natural-960-78acefc6533d.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 84061
+                "bytes": 83211
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-1280-61a52ab72917.avif",
+                "url": "/assets/images/nautical-inspired-before-03-natural-1280-183aedf3f5e9.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 145046
+                "bytes": 144484
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-1600-0068de4dc4ca.avif",
+                "url": "/assets/images/nautical-inspired-before-03-natural-1600-fa5508dbc816.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 230427
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-03-natural-1920-ec6434ba0ba2.avif",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 320917
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-03-natural-2560-dd0e6f5f9919.avif",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 520889
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-03-natural-4032-57d44a664f42.avif",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 1090276
+                "bytes": 228420
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-480-60a3e49e7f29.webp",
+                "url": "/assets/images/nautical-inspired-before-03-natural-480-dcff548aae2a.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 43436
+                "bytes": 44270
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-768-0ab4c701df3e.webp",
+                "url": "/assets/images/nautical-inspired-before-03-natural-768-aaa3dc7a47f5.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 105388
+                "bytes": 107434
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-960-4c907feb9a66.webp",
+                "url": "/assets/images/nautical-inspired-before-03-natural-960-c074c6a98cef.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 167242
+                "bytes": 170148
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-1280-a9993f0ccb32.webp",
+                "url": "/assets/images/nautical-inspired-before-03-natural-1280-e654aff171d2.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 285764
+                "bytes": 291392
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-1600-1748c66c4724.webp",
+                "url": "/assets/images/nautical-inspired-before-03-natural-1600-01f1f90a0cd6.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 450090
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-03-natural-1920-c1400ba5ca86.webp",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 619862
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-03-natural-2560-2ee906eb4a68.webp",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1021814
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-03-natural-4032-d5e400fcbe75.webp",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 2182526
+                "bytes": 458760
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-480-c112dc06ee8d.jpg",
+                "url": "/assets/images/nautical-inspired-before-03-natural-480-18841a1ad7ec.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 42208
+                "bytes": 48835
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-768-2c7ce364b585.jpg",
+                "url": "/assets/images/nautical-inspired-before-03-natural-768-5140fcb55b76.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 103668
+                "bytes": 120761
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-960-a5e99f4f6820.jpg",
+                "url": "/assets/images/nautical-inspired-before-03-natural-960-abd378ceab02.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 164580
+                "bytes": 192697
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-1280-08a4e4747270.jpg",
+                "url": "/assets/images/nautical-inspired-before-03-natural-1280-21b2bc16db62.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 286229
+                "bytes": 334662
               },
               {
-                "url": "/assets/images/nautical-inspired-before-03-natural-1600-4d54c22de86f.jpg",
+                "url": "/assets/images/nautical-inspired-before-03-natural-1600-851c3367fcad.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 448072
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-03-natural-1920-5a6be6890e2f.jpg",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 630668
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-03-natural-2560-c67a02b62778.jpg",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1053860
-              },
-              {
-                "url": "/assets/images/nautical-inspired-before-03-natural-4032-f9f547c9bd6e.jpg",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 2307238
+                "bytes": 526630
               }
             ]
           }
@@ -1712,98 +1406,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-480-2aa31ca792b2.avif",
+                "url": "/assets/images/bungalow-haven-after-01-natural-480-b41c16fb311b.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 29478
+                "bytes": 27233
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-768-dafe1356464c.avif",
+                "url": "/assets/images/bungalow-haven-after-01-natural-768-0f46b54807ce.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 69289
+                "bytes": 65641
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-960-361e93ca32f9.avif",
+                "url": "/assets/images/bungalow-haven-after-01-natural-960-22d568b837f2.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 103960
+                "bytes": 99043
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-1280-33f96c7ac599.avif",
+                "url": "/assets/images/bungalow-haven-after-01-natural-1280-460a8606df95.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 167452
+                "bytes": 163510
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-1389-da216c992cc7.avif",
+                "url": "/assets/images/bungalow-haven-after-01-natural-1389-34a72d3ae28d.avif",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 202910
+                "bytes": 195454
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-480-122e23eb89ef.webp",
+                "url": "/assets/images/bungalow-haven-after-01-natural-480-a9c175168e44.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 55212
+                "bytes": 56160
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-768-4915d3c70d67.webp",
+                "url": "/assets/images/bungalow-haven-after-01-natural-768-7533cf6a9497.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 132990
+                "bytes": 135528
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-960-eb36b9eb889d.webp",
+                "url": "/assets/images/bungalow-haven-after-01-natural-960-3e673e4922fe.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 197484
+                "bytes": 201422
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-1280-82473e150ec0.webp",
+                "url": "/assets/images/bungalow-haven-after-01-natural-1280-23d666bdf1e4.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 325206
+                "bytes": 333042
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-1389-b8dc8b61927d.webp",
+                "url": "/assets/images/bungalow-haven-after-01-natural-1389-45560da32b32.webp",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 386078
+                "bytes": 395280
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-480-b757457a855f.jpg",
+                "url": "/assets/images/bungalow-haven-after-01-natural-480-534e5ac2ee64.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 52504
+                "bytes": 59707
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-768-f8f287ae3791.jpg",
+                "url": "/assets/images/bungalow-haven-after-01-natural-768-c9860d83385a.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 127949
+                "bytes": 146290
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-960-3c3231a34a11.jpg",
+                "url": "/assets/images/bungalow-haven-after-01-natural-960-8cf67c850fb8.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 194451
+                "bytes": 222062
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-1280-e61c8da3f75f.jpg",
+                "url": "/assets/images/bungalow-haven-after-01-natural-1280-ecf3cc882969.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 325667
+                "bytes": 372997
               },
               {
-                "url": "/assets/images/bungalow-haven-after-01-natural-1389-fcb3a78799b1.jpg",
+                "url": "/assets/images/bungalow-haven-after-01-natural-1389-51ba7ce5d157.jpg",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 397544
+                "bytes": 465212
               }
             ]
           }
@@ -1827,98 +1521,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-480-d1461e83a458.avif",
+                "url": "/assets/images/bungalow-haven-after-02-natural-480-ceac8ae228b6.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 23777
+                "bytes": 22628
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-768-f6f0760ad04f.avif",
+                "url": "/assets/images/bungalow-haven-after-02-natural-768-f4d3c3f3e95d.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 53885
+                "bytes": 51731
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-960-37453e2a71b1.avif",
+                "url": "/assets/images/bungalow-haven-after-02-natural-960-75bb285189a8.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 76298
+                "bytes": 75983
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-1280-4da63177a720.avif",
+                "url": "/assets/images/bungalow-haven-after-02-natural-1280-803951adf486.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 118759
+                "bytes": 121290
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-1389-ed68b08e04a7.avif",
+                "url": "/assets/images/bungalow-haven-after-02-natural-1389-9a2f6cc4369d.avif",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 141466
+                "bytes": 142640
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-480-0ae4f6d5e7d3.webp",
+                "url": "/assets/images/bungalow-haven-after-02-natural-480-c312fc03e6f3.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 44424
+                "bytes": 45404
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-768-95ac69d8b811.webp",
+                "url": "/assets/images/bungalow-haven-after-02-natural-768-8c8ce2598703.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 98786
+                "bytes": 101228
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-960-63d9d17fabf1.webp",
+                "url": "/assets/images/bungalow-haven-after-02-natural-960-b47ea5dd5f8b.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 141994
+                "bytes": 145504
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-1280-6cdd1faf1f80.webp",
+                "url": "/assets/images/bungalow-haven-after-02-natural-1280-432957bf56fa.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 221076
+                "bytes": 227260
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-1389-af1a345bb468.webp",
+                "url": "/assets/images/bungalow-haven-after-02-natural-1389-37b106215d17.webp",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 252760
+                "bytes": 259834
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-480-f89652f4b91d.jpg",
+                "url": "/assets/images/bungalow-haven-after-02-natural-480-de50becd2c5f.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 45998
+                "bytes": 52596
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-768-8aa8870bbe26.jpg",
+                "url": "/assets/images/bungalow-haven-after-02-natural-768-1be5e12a4002.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 107732
+                "bytes": 123309
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-960-fb1cde03c13e.jpg",
+                "url": "/assets/images/bungalow-haven-after-02-natural-960-536a52d62e44.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 159124
+                "bytes": 182511
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-1280-d1787ed61674.jpg",
+                "url": "/assets/images/bungalow-haven-after-02-natural-1280-d3779bf39b46.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 257746
+                "bytes": 297149
               },
               {
-                "url": "/assets/images/bungalow-haven-after-02-natural-1389-c862f8ef29f0.jpg",
+                "url": "/assets/images/bungalow-haven-after-02-natural-1389-7e64f01efb1d.jpg",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 311866
+                "bytes": 365492
               }
             ]
           }
@@ -1942,62 +1636,62 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/bungalow-haven-after-03-natural-480-e1b90a628342.avif",
+                "url": "/assets/images/bungalow-haven-after-03-natural-480-303d155f8388.avif",
                 "width": 480,
                 "height": 408,
-                "bytes": 23138
+                "bytes": 22260
               },
               {
-                "url": "/assets/images/bungalow-haven-after-03-natural-768-63703fd471aa.avif",
+                "url": "/assets/images/bungalow-haven-after-03-natural-768-4db20d518a02.avif",
                 "width": 768,
                 "height": 652,
-                "bytes": 50374
+                "bytes": 50217
               },
               {
-                "url": "/assets/images/bungalow-haven-after-03-natural-875-f3ecc48b1bf6.avif",
+                "url": "/assets/images/bungalow-haven-after-03-natural-875-0700e130b29f.avif",
                 "width": 875,
                 "height": 743,
-                "bytes": 65109
+                "bytes": 64489
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/bungalow-haven-after-03-natural-480-94b846efb904.webp",
+                "url": "/assets/images/bungalow-haven-after-03-natural-480-2dd1327b867b.webp",
                 "width": 480,
                 "height": 408,
-                "bytes": 44544
+                "bytes": 45424
               },
               {
-                "url": "/assets/images/bungalow-haven-after-03-natural-768-01ae507f5128.webp",
+                "url": "/assets/images/bungalow-haven-after-03-natural-768-c9aa317326b8.webp",
                 "width": 768,
                 "height": 652,
-                "bytes": 96098
+                "bytes": 98262
               },
               {
-                "url": "/assets/images/bungalow-haven-after-03-natural-875-6cc75df9919a.webp",
+                "url": "/assets/images/bungalow-haven-after-03-natural-875-0cf56d69e9b7.webp",
                 "width": 875,
                 "height": 743,
-                "bytes": 123012
+                "bytes": 125492
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/bungalow-haven-after-03-natural-480-70af88ab0810.jpg",
+                "url": "/assets/images/bungalow-haven-after-03-natural-480-06ba61249e7c.jpg",
                 "width": 480,
                 "height": 408,
-                "bytes": 47612
+                "bytes": 54627
               },
               {
-                "url": "/assets/images/bungalow-haven-after-03-natural-768-4e449b900714.jpg",
+                "url": "/assets/images/bungalow-haven-after-03-natural-768-9a401bc28f5d.jpg",
                 "width": 768,
                 "height": 652,
-                "bytes": 109544
+                "bytes": 127164
               },
               {
-                "url": "/assets/images/bungalow-haven-after-03-natural-875-99d4cea31070.jpg",
+                "url": "/assets/images/bungalow-haven-after-03-natural-875-9db457514b4a.jpg",
                 "width": 875,
                 "height": 743,
-                "bytes": 145810
+                "bytes": 170818
               }
             ]
           }
@@ -2021,26 +1715,26 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/bungalow-haven-after-04-natural-479-b93def87f752.avif",
+                "url": "/assets/images/bungalow-haven-after-04-natural-479-7bfbd0b74e34.avif",
                 "width": 479,
                 "height": 743,
-                "bytes": 50939
+                "bytes": 48863
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/bungalow-haven-after-04-natural-479-13236af2ca76.webp",
+                "url": "/assets/images/bungalow-haven-after-04-natural-479-ec522c718b59.webp",
                 "width": 479,
                 "height": 743,
-                "bytes": 95234
+                "bytes": 97646
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/bungalow-haven-after-04-natural-479-428ec6d5d07c.jpg",
+                "url": "/assets/images/bungalow-haven-after-04-natural-479-b44a38ba0597.jpg",
                 "width": 479,
                 "height": 743,
-                "bytes": 103764
+                "bytes": 117313
               }
             ]
           }
@@ -2064,152 +1758,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-480-d970da1d1b13.avif",
+                "url": "/assets/images/bungalow-haven-before-01-natural-480-3f13b96516ee.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 23042
+                "bytes": 21767
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-768-f36f8ec04497.avif",
+                "url": "/assets/images/bungalow-haven-before-01-natural-768-6312f6a1ecca.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 57961
+                "bytes": 54956
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-960-d3652e0eb0a1.avif",
+                "url": "/assets/images/bungalow-haven-before-01-natural-960-77a0198533c8.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 89360
+                "bytes": 84766
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-1280-d52dda3e5f40.avif",
+                "url": "/assets/images/bungalow-haven-before-01-natural-1280-74300ad2b3f2.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 161446
+                "bytes": 152942
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-1600-62d82d37ce6e.avif",
+                "url": "/assets/images/bungalow-haven-before-01-natural-1600-41bf9e77c28e.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 244633
-              },
-              {
-                "url": "/assets/images/bungalow-haven-before-01-natural-1920-fc9a036b3d5f.avif",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 335357
-              },
-              {
-                "url": "/assets/images/bungalow-haven-before-01-natural-2560-3eca1f3b206b.avif",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 531591
-              },
-              {
-                "url": "/assets/images/bungalow-haven-before-01-natural-3264-b0ef0050d2bd.avif",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 764611
+                "bytes": 234683
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-480-5d5cae372cf9.webp",
+                "url": "/assets/images/bungalow-haven-before-01-natural-480-055806e05c68.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 45120
+                "bytes": 46042
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-768-281dca996c54.webp",
+                "url": "/assets/images/bungalow-haven-before-01-natural-768-6bf7f626adc6.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 114374
+                "bytes": 116728
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-960-e0180af3e0c2.webp",
+                "url": "/assets/images/bungalow-haven-before-01-natural-960-e9937e2c0a5c.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 176318
+                "bytes": 179716
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-1280-357d5a55c42d.webp",
+                "url": "/assets/images/bungalow-haven-before-01-natural-1280-778bbaa4aaaf.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 315776
+                "bytes": 321472
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-1600-580c6dbeb33a.webp",
+                "url": "/assets/images/bungalow-haven-before-01-natural-1600-2c58d9f36792.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 479664
-              },
-              {
-                "url": "/assets/images/bungalow-haven-before-01-natural-1920-720e8f10fd7b.webp",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 654174
-              },
-              {
-                "url": "/assets/images/bungalow-haven-before-01-natural-2560-0c68ab78f4e2.webp",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1061456
-              },
-              {
-                "url": "/assets/images/bungalow-haven-before-01-natural-3264-c02b92bac61e.webp",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 1637338
+                "bytes": 489120
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-480-790a432636da.jpg",
+                "url": "/assets/images/bungalow-haven-before-01-natural-480-5fbe9e440c4d.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 43496
+                "bytes": 51284
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-768-c64fcff335bd.jpg",
+                "url": "/assets/images/bungalow-haven-before-01-natural-768-891efa74f1e8.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 110023
+                "bytes": 130382
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-960-a8615f0e61f6.jpg",
+                "url": "/assets/images/bungalow-haven-before-01-natural-960-da178c54b37e.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 170230
+                "bytes": 201660
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-1280-bb92bed5ed94.jpg",
+                "url": "/assets/images/bungalow-haven-before-01-natural-1280-8729dd758828.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 306169
+                "bytes": 363655
               },
               {
-                "url": "/assets/images/bungalow-haven-before-01-natural-1600-516cac74240f.jpg",
+                "url": "/assets/images/bungalow-haven-before-01-natural-1600-c2c630fee164.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 471188
-              },
-              {
-                "url": "/assets/images/bungalow-haven-before-01-natural-1920-e518849c739d.jpg",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 661091
-              },
-              {
-                "url": "/assets/images/bungalow-haven-before-01-natural-2560-77225c76c7ed.jpg",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1089224
-              },
-              {
-                "url": "/assets/images/bungalow-haven-before-01-natural-3264-e36ccf581f1a.jpg",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 1606663
+                "bytes": 557264
               }
             ]
           }
@@ -2233,116 +1873,116 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/family-living-after-01-natural-480-fcedf0a221ab.avif",
+                "url": "/assets/images/family-living-after-01-natural-480-607f43b017f7.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 17857
+                "bytes": 17945
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-768-0fb2f6ba432b.avif",
+                "url": "/assets/images/family-living-after-01-natural-768-aa1ce9c8df37.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 39390
+                "bytes": 40153
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-960-a3d1a29c0952.avif",
+                "url": "/assets/images/family-living-after-01-natural-960-734fa8d333b1.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 56036
+                "bytes": 58054
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-1280-97882465985d.avif",
+                "url": "/assets/images/family-living-after-01-natural-1280-4ee391627daf.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 87370
+                "bytes": 92732
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-1600-e4e47e97b4f8.avif",
+                "url": "/assets/images/family-living-after-01-natural-1600-fec5d5df4aaa.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 122228
+                "bytes": 131355
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-1667-41a601cc967b.avif",
+                "url": "/assets/images/family-living-after-01-natural-1667-daf97799c4d0.avif",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 136237
+                "bytes": 144091
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/family-living-after-01-natural-480-e57dea61eb58.webp",
+                "url": "/assets/images/family-living-after-01-natural-480-fcb4a2faded1.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 33590
+                "bytes": 34550
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-768-fc0a0febc65c.webp",
+                "url": "/assets/images/family-living-after-01-natural-768-af176559792e.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 72664
+                "bytes": 74866
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-960-4dd9952e1649.webp",
+                "url": "/assets/images/family-living-after-01-natural-960-5e7c9e189f82.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 104094
+                "bytes": 107150
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-1280-2b88636ef35d.webp",
+                "url": "/assets/images/family-living-after-01-natural-1280-0f616539df4b.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 160214
+                "bytes": 165840
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-1600-ba81be0b38b1.webp",
+                "url": "/assets/images/family-living-after-01-natural-1600-546bbddea534.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 218258
+                "bytes": 226662
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-1667-bc9ec123ad69.webp",
+                "url": "/assets/images/family-living-after-01-natural-1667-836b1ed0bf7e.webp",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 238038
+                "bytes": 247052
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/family-living-after-01-natural-480-cc45f9f062ad.jpg",
+                "url": "/assets/images/family-living-after-01-natural-480-ef9568ddb73d.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 37165
+                "bytes": 42369
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-768-745179fd0ffe.jpg",
+                "url": "/assets/images/family-living-after-01-natural-768-13271c3132fa.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 84999
+                "bytes": 97186
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-960-fe81b3244c69.jpg",
+                "url": "/assets/images/family-living-after-01-natural-960-b1ee9295a027.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 124774
+                "bytes": 142747
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-1280-ac611465dc6e.jpg",
+                "url": "/assets/images/family-living-after-01-natural-1280-a4cd1434a440.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 201313
+                "bytes": 231645
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-1600-1529d08b55d7.jpg",
+                "url": "/assets/images/family-living-after-01-natural-1600-e5057aa5599b.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 287736
+                "bytes": 333391
               },
               {
-                "url": "/assets/images/family-living-after-01-natural-1667-9a187f0fc330.jpg",
+                "url": "/assets/images/family-living-after-01-natural-1667-7434905fec44.jpg",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 326185
+                "bytes": 381540
               }
             ]
           }
@@ -2366,80 +2006,80 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/family-living-after-02-natural-480-f920b481f330.avif",
+                "url": "/assets/images/family-living-after-02-natural-480-29e53d874d96.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 26726
+                "bytes": 25046
               },
               {
-                "url": "/assets/images/family-living-after-02-natural-768-070f17799d24.avif",
+                "url": "/assets/images/family-living-after-02-natural-768-99eaa562ad36.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 65661
+                "bytes": 62378
               },
               {
-                "url": "/assets/images/family-living-after-02-natural-960-1f7dca2076a1.avif",
+                "url": "/assets/images/family-living-after-02-natural-960-2cc8ae70d272.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 98344
+                "bytes": 95610
               },
               {
-                "url": "/assets/images/family-living-after-02-natural-1000-8c3aabbc6169.avif",
+                "url": "/assets/images/family-living-after-02-natural-1000-121c6c13e04f.avif",
                 "width": 1000,
                 "height": 750,
-                "bytes": 113450
+                "bytes": 107858
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/family-living-after-02-natural-480-889dc3b11e8a.webp",
+                "url": "/assets/images/family-living-after-02-natural-480-7a6c769c0f3a.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 49996
+                "bytes": 50910
               },
               {
-                "url": "/assets/images/family-living-after-02-natural-768-4fe9b572f000.webp",
+                "url": "/assets/images/family-living-after-02-natural-768-9066109cc250.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 125944
+                "bytes": 127982
               },
               {
-                "url": "/assets/images/family-living-after-02-natural-960-9fe14dfe16ad.webp",
+                "url": "/assets/images/family-living-after-02-natural-960-a578cbaee3ee.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 189632
+                "bytes": 192652
               },
               {
-                "url": "/assets/images/family-living-after-02-natural-1000-143f90f90b95.webp",
+                "url": "/assets/images/family-living-after-02-natural-1000-f62f99f9ef8a.webp",
                 "width": 1000,
                 "height": 750,
-                "bytes": 214132
+                "bytes": 217348
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/family-living-after-02-natural-480-5c9679ca096b.jpg",
+                "url": "/assets/images/family-living-after-02-natural-480-87c9cda5dfad.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 48985
+                "bytes": 56216
               },
               {
-                "url": "/assets/images/family-living-after-02-natural-768-79a8500e5ad8.jpg",
+                "url": "/assets/images/family-living-after-02-natural-768-dc6f1bf907cb.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 123549
+                "bytes": 141999
               },
               {
-                "url": "/assets/images/family-living-after-02-natural-960-19ff392f50c2.jpg",
+                "url": "/assets/images/family-living-after-02-natural-960-dbb8d41badd0.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 188283
+                "bytes": 217102
               },
               {
-                "url": "/assets/images/family-living-after-02-natural-1000-a7f80221dd11.jpg",
+                "url": "/assets/images/family-living-after-02-natural-1000-3a372a33944b.jpg",
                 "width": 1000,
                 "height": 750,
-                "bytes": 213745
+                "bytes": 253118
               }
             ]
           }
@@ -2463,80 +2103,80 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/family-living-after-03-natural-480-215618284335.avif",
+                "url": "/assets/images/family-living-after-03-natural-480-73cc8f6cb344.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 28275
+                "bytes": 25963
               },
               {
-                "url": "/assets/images/family-living-after-03-natural-768-41227a7c58c7.avif",
+                "url": "/assets/images/family-living-after-03-natural-768-c7bd1a590180.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 64810
+                "bytes": 61663
               },
               {
-                "url": "/assets/images/family-living-after-03-natural-960-80a28f307078.avif",
+                "url": "/assets/images/family-living-after-03-natural-960-0c47adacfda5.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 94511
+                "bytes": 91705
               },
               {
-                "url": "/assets/images/family-living-after-03-natural-1000-03d610c16be2.avif",
+                "url": "/assets/images/family-living-after-03-natural-1000-a9640c700e3b.avif",
                 "width": 1000,
                 "height": 750,
-                "bytes": 106909
+                "bytes": 101944
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/family-living-after-03-natural-480-429a87eab0ad.webp",
+                "url": "/assets/images/family-living-after-03-natural-480-62f25573e8e4.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 54468
+                "bytes": 55284
               },
               {
-                "url": "/assets/images/family-living-after-03-natural-768-9171f841f014.webp",
+                "url": "/assets/images/family-living-after-03-natural-768-134cff10fd58.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 126058
+                "bytes": 128136
               },
               {
-                "url": "/assets/images/family-living-after-03-natural-960-c80876509c83.webp",
+                "url": "/assets/images/family-living-after-03-natural-960-6e28f9b088cd.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 185890
+                "bytes": 189292
               },
               {
-                "url": "/assets/images/family-living-after-03-natural-1000-033c304d1898.webp",
+                "url": "/assets/images/family-living-after-03-natural-1000-df5e3bb83c72.webp",
                 "width": 1000,
                 "height": 750,
-                "bytes": 207022
+                "bytes": 210470
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/family-living-after-03-natural-480-91c18b61ec4c.jpg",
+                "url": "/assets/images/family-living-after-03-natural-480-0fc389a5b7d0.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 52039
+                "bytes": 59168
               },
               {
-                "url": "/assets/images/family-living-after-03-natural-768-ba901424eece.jpg",
+                "url": "/assets/images/family-living-after-03-natural-768-408d8e80ce8c.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 126070
+                "bytes": 143749
               },
               {
-                "url": "/assets/images/family-living-after-03-natural-960-2425f06d8f0b.jpg",
+                "url": "/assets/images/family-living-after-03-natural-960-cee68aa89b42.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 188234
+                "bytes": 214825
               },
               {
-                "url": "/assets/images/family-living-after-03-natural-1000-f79e1a374cbc.jpg",
+                "url": "/assets/images/family-living-after-03-natural-1000-4b7e7e547940.jpg",
                 "width": 1000,
                 "height": 750,
-                "bytes": 212316
+                "bytes": 247545
               }
             ]
           }
@@ -2560,44 +2200,44 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/family-living-after-04-natural-480-1ad38309116f.avif",
+                "url": "/assets/images/family-living-after-04-natural-480-37135d8db866.avif",
                 "width": 480,
                 "height": 720,
-                "bytes": 37440
+                "bytes": 37752
               },
               {
-                "url": "/assets/images/family-living-after-04-natural-500-a21d823aa9e3.avif",
+                "url": "/assets/images/family-living-after-04-natural-500-017a1f1ad5e0.avif",
                 "width": 500,
                 "height": 750,
-                "bytes": 42960
+                "bytes": 42806
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/family-living-after-04-natural-480-0c4ba3f23848.webp",
+                "url": "/assets/images/family-living-after-04-natural-480-254dd6cc4b25.webp",
                 "width": 480,
                 "height": 720,
-                "bytes": 74388
+                "bytes": 76150
               },
               {
-                "url": "/assets/images/family-living-after-04-natural-500-50d6f61f11b7.webp",
+                "url": "/assets/images/family-living-after-04-natural-500-fd818d79321b.webp",
                 "width": 500,
                 "height": 750,
-                "bytes": 84004
+                "bytes": 85808
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/family-living-after-04-natural-480-0fd02bb81ae5.jpg",
+                "url": "/assets/images/family-living-after-04-natural-480-534a81402ae1.jpg",
                 "width": 480,
                 "height": 720,
-                "bytes": 78748
+                "bytes": 92778
               },
               {
-                "url": "/assets/images/family-living-after-04-natural-500-cd60817c719a.jpg",
+                "url": "/assets/images/family-living-after-04-natural-500-0504bbbd0cb2.jpg",
                 "width": 500,
                 "height": 750,
-                "bytes": 90704
+                "bytes": 107917
               }
             ]
           }
@@ -2621,44 +2261,44 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/family-living-after-05-natural-480-064d4cd833e4.avif",
+                "url": "/assets/images/family-living-after-05-natural-480-7034837b19a9.avif",
                 "width": 480,
                 "height": 720,
-                "bytes": 43569
+                "bytes": 43608
               },
               {
-                "url": "/assets/images/family-living-after-05-natural-500-93a28e25c8ba.avif",
+                "url": "/assets/images/family-living-after-05-natural-500-8144a9bc9d92.avif",
                 "width": 500,
                 "height": 750,
-                "bytes": 48687
+                "bytes": 47976
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/family-living-after-05-natural-480-12929d33084c.webp",
+                "url": "/assets/images/family-living-after-05-natural-480-b4a57fd55532.webp",
                 "width": 480,
                 "height": 720,
-                "bytes": 84240
+                "bytes": 86674
               },
               {
-                "url": "/assets/images/family-living-after-05-natural-500-8ff384566027.webp",
+                "url": "/assets/images/family-living-after-05-natural-500-5e8a5e438681.webp",
                 "width": 500,
                 "height": 750,
-                "bytes": 91976
+                "bytes": 94510
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/family-living-after-05-natural-480-8956afb8592e.jpg",
+                "url": "/assets/images/family-living-after-05-natural-480-cf5f1e8764d3.jpg",
                 "width": 480,
                 "height": 720,
-                "bytes": 90644
+                "bytes": 101104
               },
               {
-                "url": "/assets/images/family-living-after-05-natural-500-cc75c3b8d754.jpg",
+                "url": "/assets/images/family-living-after-05-natural-500-91b7b763ebef.jpg",
                 "width": 500,
                 "height": 750,
-                "bytes": 102072
+                "bytes": 116689
               }
             ]
           }
@@ -2682,152 +2322,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/family-living-before-01-natural-480-13b3e0847b52.avif",
+                "url": "/assets/images/family-living-before-01-natural-480-7c3df78fe1a3.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 20608
+                "bytes": 19705
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-768-79a36bbad6cc.avif",
+                "url": "/assets/images/family-living-before-01-natural-768-3b27e8053452.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 50525
+                "bytes": 47788
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-960-d6bb0f98e70b.avif",
+                "url": "/assets/images/family-living-before-01-natural-960-825111c884d6.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 75054
+                "bytes": 72578
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-1280-9b217c3975a5.avif",
+                "url": "/assets/images/family-living-before-01-natural-1280-15586779e764.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 131037
+                "bytes": 126273
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-1600-f43df929828e.avif",
+                "url": "/assets/images/family-living-before-01-natural-1600-ceda4fa1327d.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 193650
-              },
-              {
-                "url": "/assets/images/family-living-before-01-natural-1920-2f10cbe1f03d.avif",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 264179
-              },
-              {
-                "url": "/assets/images/family-living-before-01-natural-2560-fbec537ba5d9.avif",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 417192
-              },
-              {
-                "url": "/assets/images/family-living-before-01-natural-3264-2feda17e368e.avif",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 606949
+                "bytes": 190023
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/family-living-before-01-natural-480-912984f40758.webp",
+                "url": "/assets/images/family-living-before-01-natural-480-1a392edc2786.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 38256
+                "bytes": 39252
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-768-04874d8fd94b.webp",
+                "url": "/assets/images/family-living-before-01-natural-768-6f2a643c0b1f.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 92222
+                "bytes": 94592
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-960-ef70d146ac8c.webp",
+                "url": "/assets/images/family-living-before-01-natural-960-6691a4c2dc7b.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 136944
+                "bytes": 140704
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-1280-0ca379c5f131.webp",
+                "url": "/assets/images/family-living-before-01-natural-1280-dc8ce5e419b2.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 238574
+                "bytes": 244652
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-1600-8ae9edbe2fc6.webp",
+                "url": "/assets/images/family-living-before-01-natural-1600-2bd4800acd38.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 346530
-              },
-              {
-                "url": "/assets/images/family-living-before-01-natural-1920-c98175f5fdf4.webp",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 474654
-              },
-              {
-                "url": "/assets/images/family-living-before-01-natural-2560-b0b4bf448308.webp",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 747986
-              },
-              {
-                "url": "/assets/images/family-living-before-01-natural-3264-1bc3725c9a02.webp",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 1131748
+                "bytes": 356358
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/family-living-before-01-natural-480-d691b7869e7e.jpg",
+                "url": "/assets/images/family-living-before-01-natural-480-a9116064e935.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 38583
+                "bytes": 45332
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-768-0c305a9e79fb.jpg",
+                "url": "/assets/images/family-living-before-01-natural-768-d051784af57d.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 94595
+                "bytes": 112076
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-960-06b115909782.jpg",
+                "url": "/assets/images/family-living-before-01-natural-960-6783e5be3ac5.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 143710
+                "bytes": 170669
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-1280-c99230bf3717.jpg",
+                "url": "/assets/images/family-living-before-01-natural-1280-f701ee788a03.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 251259
+                "bytes": 300705
               },
               {
-                "url": "/assets/images/family-living-before-01-natural-1600-c32a522c3962.jpg",
+                "url": "/assets/images/family-living-before-01-natural-1600-a8e5dfd079e1.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 378605
-              },
-              {
-                "url": "/assets/images/family-living-before-01-natural-1920-9e4d5579dc80.jpg",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 525091
-              },
-              {
-                "url": "/assets/images/family-living-before-01-natural-2560-65b45748d7d6.jpg",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 859996
-              },
-              {
-                "url": "/assets/images/family-living-before-01-natural-3264-f0e0a4801a50.jpg",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 1259769
+                "bytes": 453761
               }
             ]
           }
@@ -2851,152 +2437,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/family-living-before-02-natural-480-15275a52b884.avif",
+                "url": "/assets/images/family-living-before-02-natural-480-e9af375e0672.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 24636
+                "bytes": 23505
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-768-c47dba826783.avif",
+                "url": "/assets/images/family-living-before-02-natural-768-66c8d8f5bb83.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 61661
+                "bytes": 58719
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-960-ca008526a268.avif",
+                "url": "/assets/images/family-living-before-02-natural-960-0a0c4c7f58d8.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 94848
+                "bytes": 90244
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-1280-5e3e56628dd6.avif",
+                "url": "/assets/images/family-living-before-02-natural-1280-530ce028aeb2.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 168020
+                "bytes": 159736
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-1600-87b5c206beaf.avif",
+                "url": "/assets/images/family-living-before-02-natural-1600-80f8183b5b7a.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 249847
-              },
-              {
-                "url": "/assets/images/family-living-before-02-natural-1920-aea65e173c80.avif",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 338252
-              },
-              {
-                "url": "/assets/images/family-living-before-02-natural-2560-8075b188e0ed.avif",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 524306
-              },
-              {
-                "url": "/assets/images/family-living-before-02-natural-3264-4116666a1f1f.avif",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 745748
+                "bytes": 240754
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/family-living-before-02-natural-480-512c284ff86b.webp",
+                "url": "/assets/images/family-living-before-02-natural-480-f260fa20bf44.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 48548
+                "bytes": 49472
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-768-266a62aa6d92.webp",
+                "url": "/assets/images/family-living-before-02-natural-768-5724ee7e8510.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 120420
+                "bytes": 122580
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-960-d381e4efbeca.webp",
+                "url": "/assets/images/family-living-before-02-natural-960-a87a6a7c6aee.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 183650
+                "bytes": 187180
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-1280-a8257f21419a.webp",
+                "url": "/assets/images/family-living-before-02-natural-1280-c6a5edd06c83.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 322126
+                "bytes": 328182
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-1600-15829fc30994.webp",
+                "url": "/assets/images/family-living-before-02-natural-1600-d0f2d274c92d.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 478048
-              },
-              {
-                "url": "/assets/images/family-living-before-02-natural-1920-3f5854453a79.webp",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 649582
-              },
-              {
-                "url": "/assets/images/family-living-before-02-natural-2560-ff5ba9fffd5b.webp",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1036588
-              },
-              {
-                "url": "/assets/images/family-living-before-02-natural-3264-d2dbfbb510ad.webp",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 1557614
+                "bytes": 488364
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/family-living-before-02-natural-480-d41fb6747695.jpg",
+                "url": "/assets/images/family-living-before-02-natural-480-663cf3a5c359.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 46288
+                "bytes": 53390
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-768-1ae5cddedd01.jpg",
+                "url": "/assets/images/family-living-before-02-natural-768-5d79473dc9d5.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 116671
+                "bytes": 135567
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-960-72a6bc14b3c2.jpg",
+                "url": "/assets/images/family-living-before-02-natural-960-343e0f66885b.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 178728
+                "bytes": 208254
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-1280-c2b7be2997f5.jpg",
+                "url": "/assets/images/family-living-before-02-natural-1280-795e97ca9340.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 316934
+                "bytes": 370839
               },
               {
-                "url": "/assets/images/family-living-before-02-natural-1600-b08551533a34.jpg",
+                "url": "/assets/images/family-living-before-02-natural-1600-909b2b1f9ce5.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 480711
-              },
-              {
-                "url": "/assets/images/family-living-before-02-natural-1920-91fa370c28b0.jpg",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 665953
-              },
-              {
-                "url": "/assets/images/family-living-before-02-natural-2560-836a7bb00e59.jpg",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1082416
-              },
-              {
-                "url": "/assets/images/family-living-before-02-natural-3264-73deff60e8e0.jpg",
-                "width": 3264,
-                "height": 2448,
-                "bytes": 1583558
+                "bytes": 560603
               }
             ]
           }
@@ -3020,116 +2552,116 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-480-9b444ad08dea.avif",
+                "url": "/assets/images/hillside-textures-after-01-natural-480-83e8012eda0b.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 26524
+                "bytes": 26094
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-768-7cc9dd18549a.avif",
+                "url": "/assets/images/hillside-textures-after-01-natural-768-e606e75176de.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 56145
+                "bytes": 56568
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-960-12a8a00b5b02.avif",
+                "url": "/assets/images/hillside-textures-after-01-natural-960-1d6a5d6e0242.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 78952
+                "bytes": 80546
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-1280-2c3c639d8d41.avif",
+                "url": "/assets/images/hillside-textures-after-01-natural-1280-fba2e6d30da1.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 119149
+                "bytes": 124518
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-1600-5d40ea3884da.avif",
+                "url": "/assets/images/hillside-textures-after-01-natural-1600-73f13f3e59bc.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 162432
+                "bytes": 173008
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-1667-283c330a57a6.avif",
+                "url": "/assets/images/hillside-textures-after-01-natural-1667-bb7cc7f1c8a0.avif",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 180215
+                "bytes": 187760
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-480-c3c2e2bdae8a.webp",
+                "url": "/assets/images/hillside-textures-after-01-natural-480-2431b371bf52.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 54780
+                "bytes": 56076
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-768-58507d057406.webp",
+                "url": "/assets/images/hillside-textures-after-01-natural-768-659e8d63f658.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 115940
+                "bytes": 119602
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-960-91390bd8ed76.webp",
+                "url": "/assets/images/hillside-textures-after-01-natural-960-f51bcdc77c2c.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 160354
+                "bytes": 165764
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-1280-0116ca6c62f9.webp",
+                "url": "/assets/images/hillside-textures-after-01-natural-1280-96c631f4f88e.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 237566
+                "bytes": 247364
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-1600-cbe05e8ed2c1.webp",
+                "url": "/assets/images/hillside-textures-after-01-natural-1600-1cf7cd8395e6.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 316082
+                "bytes": 329512
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-1667-13f99f8c15d7.webp",
+                "url": "/assets/images/hillside-textures-after-01-natural-1667-6fde42d8efe3.webp",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 337812
+                "bytes": 351194
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-480-a072f0d25a3b.jpg",
+                "url": "/assets/images/hillside-textures-after-01-natural-480-09a63109ce27.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 53116
+                "bytes": 58699
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-768-cd7fdcb73c35.jpg",
+                "url": "/assets/images/hillside-textures-after-01-natural-768-f701a2829714.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 118514
+                "bytes": 131285
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-960-f1b0480aafea.jpg",
+                "url": "/assets/images/hillside-textures-after-01-natural-960-be3648528c95.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 170232
+                "bytes": 189076
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-1280-40e2f1097be0.jpg",
+                "url": "/assets/images/hillside-textures-after-01-natural-1280-13b1c9718b05.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 267586
+                "bytes": 299906
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-1600-6c2f07c6f982.jpg",
+                "url": "/assets/images/hillside-textures-after-01-natural-1600-7f4da38381e0.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 375024
+                "bytes": 423841
               },
               {
-                "url": "/assets/images/hillside-textures-after-01-natural-1667-57182539a555.jpg",
+                "url": "/assets/images/hillside-textures-after-01-natural-1667-4e4b0241933a.jpg",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 416278
+                "bytes": 479147
               }
             ]
           }
@@ -3153,116 +2685,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-480-0999c13e831e.avif",
+                "url": "/assets/images/hillside-textures-after-02-natural-480-47c3a3c29c64.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 27206
+                "bytes": 26029
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-768-3a530ae7c613.avif",
+                "url": "/assets/images/hillside-textures-after-02-natural-768-8785bcbe9c66.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 66903
+                "bytes": 63996
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-960-aa60a6a423c6.avif",
+                "url": "/assets/images/hillside-textures-after-02-natural-960-01808abaf4cf.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 99414
+                "bytes": 95739
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-1280-0a36832127fd.avif",
+                "url": "/assets/images/hillside-textures-after-02-natural-1280-ad871d3ae56b.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 159915
+                "bytes": 158012
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-1600-7c36bd730068.avif",
+                "url": "/assets/images/hillside-textures-after-02-natural-1600-40ec235366d1.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 224514
-              },
-              {
-                "url": "/assets/images/hillside-textures-after-02-natural-1667-46b155c37c06.avif",
-                "width": 1667,
-                "height": 1250,
-                "bytes": 249725
+                "bytes": 228048
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-480-1e46aeb7ddb3.webp",
+                "url": "/assets/images/hillside-textures-after-02-natural-480-793bbaa4817d.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 54196
+                "bytes": 54890
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-768-b991c4c6c4fb.webp",
+                "url": "/assets/images/hillside-textures-after-02-natural-768-9cbd7c579db9.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 132658
+                "bytes": 134392
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-960-5d981269eff7.webp",
+                "url": "/assets/images/hillside-textures-after-02-natural-960-142d7fd27ea1.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 198484
+                "bytes": 201636
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-1280-1bd431814f48.webp",
+                "url": "/assets/images/hillside-textures-after-02-natural-1280-cf56279805e3.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 322578
+                "bytes": 328792
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-1600-4b51bd52c11c.webp",
+                "url": "/assets/images/hillside-textures-after-02-natural-1600-a06de09a111c.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 445508
-              },
-              {
-                "url": "/assets/images/hillside-textures-after-02-natural-1667-c0d6d2ac5966.webp",
-                "width": 1667,
-                "height": 1250,
-                "bytes": 488928
+                "bytes": 456986
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-480-770c6dde0403.jpg",
+                "url": "/assets/images/hillside-textures-after-02-natural-480-37fe86931f41.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 50920
+                "bytes": 57795
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-768-c430182c7197.jpg",
+                "url": "/assets/images/hillside-textures-after-02-natural-768-13485e842069.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 127265
+                "bytes": 144692
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-960-072847920663.jpg",
+                "url": "/assets/images/hillside-textures-after-02-natural-960-b7b4bc749214.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 193218
+                "bytes": 219025
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-1280-27d9eb0b8ab6.jpg",
+                "url": "/assets/images/hillside-textures-after-02-natural-1280-f5693f258224.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 324365
+                "bytes": 366419
               },
               {
-                "url": "/assets/images/hillside-textures-after-02-natural-1600-13ea1db03e38.jpg",
+                "url": "/assets/images/hillside-textures-after-02-natural-1600-90e3f9d37a30.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 473775
-              },
-              {
-                "url": "/assets/images/hillside-textures-after-02-natural-1667-ee25268cec1a.jpg",
-                "width": 1667,
-                "height": 1250,
-                "bytes": 537207
+                "bytes": 534392
               }
             ]
           }
@@ -3286,116 +2800,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-480-70009cc19028.avif",
+                "url": "/assets/images/hillside-textures-after-03-natural-480-d83d40e86d92.avif",
                 "width": 480,
                 "height": 300,
-                "bytes": 21686
+                "bytes": 20637
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-768-410b87dc3747.avif",
+                "url": "/assets/images/hillside-textures-after-03-natural-768-086b8446a49e.avif",
                 "width": 768,
                 "height": 480,
-                "bytes": 48797
+                "bytes": 47450
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-960-1f65979a7b62.avif",
+                "url": "/assets/images/hillside-textures-after-03-natural-960-e248b51e4344.avif",
                 "width": 960,
                 "height": 600,
-                "bytes": 69737
+                "bytes": 67906
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-1280-b1126145a0ac.avif",
+                "url": "/assets/images/hillside-textures-after-03-natural-1280-9a95ead65a47.avif",
                 "width": 1280,
                 "height": 800,
-                "bytes": 105703
+                "bytes": 106582
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-1600-bf9483a2e233.avif",
+                "url": "/assets/images/hillside-textures-after-03-natural-1600-94a8bf76c990.avif",
                 "width": 1600,
                 "height": 1000,
-                "bytes": 144531
-              },
-              {
-                "url": "/assets/images/hillside-textures-after-03-natural-1920-28909ac3a06e.avif",
-                "width": 1920,
-                "height": 1200,
-                "bytes": 195543
+                "bytes": 149516
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-480-d5dbac4f3808.webp",
+                "url": "/assets/images/hillside-textures-after-03-natural-480-fa766415d2d9.webp",
                 "width": 480,
                 "height": 300,
-                "bytes": 41362
+                "bytes": 42478
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-768-bd84c5a11955.webp",
+                "url": "/assets/images/hillside-textures-after-03-natural-768-d194a238de72.webp",
                 "width": 768,
                 "height": 480,
-                "bytes": 90874
+                "bytes": 93612
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-960-af1b00fed4aa.webp",
+                "url": "/assets/images/hillside-textures-after-03-natural-960-acf734865dc5.webp",
                 "width": 960,
                 "height": 600,
-                "bytes": 131932
+                "bytes": 136394
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-1280-97b2a4af79f6.webp",
+                "url": "/assets/images/hillside-textures-after-03-natural-1280-d82322996cfd.webp",
                 "width": 1280,
                 "height": 800,
-                "bytes": 192992
+                "bytes": 200198
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-1600-70ed17839d1d.webp",
+                "url": "/assets/images/hillside-textures-after-03-natural-1600-de37156468a0.webp",
                 "width": 1600,
                 "height": 1000,
-                "bytes": 258334
-              },
-              {
-                "url": "/assets/images/hillside-textures-after-03-natural-1920-d7aa25604a40.webp",
-                "width": 1920,
-                "height": 1200,
-                "bytes": 332096
+                "bytes": 268632
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-480-70e88f87ca6c.jpg",
+                "url": "/assets/images/hillside-textures-after-03-natural-480-a78277353235.jpg",
                 "width": 480,
                 "height": 300,
-                "bytes": 41022
+                "bytes": 45789
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-768-e49a17e6e225.jpg",
+                "url": "/assets/images/hillside-textures-after-03-natural-768-f416902700af.jpg",
                 "width": 768,
                 "height": 480,
-                "bytes": 94802
+                "bytes": 105405
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-960-92b11492f46c.jpg",
+                "url": "/assets/images/hillside-textures-after-03-natural-960-ec39aeacc033.jpg",
                 "width": 960,
                 "height": 600,
-                "bytes": 138948
+                "bytes": 154315
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-1280-a0f40f21f3d2.jpg",
+                "url": "/assets/images/hillside-textures-after-03-natural-1280-10c185d9da39.jpg",
                 "width": 1280,
                 "height": 800,
-                "bytes": 221633
+                "bytes": 246935
               },
               {
-                "url": "/assets/images/hillside-textures-after-03-natural-1600-a095769d3261.jpg",
+                "url": "/assets/images/hillside-textures-after-03-natural-1600-3fe37c20ba3d.jpg",
                 "width": 1600,
                 "height": 1000,
-                "bytes": 313145
-              },
-              {
-                "url": "/assets/images/hillside-textures-after-03-natural-1920-ec73ad4f31df.jpg",
-                "width": 1920,
-                "height": 1200,
-                "bytes": 430759
+                "bytes": 353296
               }
             ]
           }
@@ -3419,44 +2915,44 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/hillside-textures-after-04-natural-480-cbdbb5dda828.avif",
+                "url": "/assets/images/hillside-textures-after-04-natural-480-aa32459bea8a.avif",
                 "width": 480,
                 "height": 312,
-                "bytes": 19486
+                "bytes": 19292
               },
               {
-                "url": "/assets/images/hillside-textures-after-04-natural-694-b4b4dbd1b500.avif",
+                "url": "/assets/images/hillside-textures-after-04-natural-694-6593fcdee347.avif",
                 "width": 694,
                 "height": 451,
-                "bytes": 37311
+                "bytes": 37421
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/hillside-textures-after-04-natural-480-b1be0d9f3873.webp",
+                "url": "/assets/images/hillside-textures-after-04-natural-480-d20a928707a1.webp",
                 "width": 480,
                 "height": 312,
-                "bytes": 36736
+                "bytes": 37438
               },
               {
-                "url": "/assets/images/hillside-textures-after-04-natural-694-ba3fe33b97a1.webp",
+                "url": "/assets/images/hillside-textures-after-04-natural-694-a07a657f46ad.webp",
                 "width": 694,
                 "height": 451,
-                "bytes": 72134
+                "bytes": 73466
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/hillside-textures-after-04-natural-480-773b632bf9c3.jpg",
+                "url": "/assets/images/hillside-textures-after-04-natural-480-3af2e92b8dd7.jpg",
                 "width": 480,
                 "height": 312,
-                "bytes": 37577
+                "bytes": 43573
               },
               {
-                "url": "/assets/images/hillside-textures-after-04-natural-694-c6b9de2b9536.jpg",
+                "url": "/assets/images/hillside-textures-after-04-natural-694-954faf1051a1.jpg",
                 "width": 694,
                 "height": 451,
-                "bytes": 77246
+                "bytes": 90491
               }
             ]
           }
@@ -3480,44 +2976,44 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/hillside-textures-after-05-natural-480-d0b0a6e433bb.avif",
+                "url": "/assets/images/hillside-textures-after-05-natural-480-f655b5d9af9e.avif",
                 "width": 480,
                 "height": 312,
-                "bytes": 24519
+                "bytes": 23649
               },
               {
-                "url": "/assets/images/hillside-textures-after-05-natural-694-5f78885def7c.avif",
+                "url": "/assets/images/hillside-textures-after-05-natural-694-193c4547a617.avif",
                 "width": 694,
                 "height": 451,
-                "bytes": 47432
+                "bytes": 46848
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/hillside-textures-after-05-natural-480-3477fb271e9f.webp",
+                "url": "/assets/images/hillside-textures-after-05-natural-480-7901edafd6ac.webp",
                 "width": 480,
                 "height": 312,
-                "bytes": 48398
+                "bytes": 48800
               },
               {
-                "url": "/assets/images/hillside-textures-after-05-natural-694-b2672d0663a0.webp",
+                "url": "/assets/images/hillside-textures-after-05-natural-694-8956a562c8c2.webp",
                 "width": 694,
                 "height": 451,
-                "bytes": 92570
+                "bytes": 93744
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/hillside-textures-after-05-natural-480-2cae873c90ad.jpg",
+                "url": "/assets/images/hillside-textures-after-05-natural-480-b433052102d4.jpg",
                 "width": 480,
                 "height": 312,
-                "bytes": 45366
+                "bytes": 52556
               },
               {
-                "url": "/assets/images/hillside-textures-after-05-natural-694-5324e553496b.jpg",
+                "url": "/assets/images/hillside-textures-after-05-natural-694-f9a0517ad37d.jpg",
                 "width": 694,
                 "height": 451,
-                "bytes": 93720
+                "bytes": 108047
               }
             ]
           }
@@ -3541,44 +3037,44 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/hillside-textures-after-06-natural-480-807be96c6d59.avif",
+                "url": "/assets/images/hillside-textures-after-06-natural-480-6e556f095fe4.avif",
                 "width": 480,
                 "height": 480,
-                "bytes": 32945
+                "bytes": 31961
               },
               {
-                "url": "/assets/images/hillside-textures-after-06-natural-694-07bb1236b587.avif",
+                "url": "/assets/images/hillside-textures-after-06-natural-694-48f41b388944.avif",
                 "width": 694,
                 "height": 694,
-                "bytes": 67260
+                "bytes": 65177
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/hillside-textures-after-06-natural-480-781981f08631.webp",
+                "url": "/assets/images/hillside-textures-after-06-natural-480-b6c334d437e8.webp",
                 "width": 480,
                 "height": 480,
-                "bytes": 64796
+                "bytes": 66006
               },
               {
-                "url": "/assets/images/hillside-textures-after-06-natural-694-73a014cc57ce.webp",
+                "url": "/assets/images/hillside-textures-after-06-natural-694-eac3cc2e9782.webp",
                 "width": 694,
                 "height": 694,
-                "bytes": 128318
+                "bytes": 131052
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/hillside-textures-after-06-natural-480-037cc87d4f93.jpg",
+                "url": "/assets/images/hillside-textures-after-06-natural-480-60ee1e2efc73.jpg",
                 "width": 480,
                 "height": 480,
-                "bytes": 62766
+                "bytes": 71905
               },
               {
-                "url": "/assets/images/hillside-textures-after-06-natural-694-a8e36bf59223.jpg",
+                "url": "/assets/images/hillside-textures-after-06-natural-694-b25fbbc6d867.jpg",
                 "width": 694,
                 "height": 694,
-                "bytes": 131699
+                "bytes": 153808
               }
             ]
           }
@@ -3602,152 +3098,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-480-d208edc8990c.avif",
+                "url": "/assets/images/hillside-textures-before-01-natural-480-1904fba2b193.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 24284
+                "bytes": 24244
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-768-4c1a52f4bd56.avif",
+                "url": "/assets/images/hillside-textures-before-01-natural-768-c4cbc619bdfc.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 62387
+                "bytes": 61559
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-960-d326babacc38.avif",
+                "url": "/assets/images/hillside-textures-before-01-natural-960-19cc3a233a6f.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 104417
+                "bytes": 101155
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-1280-85f01ef2b887.avif",
+                "url": "/assets/images/hillside-textures-before-01-natural-1280-e45aea67d9cd.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 185336
+                "bytes": 179498
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-1600-a9e7a90cb66f.avif",
+                "url": "/assets/images/hillside-textures-before-01-natural-1600-e84310fe9e40.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 301842
-              },
-              {
-                "url": "/assets/images/hillside-textures-before-01-natural-1920-8de405f902af.avif",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 424036
-              },
-              {
-                "url": "/assets/images/hillside-textures-before-01-natural-2560-58193e2490f6.avif",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 693363
-              },
-              {
-                "url": "/assets/images/hillside-textures-before-01-natural-4032-a34c069e08b1.avif",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 1448362
+                "bytes": 291202
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-480-2b257367345f.webp",
+                "url": "/assets/images/hillside-textures-before-01-natural-480-7ab55f2cd0b5.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 51488
+                "bytes": 52226
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-768-7d9b3bb5f381.webp",
+                "url": "/assets/images/hillside-textures-before-01-natural-768-a7ba8c225106.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 130062
+                "bytes": 131870
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-960-4d7552f6647d.webp",
+                "url": "/assets/images/hillside-textures-before-01-natural-960-6a6cf56a1b90.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 213378
+                "bytes": 215990
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-1280-a89908bf9e68.webp",
+                "url": "/assets/images/hillside-textures-before-01-natural-1280-4261305ceda3.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 371142
+                "bytes": 376366
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-1600-859610bbb917.webp",
+                "url": "/assets/images/hillside-textures-before-01-natural-1600-153b4ab20c22.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 599952
-              },
-              {
-                "url": "/assets/images/hillside-textures-before-01-natural-1920-316e7d638bda.webp",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 834688
-              },
-              {
-                "url": "/assets/images/hillside-textures-before-01-natural-2560-20451c2013ed.webp",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1413322
-              },
-              {
-                "url": "/assets/images/hillside-textures-before-01-natural-4032-f8e9de9dc187.webp",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 3052534
+                "bytes": 607224
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-480-33f543e681d0.jpg",
+                "url": "/assets/images/hillside-textures-before-01-natural-480-b44a21cedaca.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 47866
+                "bytes": 56388
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-768-03047dbcb872.jpg",
+                "url": "/assets/images/hillside-textures-before-01-natural-768-6152b93037f6.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 121181
+                "bytes": 143308
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-960-0be1d3882234.jpg",
+                "url": "/assets/images/hillside-textures-before-01-natural-960-64a6183038cc.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 195756
+                "bytes": 232473
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-1280-00ec0095b092.jpg",
+                "url": "/assets/images/hillside-textures-before-01-natural-1280-319414b6ee94.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 347290
+                "bytes": 410673
               },
               {
-                "url": "/assets/images/hillside-textures-before-01-natural-1600-77faf2b5fd02.jpg",
+                "url": "/assets/images/hillside-textures-before-01-natural-1600-659e82c1d97e.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 552941
-              },
-              {
-                "url": "/assets/images/hillside-textures-before-01-natural-1920-db108e9aecb2.jpg",
-                "width": 1920,
-                "height": 1440,
-                "bytes": 786364
-              },
-              {
-                "url": "/assets/images/hillside-textures-before-01-natural-2560-f5d67de89241.jpg",
-                "width": 2560,
-                "height": 1920,
-                "bytes": 1334046
-              },
-              {
-                "url": "/assets/images/hillside-textures-before-01-natural-4032-008bf486e605.jpg",
-                "width": 4032,
-                "height": 3024,
-                "bytes": 2948144
+                "bytes": 655603
               }
             ]
           }
@@ -3771,116 +3213,116 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/shady-planters-after-01-natural-480-74daf526c4c9.avif",
+                "url": "/assets/images/shady-planters-after-01-natural-480-8b14aa54ec77.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 20368
+                "bytes": 19740
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-768-9af01b83d829.avif",
+                "url": "/assets/images/shady-planters-after-01-natural-768-e86bdb5159fb.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 47672
+                "bytes": 47124
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-960-f4933ac849a9.avif",
+                "url": "/assets/images/shady-planters-after-01-natural-960-5ee83fc33323.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 71233
+                "bytes": 70758
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-1280-d8ba6e4181bc.avif",
+                "url": "/assets/images/shady-planters-after-01-natural-1280-28159a8a2ec0.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 118043
+                "bytes": 119570
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-1600-bede065fad0f.avif",
+                "url": "/assets/images/shady-planters-after-01-natural-1600-350289a51ed4.avif",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 171497
+                "bytes": 176451
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-1667-ebb42e29ef9a.avif",
+                "url": "/assets/images/shady-planters-after-01-natural-1667-eac16d2ba5df.avif",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 194919
+                "bytes": 196352
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/shady-planters-after-01-natural-480-6ea5ab31bcfc.webp",
+                "url": "/assets/images/shady-planters-after-01-natural-480-ad968b1a2b41.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 38540
+                "bytes": 39376
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-768-b68cbb8f845e.webp",
+                "url": "/assets/images/shady-planters-after-01-natural-768-dd8b23af2708.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 91518
+                "bytes": 93728
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-960-509883aeb939.webp",
+                "url": "/assets/images/shady-planters-after-01-natural-960-d4f9180b18a0.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 136104
+                "bytes": 139468
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-1280-f1fcc90cf187.webp",
+                "url": "/assets/images/shady-planters-after-01-natural-1280-43134b21362a.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 224556
+                "bytes": 230116
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-1600-fdc27896ffe0.webp",
+                "url": "/assets/images/shady-planters-after-01-natural-1600-445cdbef6137.webp",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 325688
+                "bytes": 334236
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-1667-004adee2faa9.webp",
+                "url": "/assets/images/shady-planters-after-01-natural-1667-e1015ece1b7b.webp",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 364350
+                "bytes": 373516
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/shady-planters-after-01-natural-480-82fbd536b89d.jpg",
+                "url": "/assets/images/shady-planters-after-01-natural-480-264a9fa044d6.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 40597
+                "bytes": 46605
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-768-d85047e70112.jpg",
+                "url": "/assets/images/shady-planters-after-01-natural-768-25b6a228184b.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 97936
+                "bytes": 113534
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-960-8df4b62cdff7.jpg",
+                "url": "/assets/images/shady-planters-after-01-natural-960-dfea577a7b99.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 148079
+                "bytes": 171948
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-1280-7bdac847ae49.jpg",
+                "url": "/assets/images/shady-planters-after-01-natural-1280-1e567758e8dd.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 251064
+                "bytes": 292224
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-1600-6587c5489c99.jpg",
+                "url": "/assets/images/shady-planters-after-01-natural-1600-568efe983ba8.jpg",
                 "width": 1600,
                 "height": 1200,
-                "bytes": 372603
+                "bytes": 435102
               },
               {
-                "url": "/assets/images/shady-planters-after-01-natural-1667-30677e24dc34.jpg",
+                "url": "/assets/images/shady-planters-after-01-natural-1667-e95964502b2a.jpg",
                 "width": 1667,
                 "height": 1250,
-                "bytes": 425068
+                "bytes": 504795
               }
             ]
           }
@@ -3904,98 +3346,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/shady-planters-after-02-natural-480-2c909bda3f4d.avif",
+                "url": "/assets/images/shady-planters-after-02-natural-480-fc9461b38fae.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 17236
+                "bytes": 16767
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-768-d3e7f8035505.avif",
+                "url": "/assets/images/shady-planters-after-02-natural-768-a666ecfcc50b.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 39003
+                "bytes": 38488
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-960-955356684614.avif",
+                "url": "/assets/images/shady-planters-after-02-natural-960-bb87569a4caf.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 56403
+                "bytes": 57338
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-1280-ffbb07751248.avif",
+                "url": "/assets/images/shady-planters-after-02-natural-1280-f3bf9df7ab66.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 88868
+                "bytes": 92632
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-1389-8f483f1aea31.avif",
+                "url": "/assets/images/shady-planters-after-02-natural-1389-71968d55c960.avif",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 106429
+                "bytes": 109953
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/shady-planters-after-02-natural-480-63c0957ff9e5.webp",
+                "url": "/assets/images/shady-planters-after-02-natural-480-2e583d710d1a.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 31248
+                "bytes": 31998
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-768-409f96daa90d.webp",
+                "url": "/assets/images/shady-planters-after-02-natural-768-584f633e4e32.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 70146
+                "bytes": 72006
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-960-8915f6351249.webp",
+                "url": "/assets/images/shady-planters-after-02-natural-960-a77490de66ef.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 100200
+                "bytes": 102906
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-1280-6b7fb1e73c32.webp",
+                "url": "/assets/images/shady-planters-after-02-natural-1280-c30759537910.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 156896
+                "bytes": 162120
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-1389-dc0c6e679216.webp",
+                "url": "/assets/images/shady-planters-after-02-natural-1389-69ba239ef31a.webp",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 180376
+                "bytes": 186684
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/shady-planters-after-02-natural-480-807498d6e683.jpg",
+                "url": "/assets/images/shady-planters-after-02-natural-480-3c7c1245b165.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 36005
+                "bytes": 42077
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-768-e3843df20705.jpg",
+                "url": "/assets/images/shady-planters-after-02-natural-768-8e2ab19427ab.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 82903
+                "bytes": 97838
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-960-6ef4c6d9085d.jpg",
+                "url": "/assets/images/shady-planters-after-02-natural-960-55a86a0867dd.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 122901
+                "bytes": 145665
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-1280-d55ef63f866b.jpg",
+                "url": "/assets/images/shady-planters-after-02-natural-1280-0eea7030cec2.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 198887
+                "bytes": 237537
               },
               {
-                "url": "/assets/images/shady-planters-after-02-natural-1389-75faa406ddde.jpg",
+                "url": "/assets/images/shady-planters-after-02-natural-1389-4e76da6d1275.jpg",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 245600
+                "bytes": 291442
               }
             ]
           }
@@ -4019,98 +3461,98 @@
           "variants": {
             "avif": [
               {
-                "url": "/assets/images/shady-planters-after-03-natural-480-08e0417a0366.avif",
+                "url": "/assets/images/shady-planters-after-03-natural-480-1f6001e346c0.avif",
                 "width": 480,
                 "height": 360,
-                "bytes": 25444
+                "bytes": 24099
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-768-dd731646fcf4.avif",
+                "url": "/assets/images/shady-planters-after-03-natural-768-75aa30e7300c.avif",
                 "width": 768,
                 "height": 576,
-                "bytes": 62285
+                "bytes": 60419
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-960-69f2b18634a9.avif",
+                "url": "/assets/images/shady-planters-after-03-natural-960-4b7316294b5d.avif",
                 "width": 960,
                 "height": 720,
-                "bytes": 94247
+                "bytes": 92728
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-1280-716fc0f4bc9a.avif",
+                "url": "/assets/images/shady-planters-after-03-natural-1280-fdf2431b4b72.avif",
                 "width": 1280,
                 "height": 960,
-                "bytes": 150520
+                "bytes": 152637
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-1389-457200502888.avif",
+                "url": "/assets/images/shady-planters-after-03-natural-1389-c6cfd177d597.avif",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 179108
+                "bytes": 179517
               }
             ],
             "webp": [
               {
-                "url": "/assets/images/shady-planters-after-03-natural-480-563d231c8660.webp",
+                "url": "/assets/images/shady-planters-after-03-natural-480-983861d3e495.webp",
                 "width": 480,
                 "height": 360,
-                "bytes": 49310
+                "bytes": 50048
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-768-e70dad48137c.webp",
+                "url": "/assets/images/shady-planters-after-03-natural-768-9c5f858d8dfe.webp",
                 "width": 768,
                 "height": 576,
-                "bytes": 122750
+                "bytes": 124608
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-960-a90421957eeb.webp",
+                "url": "/assets/images/shady-planters-after-03-natural-960-13fecd672a20.webp",
                 "width": 960,
                 "height": 720,
-                "bytes": 185252
+                "bytes": 188304
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-1280-61a51eba2756.webp",
+                "url": "/assets/images/shady-planters-after-03-natural-1280-bda4f3850a4e.webp",
                 "width": 1280,
                 "height": 960,
-                "bytes": 301790
+                "bytes": 308048
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-1389-076075fcdedf.webp",
+                "url": "/assets/images/shady-planters-after-03-natural-1389-ce94ec228a97.webp",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 355156
+                "bytes": 362806
               }
             ],
             "jpeg": [
               {
-                "url": "/assets/images/shady-planters-after-03-natural-480-b56e6da903c1.jpg",
+                "url": "/assets/images/shady-planters-after-03-natural-480-3b02d120b2c6.jpg",
                 "width": 480,
                 "height": 360,
-                "bytes": 49108
+                "bytes": 57398
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-768-9f7bfa1b64c2.jpg",
+                "url": "/assets/images/shady-planters-after-03-natural-768-d345a4935503.jpg",
                 "width": 768,
                 "height": 576,
-                "bytes": 123025
+                "bytes": 143647
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-960-bc1a09e1ac85.jpg",
+                "url": "/assets/images/shady-planters-after-03-natural-960-bf6b8e294fdd.jpg",
                 "width": 960,
                 "height": 720,
-                "bytes": 187292
+                "bytes": 218599
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-1280-33b6c8b62fda.jpg",
+                "url": "/assets/images/shady-planters-after-03-natural-1280-4dcb59e34573.jpg",
                 "width": 1280,
                 "height": 960,
-                "bytes": 312611
+                "bytes": 362230
               },
               {
-                "url": "/assets/images/shady-planters-after-03-natural-1389-7a6212287e07.jpg",
+                "url": "/assets/images/shady-planters-after-03-natural-1389-caca5181b631.jpg",
                 "width": 1389,
                 "height": 1042,
-                "bytes": 378213
+                "bytes": 442492
               }
             ]
           }

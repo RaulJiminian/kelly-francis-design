@@ -38,4 +38,19 @@ describe('preview content contracts', () => {
       }
     }
   })
+
+  test('generated derivatives stay within their intended display ceilings', async () => {
+    const generatedManifest = JSON.parse(await readFile('src/generated/image-manifest.json', 'utf8'))
+    const coverImageIds = new Set(projects.map((project) => project.coverImageId))
+
+    for (const image of Object.values(generatedManifest.images)) {
+      const maximumWidth = coverImageIds.has(image.id) ? 1920 : 1600
+      for (const family of Object.values(image.families)) {
+        expect(Object.keys(family.variants).sort()).toEqual(['avif', 'jpeg', 'webp'])
+        for (const variants of Object.values(family.variants)) {
+          expect(Math.max(...variants.map((variant) => variant.width))).toBeLessThanOrEqual(maximumWidth)
+        }
+      }
+    }
+  })
 })
