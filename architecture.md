@@ -13,6 +13,7 @@ The preview implements these paths:
 | `src/main.jsx` | Application bootstrap |
 | `src/App.jsx` | Route composition and common layout |
 | `src/pages/HomePage.jsx` | Featured project, Selected work, About, Contact |
+| `src/pages/CollagePage.jsx` | Six-project visual wall linking to project stories |
 | `src/pages/ProjectPage.jsx` | Slug-driven project story |
 | `src/pages/NotFoundPage.jsx` | Explicit unknown-route state |
 | `src/components/SiteHeader.jsx` | Brand and disclosure navigation |
@@ -43,6 +44,7 @@ Component CSS Modules live beside their components. Do not create many single-li
 | URL | Behavior |
 | --- | --- |
 | `/` | Landing page |
+| `/collage` | Visual index with one linked after image per project |
 | `/#work` | Scroll to Selected work |
 | `/#about` | Scroll to About |
 | `/#contact` | Scroll to Contact |
@@ -69,9 +71,9 @@ Project data resolves images by stable ids from the generated manifest. Missing 
 
 ## Contact
 
-The initial scope is a contact section with a verified `mailto:` link and optional verified `tel:`/social links. Store absent values as null. Show “Contact details will be added soon.” in a draft preview when email is missing. In publish mode, a missing verified inquiry email is a launch blocker.
+The preview contact section uses the verified phone number, Eagle Rock location, and Instagram link from Snowbird's prior public website. A future email remains optional in preview and requires verification before use. In publish mode, the current validation policy still treats a missing verified inquiry email as a launch blocker.
 
-Use “Email Kelly”, which opens the visitor's email app. Do not say “Message sent” after opening that link. Provide a visible address for copying. A `mailto:` action cannot prove that an email was delivered.
+Use “Email Snowbird” if email is later supplied; it opens the visitor's email app. Do not say “Message sent” after opening that link. Provide a visible address for copying. A `mailto:` action cannot prove that an email was delivered.
 
 Only implement a form if the user requests one and provides or chooses an actual delivery service. Then handle validation, pending submission, confirmed success, recoverable failure, accessible status announcements, and spam controls appropriate to that service. Never put secret credentials in Vite-exposed variables or browser code. External service setup is outside the default scope.
 
@@ -83,7 +85,7 @@ Use the same base-path handling for images, router links, and metadata if the ev
 
 ## Search, sharing, and hosting
 
-Set a unique title and description on every route. Default home title: “Kelly Francis Design | Landscape Design”. Project title: “{Project title} | Kelly Francis Design”. Populate locality, structured business data, and social links only from verified information. Do not guess a business address.
+Set a unique title and description on every route. Default home title: “Snowbird Landscape | Landscape + Interiors”. Project title: “{Project title} | Snowbird Landscape”. Populate locality, structured business data, and social links only from verified information. Do not guess a business address.
 
 Client-side head updates help browser navigation but are insufficient to promise working previews in every social crawler. For publish mode, add a small build-time prerender step for `/` and each published project so the initial HTML includes meaningful content, its title/description, canonical URL, and Open Graph fields. Use a compatible Vite/React prerender solution or React's server rendering at build time. Keep JavaScript/JSX and Vite; do not switch to Next.js or TypeScript. This does not require a running application server.
 

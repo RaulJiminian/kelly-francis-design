@@ -18,7 +18,7 @@ export default function ProjectLink({ project, index }) {
         <div className={styles.caption}>
           <span className={styles.index}>{String(index + 1).padStart(2, '0')}</span>
           <div>
-            <p className="draft-label">Draft project</p>
+            <p className="draft-label">Snowbird project</p>
             <h3>{project.title}</h3>
             <span className={styles.action}>View project <span aria-hidden="true">↗</span></span>
           </div>

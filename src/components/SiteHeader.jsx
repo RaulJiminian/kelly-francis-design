@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import logoCompact from '../../assets/brand/kfd-logo-compact.svg'
-import logoForest from '../../assets/brand/kfd-logo-forest.svg'
+import snowbirdLogo from '../../assets/brand/snowbird-logo.png'
 import styles from './SiteHeader.module.css'
 
 const navItems = [
   { label: 'Selected work', to: '/#work' },
+  { label: 'Collage', to: '/collage' },
   { label: 'About', to: '/#about' },
   { label: 'Contact', to: '/#contact' },
 ]
@@ -36,11 +36,8 @@ export default function SiteHeader() {
   return (
     <header id="top" className={styles.siteHeader}>
       <div className={styles.headerRow}>
-        <Link className={styles.brand} aria-label="Kelly Francis Design, home" to="/" onClick={closeMenu}>
-          <picture>
-            <source media="(max-width: 767px)" srcSet={logoCompact} />
-            <img src={logoForest} alt="" />
-          </picture>
+        <Link className={styles.brand} aria-label="Snowbird Landscape, home" to="/" onClick={closeMenu}>
+          <img src={snowbirdLogo} alt="" />
         </Link>
         <nav className={styles.desktopNav} aria-label="Primary navigation">
           {navItems.map((item) => (
@@ -57,8 +54,7 @@ export default function SiteHeader() {
         >
           <span>{isOpen ? 'Close' : 'Menu'}</span>
           <span className={styles.menuGlyph} aria-hidden="true">
-            <span />
-            <span />
+            {isOpen ? '×' : <><span /><span /></>}
           </span>
         </button>
       </div>

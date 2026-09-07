@@ -4,7 +4,7 @@ import styles from './NotFoundPage.module.css'
 
 export default function NotFoundPage({ projectMissing = false }) {
   useEffect(() => {
-    document.title = `${projectMissing ? 'Project unavailable' : 'Page not found'} | Kelly Francis Design`
+    document.title = `${projectMissing ? 'Project unavailable' : 'Page not found'} | Snowbird Landscape`
   }, [projectMissing])
 
   return (

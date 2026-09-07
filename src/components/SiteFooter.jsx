@@ -1,15 +1,17 @@
 import { Link } from 'react-router-dom'
-import logoIvory from '../../assets/brand/kfd-logo-ivory.svg'
+import snowbirdLogo from '../../assets/brand/snowbird-logo.png'
+import { site } from '../data/site.js'
 import styles from './SiteFooter.module.css'
 
 export default function SiteFooter() {
   return (
     <footer className={styles.footer}>
       <div className={styles.inner}>
-        <Link aria-label="Kelly Francis Design, home" to="/">
-          <img src={logoIvory} alt="" />
+        <Link className={styles.logo} aria-label="Snowbird Landscape, home" to="/">
+          <img src={snowbirdLogo} alt="" />
         </Link>
-        <p>© {new Date().getFullYear()} Kelly Francis Design</p>
+        <p>© {new Date().getFullYear()} {site.name}</p>
+        <a href={site.contact.instagramUrl} target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a>
         <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </footer>

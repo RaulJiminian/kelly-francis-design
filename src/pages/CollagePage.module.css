@@ -1,0 +1,145 @@
+.main {
+  background: var(--color-paper);
+  margin: 0 auto;
+  max-width: var(--content-width);
+  padding: 0 var(--gutter) var(--section-space);
+}
+
+.header {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  padding: clamp(3.5rem, 7vw, 7rem) 0 clamp(3rem, 6vw, 5rem);
+}
+
+.header > :first-child,
+.header h1 {
+  grid-column: 1 / span 8;
+}
+
+.header h1 {
+  margin-bottom: 0;
+}
+
+.header > p:last-child {
+  align-self: end;
+  color: var(--color-muted);
+  grid-column: 9 / span 4;
+  margin-bottom: 0;
+  max-width: 35rem;
+}
+
+.wall {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.item {
+  min-width: 0;
+}
+
+.item:nth-child(1),
+.item:nth-child(6) {
+  grid-column: span 7;
+}
+
+.item:nth-child(2),
+.item:nth-child(5) {
+  grid-column: span 5;
+}
+
+.item:nth-child(3) {
+  grid-column: span 4;
+}
+
+.item:nth-child(4) {
+  grid-column: span 8;
+}
+
+.item > a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.overlay {
+  align-items: center;
+  background: color-mix(in srgb, var(--color-forest) 90%, transparent);
+  bottom: 0;
+  color: var(--color-paper);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto 1fr auto;
+  left: 0;
+  opacity: 0;
+  padding: 1rem 1.25rem;
+  position: absolute;
+  right: 0;
+  transform: translateY(0.75rem);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.overlay > span {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+}
+
+.overlay strong {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 1rem + 1vw, 2rem);
+  font-weight: 500;
+}
+
+.item > a:hover .overlay,
+.item > a:focus-visible .overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 767px) {
+  .header {
+    display: block;
+    padding-top: 3rem;
+  }
+
+  .header > p:last-child {
+    margin-top: 1.5rem;
+  }
+
+  .wall {
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+  }
+
+  .item:nth-child(n) {
+    grid-column: auto;
+  }
+
+  .overlay {
+    background: transparent;
+    color: var(--color-forest);
+    opacity: 1;
+    padding: 1rem 0;
+    position: static;
+    transform: none;
+  }
+}
+
+@media (hover: none) {
+  .overlay {
+    background: transparent;
+    color: var(--color-forest);
+    opacity: 1;
+    padding: 1rem 0;
+    position: static;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay {
+    transition: none;
+  }
+}

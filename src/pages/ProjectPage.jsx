@@ -16,7 +16,7 @@ export default function ProjectPage() {
 
   useEffect(() => {
     if (!project) return
-    document.title = `${project.title} | Kelly Francis Design`
+    document.title = `${project.title} | Snowbird Landscape`
     document.querySelector('meta[name="description"]')?.setAttribute('content', project.seoDescription)
   }, [project])
 
@@ -32,7 +32,7 @@ export default function ProjectPage() {
             <h1 data-route-heading tabIndex="-1">{project.title}</h1>
           </div>
           <div className={styles.intro}>
-            <p className="draft-label">Draft project</p>
+            <p className="draft-label">Snowbird project</p>
             <p>{project.intro}</p>
           </div>
         </header>
@@ -50,12 +50,12 @@ export default function ProjectPage() {
         <p className="section-index">01 <span /> Overview</p>
         <div className={styles.storyGrid}>
           <div>
-            <p className="draft-label">Draft copy</p>
+            <p className="draft-label">Working copy</p>
             <h2>The vision</h2>
             <p>{project.vision}</p>
           </div>
           <div>
-            <p className="draft-label">Draft copy</p>
+            <p className="draft-label">Working copy</p>
             <h2>The transformation</h2>
             <p>{project.transformation}</p>
           </div>
@@ -82,7 +82,7 @@ export default function ProjectPage() {
           <figure key={imageId} className={styles.detailFigure}>
             <ResponsiveImage
               imageId={imageId}
-              aspectRatio={index % 2 ? '4 / 5' : '3 / 2'}
+              aspectRatio={index % 3 === 2 ? '4 / 5' : '3 / 2'}
               sizes="(min-width: 1024px) 70vw, calc(100vw - 40px)"
               placeholderLabel="Project detail photograph"
               placeholderStatus="To be selected"

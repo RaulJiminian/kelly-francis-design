@@ -116,6 +116,19 @@
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
+.collageLink {
+  align-items: center;
+  border-top: 1px solid var(--color-line);
+  display: flex;
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 1.25rem + 1vw, 2.5rem);
+  justify-content: space-between;
+  margin-top: clamp(4rem, 8vw, 7rem);
+  min-height: 5.5rem;
+  padding: 1rem 0;
+  text-underline-offset: 0.4rem;
+}
+
 @media (max-width: 1023px) {
   .headingBlock {
     grid-column: 1 / span 7;

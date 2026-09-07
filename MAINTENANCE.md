@@ -1,4 +1,4 @@
-# Maintaining Kelly Francis Design
+# Maintaining Snowbird Landscape
 
 The site is data-driven. Project copy belongs in `src/data/projects.js`, site-wide copy and contact details belong in `src/data/site.js`, and photo source records belong in `assets/photo-manifest.json`. Keep camera originals outside `public/`; only generated web derivatives may be shipped.
 
@@ -14,13 +14,13 @@ Changing a public slug requires a redirect from the old URL once hosting is sele
 
 ## Add or replace a photograph
 
-1. Confirm Kelly has permission to publish it and that the frame does not expose a private address, house number, license plate, face, or another identifying detail without consent.
+1. Confirm the client has permission to publish it and that the frame does not expose a private address, house number, license plate, face, or another identifying detail without consent.
 2. Put an approved working source beneath `assets/photos/<project-slug>/originals/`. Preserve the original separately if this copy was privacy-cropped or retouched.
 3. Update the matching entry in `assets/photo-manifest.json`: set `source`, accurate `alt` and `caption`, the approval flag, any credit, and a focal point from 0 to 1 on each axis.
 4. Run `npm run images:prepare`. This creates content-hashed AVIF, WebP, and JPEG derivatives beneath `public/assets/images/` and updates `src/generated/image-manifest.json`.
 5. Inspect the result on the homepage and project page at phone and desktop sizes. Before/after photographs must honestly show the same space and remain explicitly labeled.
 
-Never copy `assets/raw/`, the brand board, private approval notes, or camera originals into `public/`.
+Never copy `assets/raw/`, `assets/starter/`, private approval notes, or camera originals into `public/`.
 
 ## Change a focal point or crop
 
@@ -28,6 +28,10 @@ Update `focalPoint` or a named recipe in the photo's `crops` object in `assets/p
 
 ## Approve copy and contact details
 
-Revise the draft narratives in `src/data/projects.js`, then set `contentApproved: true` only after Kelly confirms them. Update About and contact values in `src/data/site.js`; never invent services, location, credentials, or project outcomes. A contact email needs both a real address and `emailVerified: true`.
+Revise the working narratives in `src/data/projects.js`, then set `contentApproved: true` only after the client confirms them. Update About and contact values in `src/data/site.js`; never invent services, credentials, or project outcomes. A contact email needs both a real address and `emailVerified: true`.
+
+## Refresh the brand derivatives
+
+The untouched logo from Snowbird's prior site lives at `assets/brand/source/snowbird-logo-original.png`. Run `npm run brand:prepare` after replacing it. The script removes the white matte, prepares the bird favicon, and rebuilds `public/og.jpg` from approved Snowbird artwork and photography.
 
 The site defaults to `preview`. Before setting `VITE_CONTENT_MODE=publish`, complete every launch gate in `planning.md`, set the real canonical origin, add initial per-route HTML metadata/prerendering, and configure the selected host. A publish-mode build is intentionally rejected while required approvals, contact information, or featured photography are missing.

@@ -17,7 +17,8 @@ export default function BeforeAfter({ pair }) {
           aspectRatio="4 / 3"
           sizes="(min-width: 768px) 46vw, calc(100vw - 40px)"
           placeholderLabel="Before photograph"
-          placeholderStatus="To be selected"
+          placeholderStatus={beforeImages.length ? 'To be selected' : 'Not available'}
+          blankPlaceholder={beforeImages.length === 0}
         />
         {beforeImages.length > 1 && (
           <div className={styles.thumbnailPanel}>

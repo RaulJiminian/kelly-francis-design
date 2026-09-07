@@ -58,6 +58,30 @@
   overflow-wrap: anywhere;
 }
 
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.phone,
+.social {
+  display: inline-block;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  text-underline-offset: 0.3rem;
+}
+
+.location {
+  border-top: 1px solid color-mix(in srgb, var(--color-paper) 35%, transparent);
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  margin: 1.5rem 0 0;
+  padding-top: 1rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
 .unavailable {
   border-top: 1px solid color-mix(in srgb, var(--color-paper) 35%, transparent);
   font-size: 0.875rem;

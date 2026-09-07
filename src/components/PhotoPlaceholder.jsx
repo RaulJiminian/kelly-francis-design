@@ -1,4 +1,3 @@
-import brandMark from '../../assets/brand/kfd-mark.svg'
 import styles from './PhotoPlaceholder.module.css'
 
 export default function PhotoPlaceholder({
@@ -9,20 +8,24 @@ export default function PhotoPlaceholder({
   label = 'Project photography',
   size = 'standard',
   status = 'To be added',
+  blank = false,
 }) {
   return (
     <div
-      className={`${styles.placeholder} ${styles[size]} ${className}`}
+      className={`${styles.placeholder} ${styles[size]} ${blank ? styles.blank : ''} ${className}`}
       style={{ '--photo-ratio': aspectRatio }}
       role={decorative ? undefined : 'img'}
       aria-hidden={decorative || undefined}
       aria-label={decorative ? undefined : `${label}. ${status}.`}
       data-placeholder
     >
-      <span className={styles.corner}>{index ?? 'KFD'}</span>
-      <img className={styles.mark} src={brandMark} alt="" />
-      <span className={styles.label}>{label}</span>
-      <span className={styles.status}>{status}</span>
+      {!blank && (
+        <>
+          <span className={styles.corner}>{index ?? 'Snowbird'}</span>
+          <span className={styles.label}>{label}</span>
+          <span className={styles.status}>{status}</span>
+        </>
+      )}
     </div>
   )
 }

@@ -15,9 +15,14 @@
   padding: 2rem var(--gutter) 0;
 }
 
+.logo {
+  background: var(--color-paper);
+  padding: 0.65rem 0.85rem;
+}
+
 .inner img {
   height: auto;
-  width: 13rem;
+  width: 11rem;
 }
 
 .inner p,
@@ -26,7 +31,7 @@
   margin: 0;
 }
 
-.inner > a:last-child {
+.inner > a:not(.logo) {
   min-height: 2.75rem;
   padding: 0.65rem 0;
   text-underline-offset: 0.3rem;

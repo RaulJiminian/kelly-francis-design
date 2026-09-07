@@ -13,8 +13,8 @@ export default function HomePage() {
   const featuredProject = visibleProjects.find((project) => project.id === site.featuredProjectId) ?? visibleProjects[0]
 
   useEffect(() => {
-    document.title = 'Kelly Francis Design | Landscape Design'
-    document.querySelector('meta[name="description"]')?.setAttribute('content', 'A photography-led landscape design portfolio for Kelly Francis Design.')
+    document.title = 'Snowbird Landscape | Landscape + Interiors'
+    document.querySelector('meta[name="description"]')?.setAttribute('content', 'A photography-led portfolio of gardens and outdoor living spaces by Snowbird Landscape.')
   }, [])
 
   return (
@@ -22,7 +22,7 @@ export default function HomePage() {
       <section className={styles.heroIntro} aria-labelledby="home-heading">
         <div className={styles.headingBlock}>
           <p className="eyebrow">{site.hero.eyebrow}</p>
-          <h1 id="home-heading" data-route-heading tabIndex="-1">Outdoor spaces,<br className={styles.editorialBreak} /> thoughtfully composed.</h1>
+          <h1 id="home-heading" data-route-heading tabIndex="-1">{site.hero.title}</h1>
         </div>
         <div className={styles.heroSupport}>
           <p>{site.hero.description}</p>
@@ -46,7 +46,7 @@ export default function HomePage() {
             />
             <div className={styles.featuredCaption}>
               <div>
-                <p className="draft-label">Featured project · Draft</p>
+                <p className="draft-label">Featured project</p>
                 <h2>{featuredProject.title}</h2>
               </div>
               <span>View transformation <span aria-hidden="true">↗</span></span>
@@ -66,6 +66,7 @@ export default function HomePage() {
             <ProjectLink key={project.id} project={project} index={index} />
           ))}
         </div>
+        <Link className={styles.collageLink} to="/collage">View the project collage <span aria-hidden="true">→</span></Link>
       </section>
 
       <AboutSection />

@@ -15,13 +15,17 @@ async function settlePage(page) {
     const step = Math.max(320, Math.floor(window.innerHeight * 0.75))
     for (let y = 0; y < document.documentElement.scrollHeight; y += step) {
       window.scrollTo(0, y)
-      await new Promise((resolve) => setTimeout(resolve, 60))
+      await new Promise((resolve) => setTimeout(resolve, 160))
     }
+    await new Promise((resolve) => setTimeout(resolve, 1200))
     window.scrollTo(0, 0)
     if (document.activeElement instanceof HTMLElement) document.activeElement.blur()
   })
   await page.locator('img').evaluateAll(async (images) => {
-    await Promise.all(images.map((image) => image.decode().catch(() => undefined)))
+    await Promise.race([
+      Promise.all(images.map((image) => image.decode().catch(() => undefined))),
+      new Promise((resolve) => window.setTimeout(resolve, 12000)),
+    ])
   })
   await page.waitForTimeout(200)
 }
@@ -40,16 +44,24 @@ for (const viewport of [
     await page.screenshot({ path: `${outputDirectory}/mobile-menu-expanded.png` })
   }
 
-  await page.goto(`${baseUrl}/work/garden-project-01`, { waitUntil: 'networkidle' })
+  await page.goto(`${baseUrl}/work/canyon-retreat`, { waitUntil: 'networkidle' })
   await settlePage(page)
   await page.screenshot({ path: `${outputDirectory}/project-${viewport.name}.png`, fullPage: true })
 
   if (viewport.width === 390) {
-    await page.goto(`${baseUrl}/work/garden-project-01#comparison-heading`, { waitUntil: 'networkidle' })
+    await page.goto(`${baseUrl}/work/canyon-retreat#comparison-heading`, { waitUntil: 'networkidle' })
     await page.addStyleTag({ content: '.skip-link { display: none !important; }' })
-    await page.getByRole('button', { name: 'Show before view 2 of 3' }).click()
+    await page.getByRole('button', { name: 'Show before view 2 of 2' }).click()
     await page.screenshot({ path: `${outputDirectory}/before-selector-mobile-390.png` })
+
+    await page.goto(`${baseUrl}/work/shady-planters#comparison-heading`, { waitUntil: 'networkidle' })
+    await page.locator('#comparison-heading').scrollIntoViewIfNeeded()
+    await page.screenshot({ path: `${outputDirectory}/missing-before-mobile-390.png` })
   }
+
+  await page.goto(`${baseUrl}/collage`, { waitUntil: 'networkidle' })
+  await settlePage(page)
+  await page.screenshot({ path: `${outputDirectory}/collage-${viewport.name}.png`, fullPage: true })
   await page.close()
 }
 

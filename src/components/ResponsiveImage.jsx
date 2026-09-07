@@ -14,6 +14,7 @@ export default function ResponsiveImage({
   priority = false,
   placeholderLabel,
   placeholderStatus,
+  blankPlaceholder = false,
   decorative = false,
   className = '',
 }) {
@@ -33,6 +34,7 @@ export default function ResponsiveImage({
         decorative={decorative}
         label={failed ? 'Project photography' : placeholderLabel}
         status={failed ? 'Photo unavailable' : placeholderStatus}
+        blank={blankPlaceholder && !failed}
       />
     )
   }

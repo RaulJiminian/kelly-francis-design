@@ -1,5 +1,5 @@
 {
-  "name": "kelly-francis-design",
+  "name": "snowbird-landscape",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -11,6 +11,7 @@
     "build": "npm run images:prepare && npm run content:check && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
+    "brand:prepare": "node scripts/prepare-brand.mjs",
     "images:prepare": "node scripts/prepare-images.mjs",
     "content:check": "node scripts/validate-content.mjs",
     "test": "vitest run tests/data.test.js",

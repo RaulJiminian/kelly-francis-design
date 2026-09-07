@@ -2,113 +2,58 @@
 
 ## Known facts
 
-The client is Kelly Francis. The site is called Kelly Francis Design. Her work involves landscaping. A user-curated preview photo set is available in `assets/starter/`, but its project sequence, captions, rights, and privacy approval still need client confirmation. No verified location, service list, biography, project history, credentials, or business contact has been supplied.
+The practice is branded **Snowbird Landscape**, and the supplied logo includes the descriptor **Landscape + Interiors**. Snowbird's prior public site verifies six project names, one-sentence project descriptions, Eagle Rock, California, the phone number `(424) 750-0230`, and the Instagram account `@snowbird_landscape`.
 
-Everything below beyond those facts is **suggested copy or a schema**, ready for revision. Do not present draft project descriptions as completed client work. Use warm, concise language and avoid em dashes.
+The client directed this preview to reuse the logo, project names, descriptions, and after photography from that prior site. The client also supplied matching before photography in `assets/updatedBefore/`. No before photograph was supplied for Shady Planters.
 
-## Starter copy
+The longer Vision, Transformation, detail captions, and About paragraphs are new working copy based only on visible project features and the prior-site descriptions. They require client review before publication. Do not add credentials, testimonials, plant-performance claims, project dates, street locations, services, or an email address without verification.
 
-| Location | Suggested text | Status |
+## Current interface copy
+
+| Location | Text | Status |
 | --- | --- | --- |
-| Hero eyebrow | Landscape design | Proposed descriptor |
-| Hero heading | Outdoor spaces, thoughtfully composed. | Draft brand copy |
-| Hero support | Explore gardens, outdoor spaces, and the details that bring them to life. | Draft brand copy |
-| Hero navigation | Explore selected work | Interface label |
-| Featured image action | View transformation | Interface label |
+| Hero eyebrow | Landscape + interiors | Established logo descriptor |
+| Hero heading | Living landscapes, thoughtfully composed. | Working brand copy |
+| Hero support | Explore six Snowbird projects shaped by planting, material, and the way each outdoor space is lived in. | Working brand copy |
 | Work heading | Selected work | Interface label |
-| Work introduction | A closer look at the spaces, textures, and transformations. | Draft brand copy |
-| About heading | Meet Kelly. | Interface heading |
-| About paragraph one | Kelly Francis Design brings a thoughtful eye to outdoor spaces, with an appreciation for planting, texture, and the way a garden is experienced. | Draft positioning, needs approval |
-| About paragraph two | From the first ideas to the details that make a space feel complete, the work begins with understanding how the garden will be used and what makes the setting unique. | Draft process, needs approval |
-| Contact eyebrow | Let's talk | Interface label |
-| Contact heading | Let's make room for something beautiful. | Draft brand copy |
-| Contact paragraph | Tell Kelly a little about your space and what you have in mind. | Draft invitation |
-| Contact action | Email Kelly | Only with a verified email |
-| Missing contact | Contact details will be added soon. | Preview state |
+| Collage heading | Six gardens, one view. | Interface label |
+| About heading | About Snowbird. | Interface label |
+| Contact heading | Make room for something beautiful. | Working brand copy |
+| Contact action | Call Snowbird | Verified phone action |
 
-Keep these drafts in centralized data. In preview, place a small “Draft copy” note near unapproved About and project narratives. Draft project titles must have a visible “Draft project” marker. The hero brand language may remain clean in the preview, but its approval state still belongs in the content data.
+## Current projects
 
-## Project story template
+| Stable id / slug | Project name | After photos | Before photos |
+| --- | --- | ---: | ---: |
+| `canyon-retreat` | Canyon Retreat | 3 | 2 |
+| `nautical-inspired` | Nautical Inspired | 5 | 3 |
+| `bungalow-haven` | Bungalow Haven | 4 | 1 |
+| `family-living` | Family Living | 5 | 2 |
+| `hillside-textures` | Hillside Textures | 6 | 1 |
+| `shady-planters` | Shady Planters | 3 | 0; neutral placeholder |
 
-Use up to three draft records initially. Suggested **working titles**, not verified projects:
-
-| Stable id / slug | Working title | Useful photo slots |
-| --- | --- | --- |
-| `garden-01` / `garden-project-01` | A garden in balance | After overview, before overview, planting detail |
-| `garden-02` / `garden-project-02` | An outdoor room | After overview, before overview, seating/material detail |
-| `garden-03` / `garden-project-03` | A softer arrival | After overview, before overview, entrance/planting detail |
-
-Replace the title and slug with Kelly's approved project names when available. If changing a slug after public launch, provide a redirect from the old URL.
-
-Each draft story uses a short visible prompt instead of invented accomplishments:
-
-- **Introduction:** “[Add a one-sentence introduction to this project.]”
-- **The vision:** “[Describe the client's goals, how the space was used, and the starting conditions.]”
-- **The transformation:** “[Describe the changes Kelly made and the planting or material choices, using confirmed details.]”
-- **Before caption:** “[Describe what this photograph shows before the work began.]”
-- **After caption:** “[Describe what changed in this view and one detail visitors should notice.]”
-- **Additional detail:** “[Explain this planting, material, or spatial detail.]”
-
-For the final site, aim for a 15 to 30-word introduction, 40 to 90 words per story subsection, and captions of 10 to 30 words. Shorter is fine. Omit an empty subsection instead of filling it with generic claims.
-
-Do not describe irrigation savings, sustainability benefits, maintenance reductions, accessibility improvements, or return on investment unless Kelly provides an accurate basis for the claim.
+The first after image is each project's cover. Remaining after images appear under “A closer look.” Before-image arrays drive the accessible thumbnail selector; the first before is displayed initially.
 
 ## Site data contract
 
-Implement this shape in `src/data/site.js`; this is a specification, not supplied application code.
-
-| Field | Type / example | Rule |
-| --- | --- | --- |
-| `name` | string / `Kelly Francis Design` | Canonical visible business name |
-| `ownerName` | string / `Kelly Francis` | Verified client name |
-| `contentMode` | `preview` or `publish` | Separate from Vite build mode |
-| `featuredProjectId` | string / `garden-01` | Must resolve to an eligible project |
-| `hero` | object with eyebrow, title, description | Draft wording from above |
-| `about` | object with heading, paragraphs, imageId, approved | `imageId` may be null |
-| `contact` | object with email, emailVerified, phone, instagramUrl | Unknown values null; emailVerified false |
-| `services` | array of approved strings | Empty until supplied |
-| `serviceArea` | string or null | Do not infer from the site owner's location |
-| `canonicalOrigin` | absolute origin or null | Fill only after domain selection |
-| `brandCopyApproved` | boolean | False until confirmed |
+`src/data/site.js` stores the canonical business name, descriptor, content mode, featured project id, home copy, About copy, verified contact values, and publishing state. Unknown values remain `null` or empty. `VITE_CONTENT_MODE=publish` is separate from Vite's production build mode.
 
 ## Project data contract
 
-Each entry in `src/data/projects.js` follows this shape:
+Each `src/data/projects.js` record includes:
 
-| Field | Type | Rule |
-| --- | --- | --- |
-| `id` | string | Unique stable internal id |
-| `slug` | string | Unique URL-safe slug |
-| `title` | string | Approved name or visible draft working title |
-| `status` | `draft` or `published` | Drafts appear only in preview |
-| `contentApproved` | boolean | Required true for publish eligibility |
-| `sortOrder` | integer | Same order in UI and DOM |
-| `locationLabel` | string or null | General approved location; no private street address |
-| `year` | integer or null | Omit when unknown |
-| `services` | string array | Only services actually supplied on this project |
-| `intro` | string | Short summary |
-| `vision` | string or null | Starting goals and constraints |
-| `transformation` | string or null | Confirmed design changes |
-| `coverImageId` | string or null | Must resolve to an approved after image for publication |
-| `galleryImageIds` | string array | Ordered photograph ids |
-| `galleryCaptions` | object keyed by image id | Draft or approved caption for each closer-look image |
-| `comparisonPairs` | object array | See comparison rules below |
-| `seoDescription` | string or null | Accurate route description |
+- stable `id`, URL-safe `slug`, title, status, approval state, and sort order;
+- optional general location, year, and confirmed services;
+- introduction, Vision, Transformation, and SEO copy;
+- one `coverImageId`, ordered `galleryImageIds`, and keyed gallery captions;
+- `comparisonPairs` with an ordered `beforeImageIds` array, an `afterImageId`, paired captions, and an `aligned` flag.
 
-A comparison record contains `id`, `beforeImageIds`, `afterImageId`, `caption`, and `aligned` (default false). `beforeImageIds` is an ordered array; its first item is displayed initially and additional items appear as accessible thumbnail buttons. Caption `before` values follow the same order. Every image must belong to this same project and represent an honest comparison or clearly identified construction stage. A missing before image does not invalidate an otherwise complete project: omit its comparison section in publish mode.
+A missing before image does not invalidate a project. Keep the after story visible and use the deliberate neutral placeholder until a real before is supplied. Before and after views are separately labeled because camera positions may differ.
 
-## Photo data and alt text
+## Photo and alt-text rules
 
-Source photo records belong in `assets/photo-manifest.json`, following [images.md](images.md) and [assets/photo-manifest.example.json](assets/photo-manifest.example.json). Do not confuse authoring metadata with the public generated manifest.
+Source records live in `assets/photo-manifest.json`. Alt text describes only visible, relevant details and does not infer plant species, private locations, or performance outcomes. Linked project thumbnails use empty image alt because the surrounding link already announces the project name; detail-page images retain descriptive alt text.
 
-Write alt text only after viewing the actual photo. Describe visible, relevant details without guessing plant species, outcomes, or private locations. In a before/after pair, include the stage and a concise observable description. Credit photographers in visible captions when required, not in alt text.
+## Approval checklist
 
-A project link must have an accessible project name. If its visible text already fully names the destination, its image may use empty alt to avoid repeating the same label; the full image on the detail page should then have a descriptive alternative. Decorative branding uses empty alt when adjacent text already names the business. The primary linked wordmark must still have an accessible name.
-
-## Approval checklist for Kelly
-
-For each project: confirm title, general location if desired, completion date if desired, what Kelly did, which photo is the lead after image, which before photos match, and whether there are required credits or limits on publication. Ask what the client wanted and what changed, then turn those answers into short factual captions.
-
-For About: ask how Kelly describes her practice, the services she wants to promote, where she works, and what makes her approach distinctive. Do not add a professional designation such as “landscape architect” without confirmation.
-
-For Contact: confirm the business email, optional phone/social URL, and the preferred inquiry method. Do not assume an address or create a fake email on an unregistered domain.
+Before publication, confirm every pairing and image order; all new narrative copy; photo rights, credits, and privacy; the About text; the preferred contact method; and whether Shady Planters has a before image. A domain/host and publish-mode metadata remain separate launch inputs.

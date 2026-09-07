@@ -16,18 +16,26 @@ describe('preview content contracts', () => {
     expect(new Set(projects.map((project) => project.slug)).size).toBe(projects.length)
   })
 
-  test('the photo manifest uses only the user-selected starter set', async () => {
+  test('the photo manifest uses only the Snowbird after set and updated before set', async () => {
     const sourceManifest = JSON.parse(await readFile('assets/photo-manifest.json', 'utf8'))
-    expect(sourceManifest.photos).toHaveLength(16)
-    expect(sourceManifest.photos.every((photo) => photo.source?.startsWith('assets/starter/'))).toBe(true)
+    expect(sourceManifest.photos).toHaveLength(35)
+    expect(sourceManifest.photos.every((photo) =>
+      photo.source?.startsWith('assets/photos/') || photo.source?.startsWith('assets/updatedBefore/'),
+    )).toBe(true)
     expect(sourceManifest.photos.every((photo) => !photo.source?.includes('/raw/'))).toBe(true)
+    expect(sourceManifest.photos.every((photo) => !photo.source?.includes('/starter/'))).toBe(true)
   })
 
-  test('every project has a main image, detail image, and multiple before views', () => {
+  test('all six projects have after imagery and only Shady Planters lacks a before', () => {
+    expect(projects).toHaveLength(6)
     for (const project of projects) {
       expect(project.coverImageId).toMatch(/after/)
       expect(project.galleryImageIds.length).toBeGreaterThan(0)
-      expect(project.comparisonPairs[0].beforeImageIds.length).toBeGreaterThan(1)
+      if (project.slug === 'shady-planters') {
+        expect(project.comparisonPairs[0].beforeImageIds).toHaveLength(0)
+      } else {
+        expect(project.comparisonPairs[0].beforeImageIds.length).toBeGreaterThan(0)
+      }
     }
   })
 })

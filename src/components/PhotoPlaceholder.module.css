@@ -63,14 +63,9 @@
   right: 0.75rem;
 }
 
-.mark {
-  background: var(--color-surface);
-  height: auto;
-  opacity: 0.16;
-  padding: 1rem;
-  position: relative;
-  width: clamp(4.25rem, 9vw, 8rem);
-  z-index: 1;
+.blank::before,
+.blank::after {
+  display: none;
 }
 
 @media (max-width: 430px) {

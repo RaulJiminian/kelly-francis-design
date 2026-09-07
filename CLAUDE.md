@@ -1,4 +1,4 @@
-# Kelly Francis Design
+# Snowbird Landscape
 
 Read [AGENTS.md](AGENTS.md) first, then every document in its required reading list. AGENTS.md is the shared instruction source for this project. Do not maintain a competing set of rules here.
 

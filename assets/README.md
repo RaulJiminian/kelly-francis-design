@@ -1,16 +1,18 @@
 # Asset handoff
 
-This folder contains the proposed brand artwork and two client-photo working sets:
+This folder contains Snowbird's supplied brand artwork and four photo working sets:
 
 - `raw/` is the unselected source set and is not referenced by the app or build manifest.
-- `starter/` is the user-curated preview set currently mapped to the three draft projects.
+- `starter/` is the retired first-pass preview set and is no longer referenced.
+- `updatedBefore/` contains the nine selected before photographs for five projects.
+- `photos/<project-slug>/originals/` contains the 26 after photographs from Snowbird's prior website.
 
-The starter photographs are not marked approved. Before publication, Kelly must confirm their project grouping, sequence, captions, rights, and that each frame is safe to show without identifying a residence.
+Before publication, the client must confirm the new before/after pairings, captions, rights, credits, and that each frame is safe to show. Shady Planters currently has no before photograph and intentionally uses a neutral placeholder.
 
 ## Add photos
 
-1. Create a folder such as `assets/photos/garden-project-01/originals/` for each project.
-2. Put full-quality original files there. Name related images clearly, for example `garden-project-01-before-01.jpg` and `garden-project-01-after-01.jpg`.
+1. Create a folder such as `assets/photos/canyon-retreat/originals/` for each project.
+2. Put full-quality original files there. Name related images clearly, for example `canyon-retreat-before-01.jpg` and `canyon-retreat-after-01.jpg`.
 3. Copy [photo-manifest.example.json](photo-manifest.example.json) to `assets/photo-manifest.json` and fill in the source paths, project ids, stages, and approval information.
 4. Include the strongest finished view, a before view if available, and a few details. Keep any required photographer credit with the inventory.
 5. The implementation agent will generate smaller web copies according to [images.md](../images.md). Do not manually overwrite the originals with compressed versions.
@@ -23,8 +25,8 @@ Before and after photographs should show the same space. Tell the developer when
 
 ## Included brand assets
 
-See [brand/README.md](brand/README.md). The logo and mark are optional original concept assets; the presentation board is for review. Copy only the needed logo/favicons into the eventual public asset directory.
+See [brand/README.md](brand/README.md). The original supplied logo remains intact, while the transparent web logo, bird favicon, and social image are reproducibly derived by `npm run brand:prepare`.
 
 ## Rights and content
 
-Use photos Kelly owns or is authorized to publish. Do not download the reference website's images into this folder. Mark any temporary sample imagery distinctly and exclude it from the public portfolio unless it is explicitly approved as illustrative content with a visible label.
+Use only photographs the client owns or is authorized to publish. The current after set was explicitly authorized for reuse from Snowbird's prior site. Keep provenance and approval notes with any future additions.

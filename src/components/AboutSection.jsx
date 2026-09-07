@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div className={styles.copy}>
         <p className="section-index">02 <span /> About</p>
         <h2 id="about-heading">{site.about.heading}</h2>
-        <p className="draft-label">Draft copy</p>
+        <p className="draft-label">Working copy</p>
         {site.about.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
       </div>
       <ResponsiveImage

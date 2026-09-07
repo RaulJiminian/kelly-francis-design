@@ -2,7 +2,7 @@
 
 ## Objective and scope
 
-Create **Kelly Francis Design**, a beautiful landscaping portfolio centered on Kelly's work. The landing page must prominently show an after photograph that links to its project detail page. Include Selected work, About, and Contact sections. Treat the phone experience as a first-class design requirement.
+Create **Snowbird Landscape**, a beautiful landscaping portfolio centered on the studio's work. The landing page must prominently show an after photograph that links to its project detail page. Include Selected work, Collage, About, and Contact destinations. Treat the phone experience as a first-class design requirement.
 
 This repository initially contains a handoff package only. If the current user request concerns planning or documentation, edit those deliverables only. Begin implementation when the user asks to build. Once implementation is requested, work through the achievable phases in [planning.md](planning.md) without repeatedly asking about routine implementation choices.
 
@@ -33,9 +33,9 @@ The current user's instructions take precedence. This file owns cross-cutting co
 - Build the featured photograph and project cards as real links. Show a visible project label/action on touch screens. Never depend on hover to reveal how to open a project.
 - Support mobile, touch, keyboard, reduced motion, and text enlargement. Do not disable pinch zoom or use scroll hijacking.
 - Keep portfolio content in data files rather than scattered inside JSX.
-- Never invent Kelly's experience, credentials, location, testimonials, project outcomes, or contact information. Use content.md's draft state rules.
+- Never invent the client's experience, credentials, testimonials, project outcomes, or contact information. Use content.md's draft state rules.
 - Never claim that a message was sent without a confirmed successful delivery response. Default to an honest email contact link when a verified address is available.
-- Do not borrow reference-site photos, logos, or text. Do not present generated gardens as Kelly's completed work.
+- Do not borrow third-party reference-site photos, logos, or text. The client-authorized Snowbird legacy site is an approved source recorded in content.md. Do not present generated gardens as Snowbird's completed work.
 - Do not deploy, register a domain, create paid accounts, add analytics, or connect external services unless requested by the user.
 
 ## Working method
